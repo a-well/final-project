@@ -1,11 +1,11 @@
 # Final Project - Pokemon Trade Finder
 
-A Well Final Project Technigo Bootcamp class of 2022
+Amanda W. Final Project Technigo Bootcamp class of fall 2022
 
 ## Intro
 
 This project uses a monorepo. 
-Backend is located in `/backend`, deployed to Google CloudRun
+Backend is located in `/backend`, deployed to Google Cloud Run
 Frntend is located in `/frontend`, deployed to Netlify
 
 This project is part of the Technigo Bootcamp 2022
@@ -13,6 +13,7 @@ This project is part of the Technigo Bootcamp 2022
 ## Try it out
 
 API: https://final-project-l47fprrrfa-lz.a.run.app/
+
 Frontend: Todo
 
 ## API
