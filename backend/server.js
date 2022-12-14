@@ -38,7 +38,7 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", UserSchema)
 
-app.post("/register", async (req, res) => {
+app.post("/api/auth/register", async (req, res) => {
   const { username, password } = req.body
   console.log('register')
   console.log({username, password})
@@ -69,7 +69,7 @@ app.post("/register", async (req, res) => {
   }
 })
 
-app.post("/login", async (req, res) => {
+app.post("/api/auth/login", async (req, res) => {
   const { username, password } = req.body
 
   console.log('login')
@@ -100,6 +100,17 @@ app.post("/login", async (req, res) => {
   }
 })
 
+app.post("/api/auth/forgot-password", async (req, res) => {
+  const { email } = req.body
+  console.log('forgot password')
+  console.log({email})
+  res.send('forgot password will be here')
+})
+
+
+
+
+
 const authenticateUser = async (req, res, next) => {
   const authHeader = req.header("Authorization") || ''
   console.log({authHeader})
@@ -126,9 +137,13 @@ const authenticateUser = async (req, res, next) => {
   }
 }
 
-app.get('/users/me', authenticateUser)
-app.get('/users/me', async (req, res) => {
+app.get('/api/auth/users/me', authenticateUser)
+app.get('/api/auth/users/me', async (req, res) => {
   res.status(200).send('this will show your profile later, you have successfully signed in now.')
+})
+
+app.get("/api/pokemon.json", (req, res) => {
+  res.send("Fetch pokemons available for listings")
 })
 
 // const ThoughtSchema = new mongoose.Schema({
@@ -168,6 +183,39 @@ app.get('/users/me', async (req, res) => {
 //     res.status(400).json({success: false, response: e})
 //   }
 // })
+
+app.get("/api/listings", (req, res) => {
+  res.send("Return all listiings")
+})
+
+app.post('/api/auth/listings', authenticateUser)
+app.post("/api/auth/listings", async (req, res) => {
+  res.send('Create new listing will be here')
+})
+
+app.get("/api/listings/:id", async (req, res) => {
+  res.send('Get individual listing')
+})
+
+app.delete('/api/auth/listings/:id', authenticateUser)
+app.delete("/api/auth/listings/:id", async (req, res) => {
+  res.send('Delete individual listing')
+})
+
+app.patch('/api/auth/listings/:id', authenticateUser)
+app.patch("/api/auth/listings/:id", async (req, res) => {
+  res.send('Edit individual listing')
+})
+
+app.get('/api/auth/users/:username', authenticateUser)
+app.get("/api/auth/users/:username", async (req, res) => {
+  res.send('Get info about user and the listings they have up')
+})
+
+app.get("/api/listings-search", async (req, res) => {
+  res.send('Search listings')
+})
+
 
 // Start defining your routes here
 app.get("/", (req, res) => {
