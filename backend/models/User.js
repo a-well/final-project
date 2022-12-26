@@ -14,6 +14,10 @@ const UserSchema = new mongoose.Schema({
   accessToken: {
     type: String,
     default: () => crypto.randomBytes(128).toString("hex")
+  },
+  createdAt: {
+    type: Date,
+    default: () => new Date()
   }
 })
 const User = mongoose.model("User", UserSchema)
