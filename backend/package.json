@@ -4,7 +4,9 @@
   "description": "Backend for my final project",
   "scripts": {
     "start": "babel-node server.js",
-    "dev": "nodemon server.js --exec babel-node"
+    "dev": "nodemon server.js --exec babel-node",
+    "download-pokemons": "node utils/pokemon-downloader.js",
+    "generate-pokemons": "node utils/generate-pokemons-json.js"
   },
   "author": "Amanda W.",
   "license": "ISC",
@@ -16,6 +18,7 @@
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "express": "^4.17.3",
+    "jsonfile": "^6.1.0",
     "mongoose": "^6.3.0",
     "nodemon": "^2.0.15"
   }
