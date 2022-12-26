@@ -7,7 +7,6 @@ const router = express.Router()
 
 router.post("/api/auth/register", async (req, res) => {
   const { username, password } = req.body
-  console.log('register')
   console.log({username, password})
 
   try {

@@ -1,11 +1,15 @@
 import express from "express"
 import authenticateUser from '../middlewares/authenticateUser'
 import Listing from '../models/Listing'
+import { getPokemonNameById } from '../libs/pokemon'
 
 const router = express.Router()
 
 router.get("/api/listings", async (req, res) => {
-  const listings = await Listing.find()
+  const limit = req.query.limit || 20
+
+
+  const listings = await Listing.find().sort({ createdAt: -1 }).limit(limit)
   res.status(200).json(listings)
 })
 
@@ -22,7 +26,8 @@ router.post('/api/listings', authenticateUser)
 router.post("/api/listings", async (req, res) => {
   const { pokemonId, type = 'wanted', location, shiny, description } = req.body
 
-  const pokemonName = 'name-be-here' // @todo get this from pokemon Id
+  const pokemonName = getPokemonNameById(pokemonId)
+  
   const userId = req.user.id
 
   console.log({userId,  pokemonId, pokemonName, type, location, shiny, description})
