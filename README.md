@@ -30,6 +30,12 @@ npm i
 npm run dev
 ```
 
+### Update pokemon database
+
+To download fresh data from pokemon sources: `npm run download-pokemons`
+
+To generate a new `pokemons.json`, run `npn run generate-pokemons`
+
 ### Deploy
 
 Push to git, branch main. This will be automatically picked up and deployed by Google Cloud Run

@@ -1,0 +1,41 @@
+13/12
+
+[x] rensa upp i /backend
+[x] npm install
+[x] npm run dev för att se att allt funkar
+[x] skapa ett projekt i postman + lägg till routes så du enkelt kan testa (login, signup, /users/me )
+
+[x] commita och pusha
+[x] deploya till gcloud
+[x] testa routes typ /
+[x] confa gcloud så den pratar med atlas
+[x] testa signup i deployat mode
+
+14/12
+
+[x] lägg in alla routes från din notion i koden (med temp-svar, typ .send('This will return listings') )
+[x] lägg till auth-middlewaren på alla routes som ska ha det
+
+[x] bryta isär din express-app från scriptet som servar den
+[x] bryta isär dina routes till egna filer med express.Router()
+
+26/12
+
+[x] lägga till alla fält på Listing-modelen
+[x] testa POST /api/listings, se att det funkar, kolla i dbn att det ser rätt ut
+[x] testa GET /api/listings 
+[x] bygg DELETE /api/listings 
+[x] bygg stöd för ?limit=6 på /api/listings
+[x] hämta pokemons
+
+? localstorage? cookies? cart stoppa logindatta?''
+
+
+
+
+
+
+
+[] lägga till ett test
+
+[] ställ in lintern på dubbelfnuttar
