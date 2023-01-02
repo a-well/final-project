@@ -30,4 +30,9 @@ app.get("/", (req, res) => {
   res.send("Final Project")
 })
 
+app.get('/always-error', (req, res) => {
+  throw new Error('this is a error that always happens on /always-error')
+  res.send('Always error')
+})
+
 module.exports = app
