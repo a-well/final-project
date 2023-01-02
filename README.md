@@ -14,7 +14,7 @@ This project is part of the Technigo Bootcamp 2022
 
 API: https://final-project-l47fprrrfa-lz.a.run.app/
 
-Frontend: Todo
+Frontend: https://aw-pokeyay.netlify.app/
 
 ## API
 

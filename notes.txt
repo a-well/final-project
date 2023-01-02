@@ -28,7 +28,14 @@
 [x] bygg stöd för ?limit=6 på /api/listings
 [x] hämta pokemons
 
-? localstorage? cookies? cart stoppa logindatta?''
+2/1
+[x] add comments to backend
+[x] add basic frontend
+[x] install ant design 
+[x] deploy to netlify 
+[x] add basic routing
+
+? localstorage? cookies? vart stoppa logindatta?'' - tror localstorage
 
 
 
@@ -39,3 +46,10 @@
 [] lägga till ett test
 
 [] ställ in lintern på dubbelfnuttar
+
+
+Frontend:
+[] routes (add all of them)
+[] log in / out with redux 
+[] add signup 
+[] add a layout
