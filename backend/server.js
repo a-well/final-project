@@ -12,3 +12,12 @@ app.listen(port, (err) => {
   }
   console.log(`Server running on http://localhost:${port}`)
 })
+
+// Moved routes etc from here to separate files in order to make code more readable and debuggable
+//  folders:
+// - models: Define model for database: Listing, User
+// - middlewares: Handle authorization for the API routes
+// - routes:
+//   auth.js: Handle authentication for users (registration, sign in, forgot login details)
+//   listings.js: Handle listings: adding, removal and searching 
+//   users.js: Handle user profiles

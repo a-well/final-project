@@ -2,6 +2,15 @@ const jsonfile = require('jsonfile')
 const path = require('path')
 const pokemonNames = require('../data/pokemon_names.json')
 
+
+// Iterate over all Pokemons in pokemons-name.json, and format according to specifictions below
+// Example entry in pokemons.json:
+//   {
+//     "id": 1,
+//     "name": "Bulbasaur",
+//     "image": "http://image-pokemonthingy.com/image/1"
+//   },
+
 const allPokemon = []
 Object.values(pokemonNames).map(pokemon => {
 
@@ -10,6 +19,6 @@ Object.values(pokemonNames).map(pokemon => {
   allPokemon.push(pokemon)
 })
 
-// save to file pokemon.json
+// Save to file data/pokemon.json
 const file =  path.join(__dirname, '..', 'data', 'pokemons.json')
 jsonfile.writeFileSync(file, allPokemon, { spaces: 2 })
