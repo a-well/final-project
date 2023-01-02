@@ -5,6 +5,7 @@ import { getPokemonNameById } from '../libs/pokemon'
 
 const router = express.Router()
 
+// Display all listings (defaults to 20 most recent)
 router.get("/api/listings", async (req, res) => {
   const limit = req.query.limit || 20
 
@@ -13,6 +14,7 @@ router.get("/api/listings", async (req, res) => {
   res.status(200).json(listings)
 })
 
+// Display listing by ID
 router.get("/api/listings/:id", async (req, res) => {
   const listing = await Listing.findById(req.params.id)
   if (!listing) {
@@ -22,6 +24,7 @@ router.get("/api/listings/:id", async (req, res) => {
   }
 })
 
+// Handle creating a new listing
 router.post('/api/listings', authenticateUser)
 router.post("/api/listings", async (req, res) => {
   const { pokemonId, type = 'wanted', location, shiny, description } = req.body
@@ -43,6 +46,7 @@ router.post("/api/listings", async (req, res) => {
   }
 })
 
+// Handle deletion of a listing
 router.delete('/api/listings/:id', authenticateUser)
 router.delete("/api/listings/:id", (req, res) => {
   const id = req.params.id
@@ -61,6 +65,7 @@ router.delete("/api/listings/:id", (req, res) => {
 //   res.send('Edit individual listing')
 // })
 
+// Handle searching in listings
 router.get("/api/listings-search", async (req, res) => {
   res.send('Search listings')
 })
