@@ -14,7 +14,7 @@ import Profile from 'routes/Profile'
 import Listing from 'routes/Listing'
 import PostListing from 'routes/PostListing'
 
-import About from 'routes/Profile'
+import About from 'routes/About'
 import NotFound from 'routes/NotFound'
 
 // import { Provider } from 'react-redux'

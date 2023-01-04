@@ -1,14 +1,16 @@
 import React from 'react';
-import {  Layout, Menu } from 'antd';
+import { Layout, Menu } from 'antd';
+import { SearchOutlined, UserOutlined, PlusOutlined, HomeOutlined, LogoutOutlined, LoginOutlined, SmileOutlined, MenuOutlined } from '@ant-design/icons';
 import { useNavigate, Link } from 'react-router-dom';
 const { Header, Content, Footer } = Layout;
 
 const AppLayout = ({ children }) => {
   const nav = useNavigate()
+
   return (
     <Layout>
       <Header>
-        <Link to='/' title='Go to start page' style={{ paddingRight: '30px', color: 'white', float: 'left', fontSize: 24, fontWeight: 'bold'}}>PokeYAY</Link>
+        <Link to='/' title='Go to start page' style={{ paddingRight: '30px', color: 'white', fontSize: 24, fontWeight: 'bold', float: 'left'}}>PokeYAY</Link>
         <Menu
           theme="dark"
           mode="horizontal"
@@ -16,20 +18,23 @@ const AppLayout = ({ children }) => {
             console.log('click in menu, ', e)
             nav(e.key)
           }}
+          overflowedIndicator={<MenuOutlined />}
           items={[
-            {key: '/home', label: 'Home'},
-            {key: '/signup', label: 'Sign up'},
-            {key: '/login', label: 'Log in'},
-            {key: '/post-listing', label: 'Post listing'},
-            {key: '/search', label: 'Search'},
-            {key: '/me', label: 'My Profile'}
+            
+            {key: '/home', label: (<><HomeOutlined />{' Home'}</>)},
+            {key: '/search', label: (<><SearchOutlined />{' Search'}</>)},
+            {key: '/post-listing', label: (<><PlusOutlined />{' Post new listing'}</>)},
+            {key: '/me', label: (<><UserOutlined />{' Profile'}</>)},
+            {key: '/login', label: (<><LoginOutlined />{' Log in'}</>)},
+            // {key: '/logout', label: (<><LogoutOutlined />{' Log out'}</>)},
+            {key: '/signup', label: (<><SmileOutlined />{' Sign up'}</>)}
           ]}
         />
       </Header>
 
 
       <Content style={{ padding: '50px', background: 'white' }}>
-        <div style={{minHeight: 400 }}>
+        <div style={{ minHeight: 400 }}>
           {children}
         </div>
       </Content>

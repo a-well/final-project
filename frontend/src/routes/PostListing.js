@@ -3,7 +3,7 @@ import React from 'react'
 const PostListing = () => {
   return (
     <>
-      <h1>Post listing</h1>
+      <h1>Post new listing</h1>
     </>
   )
 }
