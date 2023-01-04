@@ -8,7 +8,7 @@ const AppLayout = ({ children }) => {
   return (
     <Layout>
       <Header>
-        <Link to='/' title='Go to start page' style={{ color: 'white', float: 'left', fontSize: 24, fontWeight: 'bold'}}>PokeYAY</Link>
+        <Link to='/' title='Go to start page' style={{ paddingRight: '30px', color: 'white', float: 'left', fontSize: 24, fontWeight: 'bold'}}>PokeYAY</Link>
         <Menu
           theme="dark"
           mode="horizontal"
@@ -17,11 +17,10 @@ const AppLayout = ({ children }) => {
             nav(e.key)
           }}
           items={[
-            {key: '/login', label: 'Log in'},
-            {key: '/signup', label: 'Sign up'},
             {key: '/home', label: 'Home'},
-            {key: '/search', label: 'Search'},
-            {key: '/post-listing', label: 'Post Listing'},
+            {key: '/signup', label: 'Sign up'},
+            {key: '/login', label: 'Log in'},
+            {key: '/post-listing', label: 'Post listing'},
             {key: '/search', label: 'Search'},
             {key: '/me', label: 'My Profile'}
           ]}
@@ -36,7 +35,7 @@ const AppLayout = ({ children }) => {
       </Content>
 
 
-      <Footer style={{textAlign: 'center'}}>Footer</Footer>
+      <Footer style={{textAlign: 'center'}}><Link to='/about'>PokeYAY 2023</Link></Footer>
     </Layout>
   )
 };

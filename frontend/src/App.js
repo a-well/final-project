@@ -14,6 +14,7 @@ import Profile from 'routes/Profile'
 import Listing from 'routes/Listing'
 import PostListing from 'routes/PostListing'
 
+import About from 'routes/Profile'
 import NotFound from 'routes/NotFound'
 
 // import { Provider } from 'react-redux'
@@ -48,7 +49,8 @@ export const App = () => {
             <Route path='/search' element={<Search />}></Route>
 
             <Route path='/me' element={<Profile />}></Route>
-            {/* Add more routes here */}
+
+            <Route path='/about' element={<About />}></Route>
 
             <Route path='*' element={<NotFound />}></Route>
           </Routes>
