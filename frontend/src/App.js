@@ -4,9 +4,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from 'components/Layout'
 
 import Main from 'routes/Main'
+
 import Login from 'routes/Login'
-import NotFound from 'routes/NotFound'
 import Signup from 'routes/Signup'
+import Search from 'routes/Search'
+
+import NotFound from 'routes/NotFound'
 
 // import { Provider } from 'react-redux'
 // import { combineReducers, configureStore } from '@reduxjs/toolkit'
@@ -29,6 +32,7 @@ export const App = () => {
           <Routes>
             <Route path='/login' element={<Login />}></Route>
             <Route path='/signup' element={<Signup />}></Route>
+            <Route path='/search' element={<Search />}></Route>
             {/* Add more routes here */}
 
             <Route path='/' element={<Main />}></Route>
