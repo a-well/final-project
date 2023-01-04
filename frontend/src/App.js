@@ -3,11 +3,16 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Layout from 'components/Layout'
 
-import Main from 'routes/Main'
+import Landing from 'routes/Landing'
 
 import Login from 'routes/Login'
 import Signup from 'routes/Signup'
+import Home from 'routes/Home'
 import Search from 'routes/Search'
+import Profile from 'routes/Profile'
+
+import Listing from 'routes/Listing'
+import PostListing from 'routes/PostListing'
 
 import NotFound from 'routes/NotFound'
 
@@ -30,12 +35,21 @@ export const App = () => {
       <BrowserRouter>
         <Layout>
           <Routes>
+
+            <Route path='/' element={<Landing />}></Route>
+
             <Route path='/login' element={<Login />}></Route>
             <Route path='/signup' element={<Signup />}></Route>
+
+            <Route path='/home' element={<Home />}></Route>
+
+            <Route path='/listing' element={<Listing />}></Route>
+            <Route path='/post-listing' element={<PostListing />}></Route>
             <Route path='/search' element={<Search />}></Route>
+
+            <Route path='/me' element={<Profile />}></Route>
             {/* Add more routes here */}
 
-            <Route path='/' element={<Main />}></Route>
             <Route path='*' element={<NotFound />}></Route>
           </Routes>
         </Layout>

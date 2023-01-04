@@ -5,7 +5,7 @@ import React, { useEffect } from 'react'
 // import { useNavigate } from 'react-router-dom'
 // import LogoutButton from './LogoutButton'
 
-const Main = () => {
+const Landing = () => {
     // const thoughtItems = useSelector((store) => store.thoughts.items)
     // const dispatch = useDispatch()
     // const accessToken = useSelector((store) => store.user.accessToken)
@@ -46,7 +46,7 @@ const Main = () => {
     return (
         <>
           {/* <LogoutButton /> */}
-          <h2>This is the main component</h2>
+          <h1>Landing</h1>
           {/* {thoughtItems && thoughtItems.map((item) => {
               return <p key={item._id}>{item.message}</p>
           })} */}
@@ -54,4 +54,4 @@ const Main = () => {
     )
 }
 
-export default Main
+export default Landing

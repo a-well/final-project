@@ -1,6 +1,6 @@
 import React from 'react';
 import {  Layout, Menu } from 'antd';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 const { Header, Content, Footer } = Layout;
 
 const AppLayout = ({ children }) => {
@@ -8,9 +8,7 @@ const AppLayout = ({ children }) => {
   return (
     <Layout>
       <Header>
-        <div style={{ color: 'white', float: 'left', fontSize: 24, fontWeight: 'bold'}}>
-          PokeYAY
-        </div>
+        <Link to='/' title='Go to start page' style={{ color: 'white', float: 'left', fontSize: 24, fontWeight: 'bold'}}>PokeYAY</Link>
         <Menu
           theme="dark"
           mode="horizontal"
@@ -21,6 +19,9 @@ const AppLayout = ({ children }) => {
           items={[
             {key: '/login', label: 'Log in'},
             {key: '/signup', label: 'Sign up'},
+            {key: '/home', label: 'Home'},
+            {key: '/search', label: 'Search'},
+            {key: '/post-listing', label: 'Post Listing'},
             {key: '/search', label: 'Search'},
             {key: '/me', label: 'My Profile'}
           ]}
