@@ -10,12 +10,13 @@ import Signup from 'routes/Signup'
 import Home from 'routes/Home'
 import Search from 'routes/Search'
 import Profile from 'routes/Profile'
-
+import MyListings from 'routes/MyListings'
 import Listing from 'routes/Listing'
 import PostListing from 'routes/PostListing'
 
 import About from 'routes/About'
 import NotFound from 'routes/NotFound'
+
 
 // import { Provider } from 'react-redux'
 // import { combineReducers, configureStore } from '@reduxjs/toolkit'
@@ -45,6 +46,7 @@ export const App = () => {
             <Route path='/home' element={<Home />}></Route>
 
             <Route path='/listing' element={<Listing />}></Route>
+            <Route path='/my-listings' element={<MyListings />}></Route>
             <Route path='/post-listing' element={<PostListing />}></Route>
             <Route path='/search' element={<Search />}></Route>
 
