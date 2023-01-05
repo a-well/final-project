@@ -1,5 +1,8 @@
 import React, { useEffect, useState  } from 'react'
-import { Button, Checkbox, Form, Input } from 'antd';
+import { Button, Checkbox, Form, Input } from 'antd'
+import { UserOutlined, LockOutlined } from '@ant-design/icons'
+import Center from 'components/Center'
+
 
 // import { useDispatch, useSelector, batch } from 'react-redux'
 import { useNavigate, Link } from 'react-router-dom'
@@ -51,16 +54,17 @@ const Login = () => {
       })
     };
 
-
   return (
-    <>
-      <h1>Log in</h1>
-      <Form onFinish={onFinish} initialValues={{
+    <Center>
+      <Form
+        style={{ width: '280px', paddingTop:'70px'}}
+        onFinish={onFinish} initialValues={{
         username: 'testmanda',
         password: 'testloesen'
       }} >
+        <h1 style={{ textTransform: 'uppercase'}}>Log in</h1>
         <Form.Item
-          label="Username"
+          // label="Username"
           name="username"
           rules={[
             {
@@ -69,11 +73,11 @@ const Login = () => {
             },
           ]}
         >
-          <Input />
+          <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
         </Form.Item>
 
         <Form.Item
-          label="Password"
+          // label="Password"
           name="password"
           rules={[
             {
@@ -82,16 +86,29 @@ const Login = () => {
             },
           ]}
         >
-          <Input.Password />
+          <Input.Password prefix={<LockOutlined className="site-form-item-icon" />}  placeholder="Password" />
         </Form.Item>
 
         <Form.Item>
-          <Button type="primary" htmlType="submit">
+        <Form.Item name="remember" valuePropName="checked" style={{ float: 'left'}} noStyle>
+          <Checkbox>Remember me</Checkbox>
+        </Form.Item>
+
+        <a className="login-form-forgot" href="" style={{ float: 'right'}}>
+          Forgot password
+        </a>
+      </Form.Item>
+
+      <Form.Item>
+      <Form.Item>
+          <Button type="primary" htmlType="submit" style={{ width: '100%'}}>
             Log in
           </Button>
         </Form.Item>
+        Not a member? <Link to='/signup'>Sign up now!</Link>
+      </Form.Item>
       </Form>
-    </>
+    </Center>
   )
 }
 
