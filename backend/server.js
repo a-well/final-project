@@ -17,7 +17,7 @@ app.listen(port, (err) => {
 //  folders:
 // - models: Define model for database: Listing, User
 // - middlewares: Handle authorization for the API routes
-// - routes:
+// - routes
 //   auth.js: Handle authentication for users (registration, sign in, forgot login details)
 //   listings.js: Handle listings: adding, removal and searching 
 //   users.js: Handle user profiles

@@ -59,7 +59,7 @@ router.delete("/api/listings/:id", (req, res) => {
   })
 })
 
-// This can be used later if we need edit support
+// This can be used later if edit support is needed
 // router.patch('/api/listings/:id', authenticateUser)
 // router.patch("/api/listings/:id", async (req, res) => {
 //   res.send('Edit individual listing')

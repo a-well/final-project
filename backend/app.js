@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
 
 // Route for testing error message
 app.get('/always-error', (req, res) => {
-  throw new Error('this is a error that always happens on /always-error')
+  throw new Error('this is an error that always happens on /always-error')
   res.send('Always error')
 })
 
