@@ -94,9 +94,9 @@ const Login = () => {
           <Checkbox>Remember me</Checkbox>
         </Form.Item>
 
-        <a className="login-form-forgot" href="" style={{ float: 'right'}}>
+        <Link to='/forgot-password' style={{ float: 'right'}}>
           Forgot password
-        </a>
+        </Link>
       </Form.Item>
 
       <Form.Item>

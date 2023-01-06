@@ -7,6 +7,7 @@ import Landing from 'routes/Landing'
 
 import Login from 'routes/Login'
 import Signup from 'routes/Signup'
+import ForgotPassword from 'routes/ForgotPassword'
 import Home from 'routes/Home'
 import Search from 'routes/Search'
 import Profile from 'routes/Profile'
@@ -42,6 +43,7 @@ export const App = () => {
 
             <Route path='/login' element={<Login />}></Route>
             <Route path='/signup' element={<Signup />}></Route>
+            <Route path='/forgot-password' element={<ForgotPassword />}></Route>
 
             <Route path='/home' element={<Home />}></Route>
 

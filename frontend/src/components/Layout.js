@@ -2,6 +2,7 @@ import React from 'react';
 import { Layout, Menu } from 'antd';
 import { SearchOutlined, UserOutlined, PlusOutlined, HomeOutlined, LogoutOutlined, LoginOutlined, SmileOutlined, MenuOutlined } from '@ant-design/icons';
 import { useNavigate, Link } from 'react-router-dom';
+import Center from './Center';
 const { Header, Content, Footer } = Layout;
 
 const AppLayout = ({ children }) => {
@@ -41,7 +42,11 @@ const AppLayout = ({ children }) => {
         </div>
       </Content>
 
-      <Footer style={{textAlign: 'center'}} ><Link to='/about'>PokeYAY 2023</Link></Footer>
+      <Footer>
+        <Center>
+          <Link to='/about'>PokeYAY 2023</Link>
+        </Center>
+      </Footer>
     </Layout>
   )
 };

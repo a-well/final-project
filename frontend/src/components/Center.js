@@ -6,7 +6,9 @@ const Center = ({ children }) => {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'}}>
-      {children}
+      <div>
+        {children}      
+      </div>
     </div>
   )
 };
