@@ -50,6 +50,9 @@
 
 Frontend:
 [] routes (add all of them)
+[] add a layout
 [] log in / out with redux 
 [] add signup 
-[] add a layout
+[] style stuff
+
+se listing card

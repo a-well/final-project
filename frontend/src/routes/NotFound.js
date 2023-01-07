@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const NotFound = () => {
+function NotFound() {
   return (
     <>
-      <Link to='/login'>GO TO LOGIN</Link>
+      <Link to="/login">GO TO LOGIN</Link>
       <h1>Not found</h1>
     </>
   )

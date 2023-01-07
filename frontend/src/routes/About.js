@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = () => {
+function About() {
   return (
     <>
       <h1>What is this?</h1>

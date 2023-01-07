@@ -1,15 +1,17 @@
 import React from 'react';
 
-const Center = ({ children }) => {
+function Center({ children }) {
   return (
-    <div style={{    
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center'}}>
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+    }}
+    >
       <div>
-        {children}      
+        {children}
       </div>
     </div>
-  )
-};
+  );
+}
 export default Center;

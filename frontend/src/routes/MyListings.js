@@ -1,10 +1,8 @@
 import React from 'react'
 
-const MyListings = () => {
+function MyListings() {
   return (
-    <>
-      <h1>My Listings</h1>
-    </>
+    <h1>My Listings</h1>
   )
 }
 
