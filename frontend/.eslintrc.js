@@ -26,6 +26,7 @@ module.exports = {
     'react/no-unescaped-entities': 0,
     'react/function-component-definition': 0,
     'no-console': 0,
+    'no-underscore-dangle': 0,
   },
   settings: {
     'import/resolver': {
