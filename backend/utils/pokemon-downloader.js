@@ -17,3 +17,5 @@ download('https://pogoapi.net/api/v1/released_pokemon.json', './data/pokemon_nam
   console.log('File successfully downloaded')
   process.exit()
 })
+
+//@TODO add shiny sprites https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png

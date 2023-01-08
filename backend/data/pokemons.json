@@ -2,3901 +2,3901 @@
   {
     "id": 1,
     "name": "Bulbasaur",
-    "image": "http://image-pokemonthingy.com/image/1"
+    "image": "https://pogoapi.net/sprites/001.png"
   },
   {
     "id": 2,
     "name": "Ivysaur",
-    "image": "http://image-pokemonthingy.com/image/2"
+    "image": "https://pogoapi.net/sprites/002.png"
   },
   {
     "id": 3,
     "name": "Venusaur",
-    "image": "http://image-pokemonthingy.com/image/3"
+    "image": "https://pogoapi.net/sprites/003.png"
   },
   {
     "id": 4,
     "name": "Charmander",
-    "image": "http://image-pokemonthingy.com/image/4"
+    "image": "https://pogoapi.net/sprites/004.png"
   },
   {
     "id": 5,
     "name": "Charmeleon",
-    "image": "http://image-pokemonthingy.com/image/5"
+    "image": "https://pogoapi.net/sprites/005.png"
   },
   {
     "id": 6,
     "name": "Charizard",
-    "image": "http://image-pokemonthingy.com/image/6"
+    "image": "https://pogoapi.net/sprites/006.png"
   },
   {
     "id": 7,
     "name": "Squirtle",
-    "image": "http://image-pokemonthingy.com/image/7"
+    "image": "https://pogoapi.net/sprites/007.png"
   },
   {
     "id": 8,
     "name": "Wartortle",
-    "image": "http://image-pokemonthingy.com/image/8"
+    "image": "https://pogoapi.net/sprites/008.png"
   },
   {
     "id": 9,
     "name": "Blastoise",
-    "image": "http://image-pokemonthingy.com/image/9"
+    "image": "https://pogoapi.net/sprites/009.png"
   },
   {
     "id": 10,
     "name": "Caterpie",
-    "image": "http://image-pokemonthingy.com/image/10"
+    "image": "https://pogoapi.net/sprites/010.png"
   },
   {
     "id": 11,
     "name": "Metapod",
-    "image": "http://image-pokemonthingy.com/image/11"
+    "image": "https://pogoapi.net/sprites/011.png"
   },
   {
     "id": 12,
     "name": "Butterfree",
-    "image": "http://image-pokemonthingy.com/image/12"
+    "image": "https://pogoapi.net/sprites/012.png"
   },
   {
     "id": 13,
     "name": "Weedle",
-    "image": "http://image-pokemonthingy.com/image/13"
+    "image": "https://pogoapi.net/sprites/013.png"
   },
   {
     "id": 14,
     "name": "Kakuna",
-    "image": "http://image-pokemonthingy.com/image/14"
+    "image": "https://pogoapi.net/sprites/014.png"
   },
   {
     "id": 15,
     "name": "Beedrill",
-    "image": "http://image-pokemonthingy.com/image/15"
+    "image": "https://pogoapi.net/sprites/015.png"
   },
   {
     "id": 16,
     "name": "Pidgey",
-    "image": "http://image-pokemonthingy.com/image/16"
+    "image": "https://pogoapi.net/sprites/016.png"
   },
   {
     "id": 17,
     "name": "Pidgeotto",
-    "image": "http://image-pokemonthingy.com/image/17"
+    "image": "https://pogoapi.net/sprites/017.png"
   },
   {
     "id": 18,
     "name": "Pidgeot",
-    "image": "http://image-pokemonthingy.com/image/18"
+    "image": "https://pogoapi.net/sprites/018.png"
   },
   {
     "id": 19,
     "name": "Rattata",
-    "image": "http://image-pokemonthingy.com/image/19"
+    "image": "https://pogoapi.net/sprites/019.png"
   },
   {
     "id": 20,
     "name": "Raticate",
-    "image": "http://image-pokemonthingy.com/image/20"
+    "image": "https://pogoapi.net/sprites/020.png"
   },
   {
     "id": 21,
     "name": "Spearow",
-    "image": "http://image-pokemonthingy.com/image/21"
+    "image": "https://pogoapi.net/sprites/021.png"
   },
   {
     "id": 22,
     "name": "Fearow",
-    "image": "http://image-pokemonthingy.com/image/22"
+    "image": "https://pogoapi.net/sprites/022.png"
   },
   {
     "id": 23,
     "name": "Ekans",
-    "image": "http://image-pokemonthingy.com/image/23"
+    "image": "https://pogoapi.net/sprites/023.png"
   },
   {
     "id": 24,
     "name": "Arbok",
-    "image": "http://image-pokemonthingy.com/image/24"
+    "image": "https://pogoapi.net/sprites/024.png"
   },
   {
     "id": 25,
     "name": "Pikachu",
-    "image": "http://image-pokemonthingy.com/image/25"
+    "image": "https://pogoapi.net/sprites/025.png"
   },
   {
     "id": 26,
     "name": "Raichu",
-    "image": "http://image-pokemonthingy.com/image/26"
+    "image": "https://pogoapi.net/sprites/026.png"
   },
   {
     "id": 27,
     "name": "Sandshrew",
-    "image": "http://image-pokemonthingy.com/image/27"
+    "image": "https://pogoapi.net/sprites/027.png"
   },
   {
     "id": 28,
     "name": "Sandslash",
-    "image": "http://image-pokemonthingy.com/image/28"
+    "image": "https://pogoapi.net/sprites/028.png"
   },
   {
     "id": 29,
     "name": "Nidoran♀",
-    "image": "http://image-pokemonthingy.com/image/29"
+    "image": "https://pogoapi.net/sprites/029.png"
   },
   {
     "id": 30,
     "name": "Nidorina",
-    "image": "http://image-pokemonthingy.com/image/30"
+    "image": "https://pogoapi.net/sprites/030.png"
   },
   {
     "id": 31,
     "name": "Nidoqueen",
-    "image": "http://image-pokemonthingy.com/image/31"
+    "image": "https://pogoapi.net/sprites/031.png"
   },
   {
     "id": 32,
     "name": "Nidoran♂",
-    "image": "http://image-pokemonthingy.com/image/32"
+    "image": "https://pogoapi.net/sprites/032.png"
   },
   {
     "id": 33,
     "name": "Nidorino",
-    "image": "http://image-pokemonthingy.com/image/33"
+    "image": "https://pogoapi.net/sprites/033.png"
   },
   {
     "id": 34,
     "name": "Nidoking",
-    "image": "http://image-pokemonthingy.com/image/34"
+    "image": "https://pogoapi.net/sprites/034.png"
   },
   {
     "id": 35,
     "name": "Clefairy",
-    "image": "http://image-pokemonthingy.com/image/35"
+    "image": "https://pogoapi.net/sprites/035.png"
   },
   {
     "id": 36,
     "name": "Clefable",
-    "image": "http://image-pokemonthingy.com/image/36"
+    "image": "https://pogoapi.net/sprites/036.png"
   },
   {
     "id": 37,
     "name": "Vulpix",
-    "image": "http://image-pokemonthingy.com/image/37"
+    "image": "https://pogoapi.net/sprites/037.png"
   },
   {
     "id": 38,
     "name": "Ninetales",
-    "image": "http://image-pokemonthingy.com/image/38"
+    "image": "https://pogoapi.net/sprites/038.png"
   },
   {
     "id": 39,
     "name": "Jigglypuff",
-    "image": "http://image-pokemonthingy.com/image/39"
+    "image": "https://pogoapi.net/sprites/039.png"
   },
   {
     "id": 40,
     "name": "Wigglytuff",
-    "image": "http://image-pokemonthingy.com/image/40"
+    "image": "https://pogoapi.net/sprites/040.png"
   },
   {
     "id": 41,
     "name": "Zubat",
-    "image": "http://image-pokemonthingy.com/image/41"
+    "image": "https://pogoapi.net/sprites/041.png"
   },
   {
     "id": 42,
     "name": "Golbat",
-    "image": "http://image-pokemonthingy.com/image/42"
+    "image": "https://pogoapi.net/sprites/042.png"
   },
   {
     "id": 43,
     "name": "Oddish",
-    "image": "http://image-pokemonthingy.com/image/43"
+    "image": "https://pogoapi.net/sprites/043.png"
   },
   {
     "id": 44,
     "name": "Gloom",
-    "image": "http://image-pokemonthingy.com/image/44"
+    "image": "https://pogoapi.net/sprites/044.png"
   },
   {
     "id": 45,
     "name": "Vileplume",
-    "image": "http://image-pokemonthingy.com/image/45"
+    "image": "https://pogoapi.net/sprites/045.png"
   },
   {
     "id": 46,
     "name": "Paras",
-    "image": "http://image-pokemonthingy.com/image/46"
+    "image": "https://pogoapi.net/sprites/046.png"
   },
   {
     "id": 47,
     "name": "Parasect",
-    "image": "http://image-pokemonthingy.com/image/47"
+    "image": "https://pogoapi.net/sprites/047.png"
   },
   {
     "id": 48,
     "name": "Venonat",
-    "image": "http://image-pokemonthingy.com/image/48"
+    "image": "https://pogoapi.net/sprites/048.png"
   },
   {
     "id": 49,
     "name": "Venomoth",
-    "image": "http://image-pokemonthingy.com/image/49"
+    "image": "https://pogoapi.net/sprites/049.png"
   },
   {
     "id": 50,
     "name": "Diglett",
-    "image": "http://image-pokemonthingy.com/image/50"
+    "image": "https://pogoapi.net/sprites/050.png"
   },
   {
     "id": 51,
     "name": "Dugtrio",
-    "image": "http://image-pokemonthingy.com/image/51"
+    "image": "https://pogoapi.net/sprites/051.png"
   },
   {
     "id": 52,
     "name": "Meowth",
-    "image": "http://image-pokemonthingy.com/image/52"
+    "image": "https://pogoapi.net/sprites/052.png"
   },
   {
     "id": 53,
     "name": "Persian",
-    "image": "http://image-pokemonthingy.com/image/53"
+    "image": "https://pogoapi.net/sprites/053.png"
   },
   {
     "id": 54,
     "name": "Psyduck",
-    "image": "http://image-pokemonthingy.com/image/54"
+    "image": "https://pogoapi.net/sprites/054.png"
   },
   {
     "id": 55,
     "name": "Golduck",
-    "image": "http://image-pokemonthingy.com/image/55"
+    "image": "https://pogoapi.net/sprites/055.png"
   },
   {
     "id": 56,
     "name": "Mankey",
-    "image": "http://image-pokemonthingy.com/image/56"
+    "image": "https://pogoapi.net/sprites/056.png"
   },
   {
     "id": 57,
     "name": "Primeape",
-    "image": "http://image-pokemonthingy.com/image/57"
+    "image": "https://pogoapi.net/sprites/057.png"
   },
   {
     "id": 58,
     "name": "Growlithe",
-    "image": "http://image-pokemonthingy.com/image/58"
+    "image": "https://pogoapi.net/sprites/058.png"
   },
   {
     "id": 59,
     "name": "Arcanine",
-    "image": "http://image-pokemonthingy.com/image/59"
+    "image": "https://pogoapi.net/sprites/059.png"
   },
   {
     "id": 60,
     "name": "Poliwag",
-    "image": "http://image-pokemonthingy.com/image/60"
+    "image": "https://pogoapi.net/sprites/060.png"
   },
   {
     "id": 61,
     "name": "Poliwhirl",
-    "image": "http://image-pokemonthingy.com/image/61"
+    "image": "https://pogoapi.net/sprites/061.png"
   },
   {
     "id": 62,
     "name": "Poliwrath",
-    "image": "http://image-pokemonthingy.com/image/62"
+    "image": "https://pogoapi.net/sprites/062.png"
   },
   {
     "id": 63,
     "name": "Abra",
-    "image": "http://image-pokemonthingy.com/image/63"
+    "image": "https://pogoapi.net/sprites/063.png"
   },
   {
     "id": 64,
     "name": "Kadabra",
-    "image": "http://image-pokemonthingy.com/image/64"
+    "image": "https://pogoapi.net/sprites/064.png"
   },
   {
     "id": 65,
     "name": "Alakazam",
-    "image": "http://image-pokemonthingy.com/image/65"
+    "image": "https://pogoapi.net/sprites/065.png"
   },
   {
     "id": 66,
     "name": "Machop",
-    "image": "http://image-pokemonthingy.com/image/66"
+    "image": "https://pogoapi.net/sprites/066.png"
   },
   {
     "id": 67,
     "name": "Machoke",
-    "image": "http://image-pokemonthingy.com/image/67"
+    "image": "https://pogoapi.net/sprites/067.png"
   },
   {
     "id": 68,
     "name": "Machamp",
-    "image": "http://image-pokemonthingy.com/image/68"
+    "image": "https://pogoapi.net/sprites/068.png"
   },
   {
     "id": 69,
     "name": "Bellsprout",
-    "image": "http://image-pokemonthingy.com/image/69"
+    "image": "https://pogoapi.net/sprites/069.png"
   },
   {
     "id": 70,
     "name": "Weepinbell",
-    "image": "http://image-pokemonthingy.com/image/70"
+    "image": "https://pogoapi.net/sprites/070.png"
   },
   {
     "id": 71,
     "name": "Victreebel",
-    "image": "http://image-pokemonthingy.com/image/71"
+    "image": "https://pogoapi.net/sprites/071.png"
   },
   {
     "id": 72,
     "name": "Tentacool",
-    "image": "http://image-pokemonthingy.com/image/72"
+    "image": "https://pogoapi.net/sprites/072.png"
   },
   {
     "id": 73,
     "name": "Tentacruel",
-    "image": "http://image-pokemonthingy.com/image/73"
+    "image": "https://pogoapi.net/sprites/073.png"
   },
   {
     "id": 74,
     "name": "Geodude",
-    "image": "http://image-pokemonthingy.com/image/74"
+    "image": "https://pogoapi.net/sprites/074.png"
   },
   {
     "id": 75,
     "name": "Graveler",
-    "image": "http://image-pokemonthingy.com/image/75"
+    "image": "https://pogoapi.net/sprites/075.png"
   },
   {
     "id": 76,
     "name": "Golem",
-    "image": "http://image-pokemonthingy.com/image/76"
+    "image": "https://pogoapi.net/sprites/076.png"
   },
   {
     "id": 77,
     "name": "Ponyta",
-    "image": "http://image-pokemonthingy.com/image/77"
+    "image": "https://pogoapi.net/sprites/077.png"
   },
   {
     "id": 78,
     "name": "Rapidash",
-    "image": "http://image-pokemonthingy.com/image/78"
+    "image": "https://pogoapi.net/sprites/078.png"
   },
   {
     "id": 79,
     "name": "Slowpoke",
-    "image": "http://image-pokemonthingy.com/image/79"
+    "image": "https://pogoapi.net/sprites/079.png"
   },
   {
     "id": 80,
     "name": "Slowbro",
-    "image": "http://image-pokemonthingy.com/image/80"
+    "image": "https://pogoapi.net/sprites/080.png"
   },
   {
     "id": 81,
     "name": "Magnemite",
-    "image": "http://image-pokemonthingy.com/image/81"
+    "image": "https://pogoapi.net/sprites/081.png"
   },
   {
     "id": 82,
     "name": "Magneton",
-    "image": "http://image-pokemonthingy.com/image/82"
+    "image": "https://pogoapi.net/sprites/082.png"
   },
   {
     "id": 83,
     "name": "Farfetch’d",
-    "image": "http://image-pokemonthingy.com/image/83"
+    "image": "https://pogoapi.net/sprites/083.png"
   },
   {
     "id": 84,
     "name": "Doduo",
-    "image": "http://image-pokemonthingy.com/image/84"
+    "image": "https://pogoapi.net/sprites/084.png"
   },
   {
     "id": 85,
     "name": "Dodrio",
-    "image": "http://image-pokemonthingy.com/image/85"
+    "image": "https://pogoapi.net/sprites/085.png"
   },
   {
     "id": 86,
     "name": "Seel",
-    "image": "http://image-pokemonthingy.com/image/86"
+    "image": "https://pogoapi.net/sprites/086.png"
   },
   {
     "id": 87,
     "name": "Dewgong",
-    "image": "http://image-pokemonthingy.com/image/87"
+    "image": "https://pogoapi.net/sprites/087.png"
   },
   {
     "id": 88,
     "name": "Grimer",
-    "image": "http://image-pokemonthingy.com/image/88"
+    "image": "https://pogoapi.net/sprites/088.png"
   },
   {
     "id": 89,
     "name": "Muk",
-    "image": "http://image-pokemonthingy.com/image/89"
+    "image": "https://pogoapi.net/sprites/089.png"
   },
   {
     "id": 90,
     "name": "Shellder",
-    "image": "http://image-pokemonthingy.com/image/90"
+    "image": "https://pogoapi.net/sprites/090.png"
   },
   {
     "id": 91,
     "name": "Cloyster",
-    "image": "http://image-pokemonthingy.com/image/91"
+    "image": "https://pogoapi.net/sprites/091.png"
   },
   {
     "id": 92,
     "name": "Gastly",
-    "image": "http://image-pokemonthingy.com/image/92"
+    "image": "https://pogoapi.net/sprites/092.png"
   },
   {
     "id": 93,
     "name": "Haunter",
-    "image": "http://image-pokemonthingy.com/image/93"
+    "image": "https://pogoapi.net/sprites/093.png"
   },
   {
     "id": 94,
     "name": "Gengar",
-    "image": "http://image-pokemonthingy.com/image/94"
+    "image": "https://pogoapi.net/sprites/094.png"
   },
   {
     "id": 95,
     "name": "Onix",
-    "image": "http://image-pokemonthingy.com/image/95"
+    "image": "https://pogoapi.net/sprites/095.png"
   },
   {
     "id": 96,
     "name": "Drowzee",
-    "image": "http://image-pokemonthingy.com/image/96"
+    "image": "https://pogoapi.net/sprites/096.png"
   },
   {
     "id": 97,
     "name": "Hypno",
-    "image": "http://image-pokemonthingy.com/image/97"
+    "image": "https://pogoapi.net/sprites/097.png"
   },
   {
     "id": 98,
     "name": "Krabby",
-    "image": "http://image-pokemonthingy.com/image/98"
+    "image": "https://pogoapi.net/sprites/098.png"
   },
   {
     "id": 99,
     "name": "Kingler",
-    "image": "http://image-pokemonthingy.com/image/99"
+    "image": "https://pogoapi.net/sprites/099.png"
   },
   {
     "id": 100,
     "name": "Voltorb",
-    "image": "http://image-pokemonthingy.com/image/100"
+    "image": "https://pogoapi.net/sprites/100.png"
   },
   {
     "id": 101,
     "name": "Electrode",
-    "image": "http://image-pokemonthingy.com/image/101"
+    "image": "https://pogoapi.net/sprites/101.png"
   },
   {
     "id": 102,
     "name": "Exeggcute",
-    "image": "http://image-pokemonthingy.com/image/102"
+    "image": "https://pogoapi.net/sprites/102.png"
   },
   {
     "id": 103,
     "name": "Exeggutor",
-    "image": "http://image-pokemonthingy.com/image/103"
+    "image": "https://pogoapi.net/sprites/103.png"
   },
   {
     "id": 104,
     "name": "Cubone",
-    "image": "http://image-pokemonthingy.com/image/104"
+    "image": "https://pogoapi.net/sprites/104.png"
   },
   {
     "id": 105,
     "name": "Marowak",
-    "image": "http://image-pokemonthingy.com/image/105"
+    "image": "https://pogoapi.net/sprites/105.png"
   },
   {
     "id": 106,
     "name": "Hitmonlee",
-    "image": "http://image-pokemonthingy.com/image/106"
+    "image": "https://pogoapi.net/sprites/106.png"
   },
   {
     "id": 107,
     "name": "Hitmonchan",
-    "image": "http://image-pokemonthingy.com/image/107"
+    "image": "https://pogoapi.net/sprites/107.png"
   },
   {
     "id": 108,
     "name": "Lickitung",
-    "image": "http://image-pokemonthingy.com/image/108"
+    "image": "https://pogoapi.net/sprites/108.png"
   },
   {
     "id": 109,
     "name": "Koffing",
-    "image": "http://image-pokemonthingy.com/image/109"
+    "image": "https://pogoapi.net/sprites/109.png"
   },
   {
     "id": 110,
     "name": "Weezing",
-    "image": "http://image-pokemonthingy.com/image/110"
+    "image": "https://pogoapi.net/sprites/110.png"
   },
   {
     "id": 111,
     "name": "Rhyhorn",
-    "image": "http://image-pokemonthingy.com/image/111"
+    "image": "https://pogoapi.net/sprites/111.png"
   },
   {
     "id": 112,
     "name": "Rhydon",
-    "image": "http://image-pokemonthingy.com/image/112"
+    "image": "https://pogoapi.net/sprites/112.png"
   },
   {
     "id": 113,
     "name": "Chansey",
-    "image": "http://image-pokemonthingy.com/image/113"
+    "image": "https://pogoapi.net/sprites/113.png"
   },
   {
     "id": 114,
     "name": "Tangela",
-    "image": "http://image-pokemonthingy.com/image/114"
+    "image": "https://pogoapi.net/sprites/114.png"
   },
   {
     "id": 115,
     "name": "Kangaskhan",
-    "image": "http://image-pokemonthingy.com/image/115"
+    "image": "https://pogoapi.net/sprites/115.png"
   },
   {
     "id": 116,
     "name": "Horsea",
-    "image": "http://image-pokemonthingy.com/image/116"
+    "image": "https://pogoapi.net/sprites/116.png"
   },
   {
     "id": 117,
     "name": "Seadra",
-    "image": "http://image-pokemonthingy.com/image/117"
+    "image": "https://pogoapi.net/sprites/117.png"
   },
   {
     "id": 118,
     "name": "Goldeen",
-    "image": "http://image-pokemonthingy.com/image/118"
+    "image": "https://pogoapi.net/sprites/118.png"
   },
   {
     "id": 119,
     "name": "Seaking",
-    "image": "http://image-pokemonthingy.com/image/119"
+    "image": "https://pogoapi.net/sprites/119.png"
   },
   {
     "id": 120,
     "name": "Staryu",
-    "image": "http://image-pokemonthingy.com/image/120"
+    "image": "https://pogoapi.net/sprites/120.png"
   },
   {
     "id": 121,
     "name": "Starmie",
-    "image": "http://image-pokemonthingy.com/image/121"
+    "image": "https://pogoapi.net/sprites/121.png"
   },
   {
     "id": 122,
     "name": "Mr. Mime",
-    "image": "http://image-pokemonthingy.com/image/122"
+    "image": "https://pogoapi.net/sprites/122.png"
   },
   {
     "id": 123,
     "name": "Scyther",
-    "image": "http://image-pokemonthingy.com/image/123"
+    "image": "https://pogoapi.net/sprites/123.png"
   },
   {
     "id": 124,
     "name": "Jynx",
-    "image": "http://image-pokemonthingy.com/image/124"
+    "image": "https://pogoapi.net/sprites/124.png"
   },
   {
     "id": 125,
     "name": "Electabuzz",
-    "image": "http://image-pokemonthingy.com/image/125"
+    "image": "https://pogoapi.net/sprites/125.png"
   },
   {
     "id": 126,
     "name": "Magmar",
-    "image": "http://image-pokemonthingy.com/image/126"
+    "image": "https://pogoapi.net/sprites/126.png"
   },
   {
     "id": 127,
     "name": "Pinsir",
-    "image": "http://image-pokemonthingy.com/image/127"
+    "image": "https://pogoapi.net/sprites/127.png"
   },
   {
     "id": 128,
     "name": "Tauros",
-    "image": "http://image-pokemonthingy.com/image/128"
+    "image": "https://pogoapi.net/sprites/128.png"
   },
   {
     "id": 129,
     "name": "Magikarp",
-    "image": "http://image-pokemonthingy.com/image/129"
+    "image": "https://pogoapi.net/sprites/129.png"
   },
   {
     "id": 130,
     "name": "Gyarados",
-    "image": "http://image-pokemonthingy.com/image/130"
+    "image": "https://pogoapi.net/sprites/130.png"
   },
   {
     "id": 131,
     "name": "Lapras",
-    "image": "http://image-pokemonthingy.com/image/131"
+    "image": "https://pogoapi.net/sprites/131.png"
   },
   {
     "id": 132,
     "name": "Ditto",
-    "image": "http://image-pokemonthingy.com/image/132"
+    "image": "https://pogoapi.net/sprites/132.png"
   },
   {
     "id": 133,
     "name": "Eevee",
-    "image": "http://image-pokemonthingy.com/image/133"
+    "image": "https://pogoapi.net/sprites/133.png"
   },
   {
     "id": 134,
     "name": "Vaporeon",
-    "image": "http://image-pokemonthingy.com/image/134"
+    "image": "https://pogoapi.net/sprites/134.png"
   },
   {
     "id": 135,
     "name": "Jolteon",
-    "image": "http://image-pokemonthingy.com/image/135"
+    "image": "https://pogoapi.net/sprites/135.png"
   },
   {
     "id": 136,
     "name": "Flareon",
-    "image": "http://image-pokemonthingy.com/image/136"
+    "image": "https://pogoapi.net/sprites/136.png"
   },
   {
     "id": 137,
     "name": "Porygon",
-    "image": "http://image-pokemonthingy.com/image/137"
+    "image": "https://pogoapi.net/sprites/137.png"
   },
   {
     "id": 138,
     "name": "Omanyte",
-    "image": "http://image-pokemonthingy.com/image/138"
+    "image": "https://pogoapi.net/sprites/138.png"
   },
   {
     "id": 139,
     "name": "Omastar",
-    "image": "http://image-pokemonthingy.com/image/139"
+    "image": "https://pogoapi.net/sprites/139.png"
   },
   {
     "id": 140,
     "name": "Kabuto",
-    "image": "http://image-pokemonthingy.com/image/140"
+    "image": "https://pogoapi.net/sprites/140.png"
   },
   {
     "id": 141,
     "name": "Kabutops",
-    "image": "http://image-pokemonthingy.com/image/141"
+    "image": "https://pogoapi.net/sprites/141.png"
   },
   {
     "id": 142,
     "name": "Aerodactyl",
-    "image": "http://image-pokemonthingy.com/image/142"
+    "image": "https://pogoapi.net/sprites/142.png"
   },
   {
     "id": 143,
     "name": "Snorlax",
-    "image": "http://image-pokemonthingy.com/image/143"
+    "image": "https://pogoapi.net/sprites/143.png"
   },
   {
     "id": 144,
     "name": "Articuno",
-    "image": "http://image-pokemonthingy.com/image/144"
+    "image": "https://pogoapi.net/sprites/144.png"
   },
   {
     "id": 145,
     "name": "Zapdos",
-    "image": "http://image-pokemonthingy.com/image/145"
+    "image": "https://pogoapi.net/sprites/145.png"
   },
   {
     "id": 146,
     "name": "Moltres",
-    "image": "http://image-pokemonthingy.com/image/146"
+    "image": "https://pogoapi.net/sprites/146.png"
   },
   {
     "id": 147,
     "name": "Dratini",
-    "image": "http://image-pokemonthingy.com/image/147"
+    "image": "https://pogoapi.net/sprites/147.png"
   },
   {
     "id": 148,
     "name": "Dragonair",
-    "image": "http://image-pokemonthingy.com/image/148"
+    "image": "https://pogoapi.net/sprites/148.png"
   },
   {
     "id": 149,
     "name": "Dragonite",
-    "image": "http://image-pokemonthingy.com/image/149"
+    "image": "https://pogoapi.net/sprites/149.png"
   },
   {
     "id": 150,
     "name": "Mewtwo",
-    "image": "http://image-pokemonthingy.com/image/150"
+    "image": "https://pogoapi.net/sprites/150.png"
   },
   {
     "id": 151,
     "name": "Mew",
-    "image": "http://image-pokemonthingy.com/image/151"
+    "image": "https://pogoapi.net/sprites/151.png"
   },
   {
     "id": 152,
     "name": "Chikorita",
-    "image": "http://image-pokemonthingy.com/image/152"
+    "image": "https://pogoapi.net/sprites/152.png"
   },
   {
     "id": 153,
     "name": "Bayleef",
-    "image": "http://image-pokemonthingy.com/image/153"
+    "image": "https://pogoapi.net/sprites/153.png"
   },
   {
     "id": 154,
     "name": "Meganium",
-    "image": "http://image-pokemonthingy.com/image/154"
+    "image": "https://pogoapi.net/sprites/154.png"
   },
   {
     "id": 155,
     "name": "Cyndaquil",
-    "image": "http://image-pokemonthingy.com/image/155"
+    "image": "https://pogoapi.net/sprites/155.png"
   },
   {
     "id": 156,
     "name": "Quilava",
-    "image": "http://image-pokemonthingy.com/image/156"
+    "image": "https://pogoapi.net/sprites/156.png"
   },
   {
     "id": 157,
     "name": "Typhlosion",
-    "image": "http://image-pokemonthingy.com/image/157"
+    "image": "https://pogoapi.net/sprites/157.png"
   },
   {
     "id": 158,
     "name": "Totodile",
-    "image": "http://image-pokemonthingy.com/image/158"
+    "image": "https://pogoapi.net/sprites/158.png"
   },
   {
     "id": 159,
     "name": "Croconaw",
-    "image": "http://image-pokemonthingy.com/image/159"
+    "image": "https://pogoapi.net/sprites/159.png"
   },
   {
     "id": 160,
     "name": "Feraligatr",
-    "image": "http://image-pokemonthingy.com/image/160"
+    "image": "https://pogoapi.net/sprites/160.png"
   },
   {
     "id": 161,
     "name": "Sentret",
-    "image": "http://image-pokemonthingy.com/image/161"
+    "image": "https://pogoapi.net/sprites/161.png"
   },
   {
     "id": 162,
     "name": "Furret",
-    "image": "http://image-pokemonthingy.com/image/162"
+    "image": "https://pogoapi.net/sprites/162.png"
   },
   {
     "id": 163,
     "name": "Hoothoot",
-    "image": "http://image-pokemonthingy.com/image/163"
+    "image": "https://pogoapi.net/sprites/163.png"
   },
   {
     "id": 164,
     "name": "Noctowl",
-    "image": "http://image-pokemonthingy.com/image/164"
+    "image": "https://pogoapi.net/sprites/164.png"
   },
   {
     "id": 165,
     "name": "Ledyba",
-    "image": "http://image-pokemonthingy.com/image/165"
+    "image": "https://pogoapi.net/sprites/165.png"
   },
   {
     "id": 166,
     "name": "Ledian",
-    "image": "http://image-pokemonthingy.com/image/166"
+    "image": "https://pogoapi.net/sprites/166.png"
   },
   {
     "id": 167,
     "name": "Spinarak",
-    "image": "http://image-pokemonthingy.com/image/167"
+    "image": "https://pogoapi.net/sprites/167.png"
   },
   {
     "id": 168,
     "name": "Ariados",
-    "image": "http://image-pokemonthingy.com/image/168"
+    "image": "https://pogoapi.net/sprites/168.png"
   },
   {
     "id": 169,
     "name": "Crobat",
-    "image": "http://image-pokemonthingy.com/image/169"
+    "image": "https://pogoapi.net/sprites/169.png"
   },
   {
     "id": 170,
     "name": "Chinchou",
-    "image": "http://image-pokemonthingy.com/image/170"
+    "image": "https://pogoapi.net/sprites/170.png"
   },
   {
     "id": 171,
     "name": "Lanturn",
-    "image": "http://image-pokemonthingy.com/image/171"
+    "image": "https://pogoapi.net/sprites/171.png"
   },
   {
     "id": 172,
     "name": "Pichu",
-    "image": "http://image-pokemonthingy.com/image/172"
+    "image": "https://pogoapi.net/sprites/172.png"
   },
   {
     "id": 173,
     "name": "Cleffa",
-    "image": "http://image-pokemonthingy.com/image/173"
+    "image": "https://pogoapi.net/sprites/173.png"
   },
   {
     "id": 174,
     "name": "Igglybuff",
-    "image": "http://image-pokemonthingy.com/image/174"
+    "image": "https://pogoapi.net/sprites/174.png"
   },
   {
     "id": 175,
     "name": "Togepi",
-    "image": "http://image-pokemonthingy.com/image/175"
+    "image": "https://pogoapi.net/sprites/175.png"
   },
   {
     "id": 176,
     "name": "Togetic",
-    "image": "http://image-pokemonthingy.com/image/176"
+    "image": "https://pogoapi.net/sprites/176.png"
   },
   {
     "id": 177,
     "name": "Natu",
-    "image": "http://image-pokemonthingy.com/image/177"
+    "image": "https://pogoapi.net/sprites/177.png"
   },
   {
     "id": 178,
     "name": "Xatu",
-    "image": "http://image-pokemonthingy.com/image/178"
+    "image": "https://pogoapi.net/sprites/178.png"
   },
   {
     "id": 179,
     "name": "Mareep",
-    "image": "http://image-pokemonthingy.com/image/179"
+    "image": "https://pogoapi.net/sprites/179.png"
   },
   {
     "id": 180,
     "name": "Flaaffy",
-    "image": "http://image-pokemonthingy.com/image/180"
+    "image": "https://pogoapi.net/sprites/180.png"
   },
   {
     "id": 181,
     "name": "Ampharos",
-    "image": "http://image-pokemonthingy.com/image/181"
+    "image": "https://pogoapi.net/sprites/181.png"
   },
   {
     "id": 182,
     "name": "Bellossom",
-    "image": "http://image-pokemonthingy.com/image/182"
+    "image": "https://pogoapi.net/sprites/182.png"
   },
   {
     "id": 183,
     "name": "Marill",
-    "image": "http://image-pokemonthingy.com/image/183"
+    "image": "https://pogoapi.net/sprites/183.png"
   },
   {
     "id": 184,
     "name": "Azumarill",
-    "image": "http://image-pokemonthingy.com/image/184"
+    "image": "https://pogoapi.net/sprites/184.png"
   },
   {
     "id": 185,
     "name": "Sudowoodo",
-    "image": "http://image-pokemonthingy.com/image/185"
+    "image": "https://pogoapi.net/sprites/185.png"
   },
   {
     "id": 186,
     "name": "Politoed",
-    "image": "http://image-pokemonthingy.com/image/186"
+    "image": "https://pogoapi.net/sprites/186.png"
   },
   {
     "id": 187,
     "name": "Hoppip",
-    "image": "http://image-pokemonthingy.com/image/187"
+    "image": "https://pogoapi.net/sprites/187.png"
   },
   {
     "id": 188,
     "name": "Skiploom",
-    "image": "http://image-pokemonthingy.com/image/188"
+    "image": "https://pogoapi.net/sprites/188.png"
   },
   {
     "id": 189,
     "name": "Jumpluff",
-    "image": "http://image-pokemonthingy.com/image/189"
+    "image": "https://pogoapi.net/sprites/189.png"
   },
   {
     "id": 190,
     "name": "Aipom",
-    "image": "http://image-pokemonthingy.com/image/190"
+    "image": "https://pogoapi.net/sprites/190.png"
   },
   {
     "id": 191,
     "name": "Sunkern",
-    "image": "http://image-pokemonthingy.com/image/191"
+    "image": "https://pogoapi.net/sprites/191.png"
   },
   {
     "id": 192,
     "name": "Sunflora",
-    "image": "http://image-pokemonthingy.com/image/192"
+    "image": "https://pogoapi.net/sprites/192.png"
   },
   {
     "id": 193,
     "name": "Yanma",
-    "image": "http://image-pokemonthingy.com/image/193"
+    "image": "https://pogoapi.net/sprites/193.png"
   },
   {
     "id": 194,
     "name": "Wooper",
-    "image": "http://image-pokemonthingy.com/image/194"
+    "image": "https://pogoapi.net/sprites/194.png"
   },
   {
     "id": 195,
     "name": "Quagsire",
-    "image": "http://image-pokemonthingy.com/image/195"
+    "image": "https://pogoapi.net/sprites/195.png"
   },
   {
     "id": 196,
     "name": "Espeon",
-    "image": "http://image-pokemonthingy.com/image/196"
+    "image": "https://pogoapi.net/sprites/196.png"
   },
   {
     "id": 197,
     "name": "Umbreon",
-    "image": "http://image-pokemonthingy.com/image/197"
+    "image": "https://pogoapi.net/sprites/197.png"
   },
   {
     "id": 198,
     "name": "Murkrow",
-    "image": "http://image-pokemonthingy.com/image/198"
+    "image": "https://pogoapi.net/sprites/198.png"
   },
   {
     "id": 199,
     "name": "Slowking",
-    "image": "http://image-pokemonthingy.com/image/199"
+    "image": "https://pogoapi.net/sprites/199.png"
   },
   {
     "id": 200,
     "name": "Misdreavus",
-    "image": "http://image-pokemonthingy.com/image/200"
+    "image": "https://pogoapi.net/sprites/200.png"
   },
   {
     "id": 201,
     "name": "Unown",
-    "image": "http://image-pokemonthingy.com/image/201"
+    "image": "https://pogoapi.net/sprites/201.png"
   },
   {
     "id": 202,
     "name": "Wobbuffet",
-    "image": "http://image-pokemonthingy.com/image/202"
+    "image": "https://pogoapi.net/sprites/202.png"
   },
   {
     "id": 203,
     "name": "Girafarig",
-    "image": "http://image-pokemonthingy.com/image/203"
+    "image": "https://pogoapi.net/sprites/203.png"
   },
   {
     "id": 204,
     "name": "Pineco",
-    "image": "http://image-pokemonthingy.com/image/204"
+    "image": "https://pogoapi.net/sprites/204.png"
   },
   {
     "id": 205,
     "name": "Forretress",
-    "image": "http://image-pokemonthingy.com/image/205"
+    "image": "https://pogoapi.net/sprites/205.png"
   },
   {
     "id": 206,
     "name": "Dunsparce",
-    "image": "http://image-pokemonthingy.com/image/206"
+    "image": "https://pogoapi.net/sprites/206.png"
   },
   {
     "id": 207,
     "name": "Gligar",
-    "image": "http://image-pokemonthingy.com/image/207"
+    "image": "https://pogoapi.net/sprites/207.png"
   },
   {
     "id": 208,
     "name": "Steelix",
-    "image": "http://image-pokemonthingy.com/image/208"
+    "image": "https://pogoapi.net/sprites/208.png"
   },
   {
     "id": 209,
     "name": "Snubbull",
-    "image": "http://image-pokemonthingy.com/image/209"
+    "image": "https://pogoapi.net/sprites/209.png"
   },
   {
     "id": 210,
     "name": "Granbull",
-    "image": "http://image-pokemonthingy.com/image/210"
+    "image": "https://pogoapi.net/sprites/210.png"
   },
   {
     "id": 211,
     "name": "Qwilfish",
-    "image": "http://image-pokemonthingy.com/image/211"
+    "image": "https://pogoapi.net/sprites/211.png"
   },
   {
     "id": 212,
     "name": "Scizor",
-    "image": "http://image-pokemonthingy.com/image/212"
+    "image": "https://pogoapi.net/sprites/212.png"
   },
   {
     "id": 213,
     "name": "Shuckle",
-    "image": "http://image-pokemonthingy.com/image/213"
+    "image": "https://pogoapi.net/sprites/213.png"
   },
   {
     "id": 214,
     "name": "Heracross",
-    "image": "http://image-pokemonthingy.com/image/214"
+    "image": "https://pogoapi.net/sprites/214.png"
   },
   {
     "id": 215,
     "name": "Sneasel",
-    "image": "http://image-pokemonthingy.com/image/215"
+    "image": "https://pogoapi.net/sprites/215.png"
   },
   {
     "id": 216,
     "name": "Teddiursa",
-    "image": "http://image-pokemonthingy.com/image/216"
+    "image": "https://pogoapi.net/sprites/216.png"
   },
   {
     "id": 217,
     "name": "Ursaring",
-    "image": "http://image-pokemonthingy.com/image/217"
+    "image": "https://pogoapi.net/sprites/217.png"
   },
   {
     "id": 218,
     "name": "Slugma",
-    "image": "http://image-pokemonthingy.com/image/218"
+    "image": "https://pogoapi.net/sprites/218.png"
   },
   {
     "id": 219,
     "name": "Magcargo",
-    "image": "http://image-pokemonthingy.com/image/219"
+    "image": "https://pogoapi.net/sprites/219.png"
   },
   {
     "id": 220,
     "name": "Swinub",
-    "image": "http://image-pokemonthingy.com/image/220"
+    "image": "https://pogoapi.net/sprites/220.png"
   },
   {
     "id": 221,
     "name": "Piloswine",
-    "image": "http://image-pokemonthingy.com/image/221"
+    "image": "https://pogoapi.net/sprites/221.png"
   },
   {
     "id": 222,
     "name": "Corsola",
-    "image": "http://image-pokemonthingy.com/image/222"
+    "image": "https://pogoapi.net/sprites/222.png"
   },
   {
     "id": 223,
     "name": "Remoraid",
-    "image": "http://image-pokemonthingy.com/image/223"
+    "image": "https://pogoapi.net/sprites/223.png"
   },
   {
     "id": 224,
     "name": "Octillery",
-    "image": "http://image-pokemonthingy.com/image/224"
+    "image": "https://pogoapi.net/sprites/224.png"
   },
   {
     "id": 225,
     "name": "Delibird",
-    "image": "http://image-pokemonthingy.com/image/225"
+    "image": "https://pogoapi.net/sprites/225.png"
   },
   {
     "id": 226,
     "name": "Mantine",
-    "image": "http://image-pokemonthingy.com/image/226"
+    "image": "https://pogoapi.net/sprites/226.png"
   },
   {
     "id": 227,
     "name": "Skarmory",
-    "image": "http://image-pokemonthingy.com/image/227"
+    "image": "https://pogoapi.net/sprites/227.png"
   },
   {
     "id": 228,
     "name": "Houndour",
-    "image": "http://image-pokemonthingy.com/image/228"
+    "image": "https://pogoapi.net/sprites/228.png"
   },
   {
     "id": 229,
     "name": "Houndoom",
-    "image": "http://image-pokemonthingy.com/image/229"
+    "image": "https://pogoapi.net/sprites/229.png"
   },
   {
     "id": 230,
     "name": "Kingdra",
-    "image": "http://image-pokemonthingy.com/image/230"
+    "image": "https://pogoapi.net/sprites/230.png"
   },
   {
     "id": 231,
     "name": "Phanpy",
-    "image": "http://image-pokemonthingy.com/image/231"
+    "image": "https://pogoapi.net/sprites/231.png"
   },
   {
     "id": 232,
     "name": "Donphan",
-    "image": "http://image-pokemonthingy.com/image/232"
+    "image": "https://pogoapi.net/sprites/232.png"
   },
   {
     "id": 233,
     "name": "Porygon2",
-    "image": "http://image-pokemonthingy.com/image/233"
+    "image": "https://pogoapi.net/sprites/233.png"
   },
   {
     "id": 234,
     "name": "Stantler",
-    "image": "http://image-pokemonthingy.com/image/234"
+    "image": "https://pogoapi.net/sprites/234.png"
   },
   {
     "id": 235,
     "name": "Smeargle",
-    "image": "http://image-pokemonthingy.com/image/235"
+    "image": "https://pogoapi.net/sprites/235.png"
   },
   {
     "id": 236,
     "name": "Tyrogue",
-    "image": "http://image-pokemonthingy.com/image/236"
+    "image": "https://pogoapi.net/sprites/236.png"
   },
   {
     "id": 237,
     "name": "Hitmontop",
-    "image": "http://image-pokemonthingy.com/image/237"
+    "image": "https://pogoapi.net/sprites/237.png"
   },
   {
     "id": 238,
     "name": "Smoochum",
-    "image": "http://image-pokemonthingy.com/image/238"
+    "image": "https://pogoapi.net/sprites/238.png"
   },
   {
     "id": 239,
     "name": "Elekid",
-    "image": "http://image-pokemonthingy.com/image/239"
+    "image": "https://pogoapi.net/sprites/239.png"
   },
   {
     "id": 240,
     "name": "Magby",
-    "image": "http://image-pokemonthingy.com/image/240"
+    "image": "https://pogoapi.net/sprites/240.png"
   },
   {
     "id": 241,
     "name": "Miltank",
-    "image": "http://image-pokemonthingy.com/image/241"
+    "image": "https://pogoapi.net/sprites/241.png"
   },
   {
     "id": 242,
     "name": "Blissey",
-    "image": "http://image-pokemonthingy.com/image/242"
+    "image": "https://pogoapi.net/sprites/242.png"
   },
   {
     "id": 243,
     "name": "Raikou",
-    "image": "http://image-pokemonthingy.com/image/243"
+    "image": "https://pogoapi.net/sprites/243.png"
   },
   {
     "id": 244,
     "name": "Entei",
-    "image": "http://image-pokemonthingy.com/image/244"
+    "image": "https://pogoapi.net/sprites/244.png"
   },
   {
     "id": 245,
     "name": "Suicune",
-    "image": "http://image-pokemonthingy.com/image/245"
+    "image": "https://pogoapi.net/sprites/245.png"
   },
   {
     "id": 246,
     "name": "Larvitar",
-    "image": "http://image-pokemonthingy.com/image/246"
+    "image": "https://pogoapi.net/sprites/246.png"
   },
   {
     "id": 247,
     "name": "Pupitar",
-    "image": "http://image-pokemonthingy.com/image/247"
+    "image": "https://pogoapi.net/sprites/247.png"
   },
   {
     "id": 248,
     "name": "Tyranitar",
-    "image": "http://image-pokemonthingy.com/image/248"
+    "image": "https://pogoapi.net/sprites/248.png"
   },
   {
     "id": 249,
     "name": "Lugia",
-    "image": "http://image-pokemonthingy.com/image/249"
+    "image": "https://pogoapi.net/sprites/249.png"
   },
   {
     "id": 250,
     "name": "Ho-Oh",
-    "image": "http://image-pokemonthingy.com/image/250"
+    "image": "https://pogoapi.net/sprites/250.png"
   },
   {
     "id": 251,
     "name": "Celebi",
-    "image": "http://image-pokemonthingy.com/image/251"
+    "image": "https://pogoapi.net/sprites/251.png"
   },
   {
     "id": 252,
     "name": "Treecko",
-    "image": "http://image-pokemonthingy.com/image/252"
+    "image": "https://pogoapi.net/sprites/252.png"
   },
   {
     "id": 253,
     "name": "Grovyle",
-    "image": "http://image-pokemonthingy.com/image/253"
+    "image": "https://pogoapi.net/sprites/253.png"
   },
   {
     "id": 254,
     "name": "Sceptile",
-    "image": "http://image-pokemonthingy.com/image/254"
+    "image": "https://pogoapi.net/sprites/254.png"
   },
   {
     "id": 255,
     "name": "Torchic",
-    "image": "http://image-pokemonthingy.com/image/255"
+    "image": "https://pogoapi.net/sprites/255.png"
   },
   {
     "id": 256,
     "name": "Combusken",
-    "image": "http://image-pokemonthingy.com/image/256"
+    "image": "https://pogoapi.net/sprites/256.png"
   },
   {
     "id": 257,
     "name": "Blaziken",
-    "image": "http://image-pokemonthingy.com/image/257"
+    "image": "https://pogoapi.net/sprites/257.png"
   },
   {
     "id": 258,
     "name": "Mudkip",
-    "image": "http://image-pokemonthingy.com/image/258"
+    "image": "https://pogoapi.net/sprites/258.png"
   },
   {
     "id": 259,
     "name": "Marshtomp",
-    "image": "http://image-pokemonthingy.com/image/259"
+    "image": "https://pogoapi.net/sprites/259.png"
   },
   {
     "id": 260,
     "name": "Swampert",
-    "image": "http://image-pokemonthingy.com/image/260"
+    "image": "https://pogoapi.net/sprites/260.png"
   },
   {
     "id": 261,
     "name": "Poochyena",
-    "image": "http://image-pokemonthingy.com/image/261"
+    "image": "https://pogoapi.net/sprites/261.png"
   },
   {
     "id": 262,
     "name": "Mightyena",
-    "image": "http://image-pokemonthingy.com/image/262"
+    "image": "https://pogoapi.net/sprites/262.png"
   },
   {
     "id": 263,
     "name": "Zigzagoon",
-    "image": "http://image-pokemonthingy.com/image/263"
+    "image": "https://pogoapi.net/sprites/263.png"
   },
   {
     "id": 264,
     "name": "Linoone",
-    "image": "http://image-pokemonthingy.com/image/264"
+    "image": "https://pogoapi.net/sprites/264.png"
   },
   {
     "id": 265,
     "name": "Wurmple",
-    "image": "http://image-pokemonthingy.com/image/265"
+    "image": "https://pogoapi.net/sprites/265.png"
   },
   {
     "id": 266,
     "name": "Silcoon",
-    "image": "http://image-pokemonthingy.com/image/266"
+    "image": "https://pogoapi.net/sprites/266.png"
   },
   {
     "id": 267,
     "name": "Beautifly",
-    "image": "http://image-pokemonthingy.com/image/267"
+    "image": "https://pogoapi.net/sprites/267.png"
   },
   {
     "id": 268,
     "name": "Cascoon",
-    "image": "http://image-pokemonthingy.com/image/268"
+    "image": "https://pogoapi.net/sprites/268.png"
   },
   {
     "id": 269,
     "name": "Dustox",
-    "image": "http://image-pokemonthingy.com/image/269"
+    "image": "https://pogoapi.net/sprites/269.png"
   },
   {
     "id": 270,
     "name": "Lotad",
-    "image": "http://image-pokemonthingy.com/image/270"
+    "image": "https://pogoapi.net/sprites/270.png"
   },
   {
     "id": 271,
     "name": "Lombre",
-    "image": "http://image-pokemonthingy.com/image/271"
+    "image": "https://pogoapi.net/sprites/271.png"
   },
   {
     "id": 272,
     "name": "Ludicolo",
-    "image": "http://image-pokemonthingy.com/image/272"
+    "image": "https://pogoapi.net/sprites/272.png"
   },
   {
     "id": 273,
     "name": "Seedot",
-    "image": "http://image-pokemonthingy.com/image/273"
+    "image": "https://pogoapi.net/sprites/273.png"
   },
   {
     "id": 274,
     "name": "Nuzleaf",
-    "image": "http://image-pokemonthingy.com/image/274"
+    "image": "https://pogoapi.net/sprites/274.png"
   },
   {
     "id": 275,
     "name": "Shiftry",
-    "image": "http://image-pokemonthingy.com/image/275"
+    "image": "https://pogoapi.net/sprites/275.png"
   },
   {
     "id": 276,
     "name": "Taillow",
-    "image": "http://image-pokemonthingy.com/image/276"
+    "image": "https://pogoapi.net/sprites/276.png"
   },
   {
     "id": 277,
     "name": "Swellow",
-    "image": "http://image-pokemonthingy.com/image/277"
+    "image": "https://pogoapi.net/sprites/277.png"
   },
   {
     "id": 278,
     "name": "Wingull",
-    "image": "http://image-pokemonthingy.com/image/278"
+    "image": "https://pogoapi.net/sprites/278.png"
   },
   {
     "id": 279,
     "name": "Pelipper",
-    "image": "http://image-pokemonthingy.com/image/279"
+    "image": "https://pogoapi.net/sprites/279.png"
   },
   {
     "id": 280,
     "name": "Ralts",
-    "image": "http://image-pokemonthingy.com/image/280"
+    "image": "https://pogoapi.net/sprites/280.png"
   },
   {
     "id": 281,
     "name": "Kirlia",
-    "image": "http://image-pokemonthingy.com/image/281"
+    "image": "https://pogoapi.net/sprites/281.png"
   },
   {
     "id": 282,
     "name": "Gardevoir",
-    "image": "http://image-pokemonthingy.com/image/282"
+    "image": "https://pogoapi.net/sprites/282.png"
   },
   {
     "id": 283,
     "name": "Surskit",
-    "image": "http://image-pokemonthingy.com/image/283"
+    "image": "https://pogoapi.net/sprites/283.png"
   },
   {
     "id": 284,
     "name": "Masquerain",
-    "image": "http://image-pokemonthingy.com/image/284"
+    "image": "https://pogoapi.net/sprites/284.png"
   },
   {
     "id": 285,
     "name": "Shroomish",
-    "image": "http://image-pokemonthingy.com/image/285"
+    "image": "https://pogoapi.net/sprites/285.png"
   },
   {
     "id": 286,
     "name": "Breloom",
-    "image": "http://image-pokemonthingy.com/image/286"
+    "image": "https://pogoapi.net/sprites/286.png"
   },
   {
     "id": 287,
     "name": "Slakoth",
-    "image": "http://image-pokemonthingy.com/image/287"
+    "image": "https://pogoapi.net/sprites/287.png"
   },
   {
     "id": 288,
     "name": "Vigoroth",
-    "image": "http://image-pokemonthingy.com/image/288"
+    "image": "https://pogoapi.net/sprites/288.png"
   },
   {
     "id": 289,
     "name": "Slaking",
-    "image": "http://image-pokemonthingy.com/image/289"
+    "image": "https://pogoapi.net/sprites/289.png"
   },
   {
     "id": 290,
     "name": "Nincada",
-    "image": "http://image-pokemonthingy.com/image/290"
+    "image": "https://pogoapi.net/sprites/290.png"
   },
   {
     "id": 291,
     "name": "Ninjask",
-    "image": "http://image-pokemonthingy.com/image/291"
+    "image": "https://pogoapi.net/sprites/291.png"
   },
   {
     "id": 292,
     "name": "Shedinja",
-    "image": "http://image-pokemonthingy.com/image/292"
+    "image": "https://pogoapi.net/sprites/292.png"
   },
   {
     "id": 293,
     "name": "Whismur",
-    "image": "http://image-pokemonthingy.com/image/293"
+    "image": "https://pogoapi.net/sprites/293.png"
   },
   {
     "id": 294,
     "name": "Loudred",
-    "image": "http://image-pokemonthingy.com/image/294"
+    "image": "https://pogoapi.net/sprites/294.png"
   },
   {
     "id": 295,
     "name": "Exploud",
-    "image": "http://image-pokemonthingy.com/image/295"
+    "image": "https://pogoapi.net/sprites/295.png"
   },
   {
     "id": 296,
     "name": "Makuhita",
-    "image": "http://image-pokemonthingy.com/image/296"
+    "image": "https://pogoapi.net/sprites/296.png"
   },
   {
     "id": 297,
     "name": "Hariyama",
-    "image": "http://image-pokemonthingy.com/image/297"
+    "image": "https://pogoapi.net/sprites/297.png"
   },
   {
     "id": 298,
     "name": "Azurill",
-    "image": "http://image-pokemonthingy.com/image/298"
+    "image": "https://pogoapi.net/sprites/298.png"
   },
   {
     "id": 299,
     "name": "Nosepass",
-    "image": "http://image-pokemonthingy.com/image/299"
+    "image": "https://pogoapi.net/sprites/299.png"
   },
   {
     "id": 300,
     "name": "Skitty",
-    "image": "http://image-pokemonthingy.com/image/300"
+    "image": "https://pogoapi.net/sprites/300.png"
   },
   {
     "id": 301,
     "name": "Delcatty",
-    "image": "http://image-pokemonthingy.com/image/301"
+    "image": "https://pogoapi.net/sprites/301.png"
   },
   {
     "id": 302,
     "name": "Sableye",
-    "image": "http://image-pokemonthingy.com/image/302"
+    "image": "https://pogoapi.net/sprites/302.png"
   },
   {
     "id": 303,
     "name": "Mawile",
-    "image": "http://image-pokemonthingy.com/image/303"
+    "image": "https://pogoapi.net/sprites/303.png"
   },
   {
     "id": 304,
     "name": "Aron",
-    "image": "http://image-pokemonthingy.com/image/304"
+    "image": "https://pogoapi.net/sprites/304.png"
   },
   {
     "id": 305,
     "name": "Lairon",
-    "image": "http://image-pokemonthingy.com/image/305"
+    "image": "https://pogoapi.net/sprites/305.png"
   },
   {
     "id": 306,
     "name": "Aggron",
-    "image": "http://image-pokemonthingy.com/image/306"
+    "image": "https://pogoapi.net/sprites/306.png"
   },
   {
     "id": 307,
     "name": "Meditite",
-    "image": "http://image-pokemonthingy.com/image/307"
+    "image": "https://pogoapi.net/sprites/307.png"
   },
   {
     "id": 308,
     "name": "Medicham",
-    "image": "http://image-pokemonthingy.com/image/308"
+    "image": "https://pogoapi.net/sprites/308.png"
   },
   {
     "id": 309,
     "name": "Electrike",
-    "image": "http://image-pokemonthingy.com/image/309"
+    "image": "https://pogoapi.net/sprites/309.png"
   },
   {
     "id": 310,
     "name": "Manectric",
-    "image": "http://image-pokemonthingy.com/image/310"
+    "image": "https://pogoapi.net/sprites/310.png"
   },
   {
     "id": 311,
     "name": "Plusle",
-    "image": "http://image-pokemonthingy.com/image/311"
+    "image": "https://pogoapi.net/sprites/311.png"
   },
   {
     "id": 312,
     "name": "Minun",
-    "image": "http://image-pokemonthingy.com/image/312"
+    "image": "https://pogoapi.net/sprites/312.png"
   },
   {
     "id": 313,
     "name": "Volbeat",
-    "image": "http://image-pokemonthingy.com/image/313"
+    "image": "https://pogoapi.net/sprites/313.png"
   },
   {
     "id": 314,
     "name": "Illumise",
-    "image": "http://image-pokemonthingy.com/image/314"
+    "image": "https://pogoapi.net/sprites/314.png"
   },
   {
     "id": 315,
     "name": "Roselia",
-    "image": "http://image-pokemonthingy.com/image/315"
+    "image": "https://pogoapi.net/sprites/315.png"
   },
   {
     "id": 316,
     "name": "Gulpin",
-    "image": "http://image-pokemonthingy.com/image/316"
+    "image": "https://pogoapi.net/sprites/316.png"
   },
   {
     "id": 317,
     "name": "Swalot",
-    "image": "http://image-pokemonthingy.com/image/317"
+    "image": "https://pogoapi.net/sprites/317.png"
   },
   {
     "id": 318,
     "name": "Carvanha",
-    "image": "http://image-pokemonthingy.com/image/318"
+    "image": "https://pogoapi.net/sprites/318.png"
   },
   {
     "id": 319,
     "name": "Sharpedo",
-    "image": "http://image-pokemonthingy.com/image/319"
+    "image": "https://pogoapi.net/sprites/319.png"
   },
   {
     "id": 320,
     "name": "Wailmer",
-    "image": "http://image-pokemonthingy.com/image/320"
+    "image": "https://pogoapi.net/sprites/320.png"
   },
   {
     "id": 321,
     "name": "Wailord",
-    "image": "http://image-pokemonthingy.com/image/321"
+    "image": "https://pogoapi.net/sprites/321.png"
   },
   {
     "id": 322,
     "name": "Numel",
-    "image": "http://image-pokemonthingy.com/image/322"
+    "image": "https://pogoapi.net/sprites/322.png"
   },
   {
     "id": 323,
     "name": "Camerupt",
-    "image": "http://image-pokemonthingy.com/image/323"
+    "image": "https://pogoapi.net/sprites/323.png"
   },
   {
     "id": 324,
     "name": "Torkoal",
-    "image": "http://image-pokemonthingy.com/image/324"
+    "image": "https://pogoapi.net/sprites/324.png"
   },
   {
     "id": 325,
     "name": "Spoink",
-    "image": "http://image-pokemonthingy.com/image/325"
+    "image": "https://pogoapi.net/sprites/325.png"
   },
   {
     "id": 326,
     "name": "Grumpig",
-    "image": "http://image-pokemonthingy.com/image/326"
+    "image": "https://pogoapi.net/sprites/326.png"
   },
   {
     "id": 327,
     "name": "Spinda",
-    "image": "http://image-pokemonthingy.com/image/327"
+    "image": "https://pogoapi.net/sprites/327.png"
   },
   {
     "id": 328,
     "name": "Trapinch",
-    "image": "http://image-pokemonthingy.com/image/328"
+    "image": "https://pogoapi.net/sprites/328.png"
   },
   {
     "id": 329,
     "name": "Vibrava",
-    "image": "http://image-pokemonthingy.com/image/329"
+    "image": "https://pogoapi.net/sprites/329.png"
   },
   {
     "id": 330,
     "name": "Flygon",
-    "image": "http://image-pokemonthingy.com/image/330"
+    "image": "https://pogoapi.net/sprites/330.png"
   },
   {
     "id": 331,
     "name": "Cacnea",
-    "image": "http://image-pokemonthingy.com/image/331"
+    "image": "https://pogoapi.net/sprites/331.png"
   },
   {
     "id": 332,
     "name": "Cacturne",
-    "image": "http://image-pokemonthingy.com/image/332"
+    "image": "https://pogoapi.net/sprites/332.png"
   },
   {
     "id": 333,
     "name": "Swablu",
-    "image": "http://image-pokemonthingy.com/image/333"
+    "image": "https://pogoapi.net/sprites/333.png"
   },
   {
     "id": 334,
     "name": "Altaria",
-    "image": "http://image-pokemonthingy.com/image/334"
+    "image": "https://pogoapi.net/sprites/334.png"
   },
   {
     "id": 335,
     "name": "Zangoose",
-    "image": "http://image-pokemonthingy.com/image/335"
+    "image": "https://pogoapi.net/sprites/335.png"
   },
   {
     "id": 336,
     "name": "Seviper",
-    "image": "http://image-pokemonthingy.com/image/336"
+    "image": "https://pogoapi.net/sprites/336.png"
   },
   {
     "id": 337,
     "name": "Lunatone",
-    "image": "http://image-pokemonthingy.com/image/337"
+    "image": "https://pogoapi.net/sprites/337.png"
   },
   {
     "id": 338,
     "name": "Solrock",
-    "image": "http://image-pokemonthingy.com/image/338"
+    "image": "https://pogoapi.net/sprites/338.png"
   },
   {
     "id": 339,
     "name": "Barboach",
-    "image": "http://image-pokemonthingy.com/image/339"
+    "image": "https://pogoapi.net/sprites/339.png"
   },
   {
     "id": 340,
     "name": "Whiscash",
-    "image": "http://image-pokemonthingy.com/image/340"
+    "image": "https://pogoapi.net/sprites/340.png"
   },
   {
     "id": 341,
     "name": "Corphish",
-    "image": "http://image-pokemonthingy.com/image/341"
+    "image": "https://pogoapi.net/sprites/341.png"
   },
   {
     "id": 342,
     "name": "Crawdaunt",
-    "image": "http://image-pokemonthingy.com/image/342"
+    "image": "https://pogoapi.net/sprites/342.png"
   },
   {
     "id": 343,
     "name": "Baltoy",
-    "image": "http://image-pokemonthingy.com/image/343"
+    "image": "https://pogoapi.net/sprites/343.png"
   },
   {
     "id": 344,
     "name": "Claydol",
-    "image": "http://image-pokemonthingy.com/image/344"
+    "image": "https://pogoapi.net/sprites/344.png"
   },
   {
     "id": 345,
     "name": "Lileep",
-    "image": "http://image-pokemonthingy.com/image/345"
+    "image": "https://pogoapi.net/sprites/345.png"
   },
   {
     "id": 346,
     "name": "Cradily",
-    "image": "http://image-pokemonthingy.com/image/346"
+    "image": "https://pogoapi.net/sprites/346.png"
   },
   {
     "id": 347,
     "name": "Anorith",
-    "image": "http://image-pokemonthingy.com/image/347"
+    "image": "https://pogoapi.net/sprites/347.png"
   },
   {
     "id": 348,
     "name": "Armaldo",
-    "image": "http://image-pokemonthingy.com/image/348"
+    "image": "https://pogoapi.net/sprites/348.png"
   },
   {
     "id": 349,
     "name": "Feebas",
-    "image": "http://image-pokemonthingy.com/image/349"
+    "image": "https://pogoapi.net/sprites/349.png"
   },
   {
     "id": 350,
     "name": "Milotic",
-    "image": "http://image-pokemonthingy.com/image/350"
+    "image": "https://pogoapi.net/sprites/350.png"
   },
   {
     "id": 351,
     "name": "Castform",
-    "image": "http://image-pokemonthingy.com/image/351"
+    "image": "https://pogoapi.net/sprites/351.png"
   },
   {
     "id": 353,
     "name": "Shuppet",
-    "image": "http://image-pokemonthingy.com/image/353"
+    "image": "https://pogoapi.net/sprites/353.png"
   },
   {
     "id": 354,
     "name": "Banette",
-    "image": "http://image-pokemonthingy.com/image/354"
+    "image": "https://pogoapi.net/sprites/354.png"
   },
   {
     "id": 355,
     "name": "Duskull",
-    "image": "http://image-pokemonthingy.com/image/355"
+    "image": "https://pogoapi.net/sprites/355.png"
   },
   {
     "id": 356,
     "name": "Dusclops",
-    "image": "http://image-pokemonthingy.com/image/356"
+    "image": "https://pogoapi.net/sprites/356.png"
   },
   {
     "id": 357,
     "name": "Tropius",
-    "image": "http://image-pokemonthingy.com/image/357"
+    "image": "https://pogoapi.net/sprites/357.png"
   },
   {
     "id": 358,
     "name": "Chimecho",
-    "image": "http://image-pokemonthingy.com/image/358"
+    "image": "https://pogoapi.net/sprites/358.png"
   },
   {
     "id": 359,
     "name": "Absol",
-    "image": "http://image-pokemonthingy.com/image/359"
+    "image": "https://pogoapi.net/sprites/359.png"
   },
   {
     "id": 360,
     "name": "Wynaut",
-    "image": "http://image-pokemonthingy.com/image/360"
+    "image": "https://pogoapi.net/sprites/360.png"
   },
   {
     "id": 361,
     "name": "Snorunt",
-    "image": "http://image-pokemonthingy.com/image/361"
+    "image": "https://pogoapi.net/sprites/361.png"
   },
   {
     "id": 362,
     "name": "Glalie",
-    "image": "http://image-pokemonthingy.com/image/362"
+    "image": "https://pogoapi.net/sprites/362.png"
   },
   {
     "id": 363,
     "name": "Spheal",
-    "image": "http://image-pokemonthingy.com/image/363"
+    "image": "https://pogoapi.net/sprites/363.png"
   },
   {
     "id": 364,
     "name": "Sealeo",
-    "image": "http://image-pokemonthingy.com/image/364"
+    "image": "https://pogoapi.net/sprites/364.png"
   },
   {
     "id": 365,
     "name": "Walrein",
-    "image": "http://image-pokemonthingy.com/image/365"
+    "image": "https://pogoapi.net/sprites/365.png"
   },
   {
     "id": 366,
     "name": "Clamperl",
-    "image": "http://image-pokemonthingy.com/image/366"
+    "image": "https://pogoapi.net/sprites/366.png"
   },
   {
     "id": 367,
     "name": "Huntail",
-    "image": "http://image-pokemonthingy.com/image/367"
+    "image": "https://pogoapi.net/sprites/367.png"
   },
   {
     "id": 368,
     "name": "Gorebyss",
-    "image": "http://image-pokemonthingy.com/image/368"
+    "image": "https://pogoapi.net/sprites/368.png"
   },
   {
     "id": 369,
     "name": "Relicanth",
-    "image": "http://image-pokemonthingy.com/image/369"
+    "image": "https://pogoapi.net/sprites/369.png"
   },
   {
     "id": 370,
     "name": "Luvdisc",
-    "image": "http://image-pokemonthingy.com/image/370"
+    "image": "https://pogoapi.net/sprites/370.png"
   },
   {
     "id": 371,
     "name": "Bagon",
-    "image": "http://image-pokemonthingy.com/image/371"
+    "image": "https://pogoapi.net/sprites/371.png"
   },
   {
     "id": 372,
     "name": "Shelgon",
-    "image": "http://image-pokemonthingy.com/image/372"
+    "image": "https://pogoapi.net/sprites/372.png"
   },
   {
     "id": 373,
     "name": "Salamence",
-    "image": "http://image-pokemonthingy.com/image/373"
+    "image": "https://pogoapi.net/sprites/373.png"
   },
   {
     "id": 374,
     "name": "Beldum",
-    "image": "http://image-pokemonthingy.com/image/374"
+    "image": "https://pogoapi.net/sprites/374.png"
   },
   {
     "id": 375,
     "name": "Metang",
-    "image": "http://image-pokemonthingy.com/image/375"
+    "image": "https://pogoapi.net/sprites/375.png"
   },
   {
     "id": 376,
     "name": "Metagross",
-    "image": "http://image-pokemonthingy.com/image/376"
+    "image": "https://pogoapi.net/sprites/376.png"
   },
   {
     "id": 377,
     "name": "Regirock",
-    "image": "http://image-pokemonthingy.com/image/377"
+    "image": "https://pogoapi.net/sprites/377.png"
   },
   {
     "id": 378,
     "name": "Regice",
-    "image": "http://image-pokemonthingy.com/image/378"
+    "image": "https://pogoapi.net/sprites/378.png"
   },
   {
     "id": 379,
     "name": "Registeel",
-    "image": "http://image-pokemonthingy.com/image/379"
+    "image": "https://pogoapi.net/sprites/379.png"
   },
   {
     "id": 380,
     "name": "Latias",
-    "image": "http://image-pokemonthingy.com/image/380"
+    "image": "https://pogoapi.net/sprites/380.png"
   },
   {
     "id": 381,
     "name": "Latios",
-    "image": "http://image-pokemonthingy.com/image/381"
+    "image": "https://pogoapi.net/sprites/381.png"
   },
   {
     "id": 382,
     "name": "Kyogre",
-    "image": "http://image-pokemonthingy.com/image/382"
+    "image": "https://pogoapi.net/sprites/382.png"
   },
   {
     "id": 383,
     "name": "Groudon",
-    "image": "http://image-pokemonthingy.com/image/383"
+    "image": "https://pogoapi.net/sprites/383.png"
   },
   {
     "id": 384,
     "name": "Rayquaza",
-    "image": "http://image-pokemonthingy.com/image/384"
+    "image": "https://pogoapi.net/sprites/384.png"
   },
   {
     "id": 385,
     "name": "Jirachi",
-    "image": "http://image-pokemonthingy.com/image/385"
+    "image": "https://pogoapi.net/sprites/385.png"
   },
   {
     "id": 386,
     "name": "Deoxys",
-    "image": "http://image-pokemonthingy.com/image/386"
+    "image": "https://pogoapi.net/sprites/386.png"
   },
   {
     "id": 387,
     "name": "Turtwig",
-    "image": "http://image-pokemonthingy.com/image/387"
+    "image": "https://pogoapi.net/sprites/387.png"
   },
   {
     "id": 388,
     "name": "Grotle",
-    "image": "http://image-pokemonthingy.com/image/388"
+    "image": "https://pogoapi.net/sprites/388.png"
   },
   {
     "id": 389,
     "name": "Torterra",
-    "image": "http://image-pokemonthingy.com/image/389"
+    "image": "https://pogoapi.net/sprites/389.png"
   },
   {
     "id": 390,
     "name": "Chimchar",
-    "image": "http://image-pokemonthingy.com/image/390"
+    "image": "https://pogoapi.net/sprites/390.png"
   },
   {
     "id": 391,
     "name": "Monferno",
-    "image": "http://image-pokemonthingy.com/image/391"
+    "image": "https://pogoapi.net/sprites/391.png"
   },
   {
     "id": 392,
     "name": "Infernape",
-    "image": "http://image-pokemonthingy.com/image/392"
+    "image": "https://pogoapi.net/sprites/392.png"
   },
   {
     "id": 393,
     "name": "Piplup",
-    "image": "http://image-pokemonthingy.com/image/393"
+    "image": "https://pogoapi.net/sprites/393.png"
   },
   {
     "id": 394,
     "name": "Prinplup",
-    "image": "http://image-pokemonthingy.com/image/394"
+    "image": "https://pogoapi.net/sprites/394.png"
   },
   {
     "id": 395,
     "name": "Empoleon",
-    "image": "http://image-pokemonthingy.com/image/395"
+    "image": "https://pogoapi.net/sprites/395.png"
   },
   {
     "id": 396,
     "name": "Starly",
-    "image": "http://image-pokemonthingy.com/image/396"
+    "image": "https://pogoapi.net/sprites/396.png"
   },
   {
     "id": 397,
     "name": "Staravia",
-    "image": "http://image-pokemonthingy.com/image/397"
+    "image": "https://pogoapi.net/sprites/397.png"
   },
   {
     "id": 398,
     "name": "Staraptor",
-    "image": "http://image-pokemonthingy.com/image/398"
+    "image": "https://pogoapi.net/sprites/398.png"
   },
   {
     "id": 399,
     "name": "Bidoof",
-    "image": "http://image-pokemonthingy.com/image/399"
+    "image": "https://pogoapi.net/sprites/399.png"
   },
   {
     "id": 400,
     "name": "Bibarel",
-    "image": "http://image-pokemonthingy.com/image/400"
+    "image": "https://pogoapi.net/sprites/400.png"
   },
   {
     "id": 401,
     "name": "Kricketot",
-    "image": "http://image-pokemonthingy.com/image/401"
+    "image": "https://pogoapi.net/sprites/401.png"
   },
   {
     "id": 402,
     "name": "Kricketune",
-    "image": "http://image-pokemonthingy.com/image/402"
+    "image": "https://pogoapi.net/sprites/402.png"
   },
   {
     "id": 403,
     "name": "Shinx",
-    "image": "http://image-pokemonthingy.com/image/403"
+    "image": "https://pogoapi.net/sprites/403.png"
   },
   {
     "id": 404,
     "name": "Luxio",
-    "image": "http://image-pokemonthingy.com/image/404"
+    "image": "https://pogoapi.net/sprites/404.png"
   },
   {
     "id": 405,
     "name": "Luxray",
-    "image": "http://image-pokemonthingy.com/image/405"
+    "image": "https://pogoapi.net/sprites/405.png"
   },
   {
     "id": 406,
     "name": "Budew",
-    "image": "http://image-pokemonthingy.com/image/406"
+    "image": "https://pogoapi.net/sprites/406.png"
   },
   {
     "id": 407,
     "name": "Roserade",
-    "image": "http://image-pokemonthingy.com/image/407"
+    "image": "https://pogoapi.net/sprites/407.png"
   },
   {
     "id": 408,
     "name": "Cranidos",
-    "image": "http://image-pokemonthingy.com/image/408"
+    "image": "https://pogoapi.net/sprites/408.png"
   },
   {
     "id": 409,
     "name": "Rampardos",
-    "image": "http://image-pokemonthingy.com/image/409"
+    "image": "https://pogoapi.net/sprites/409.png"
   },
   {
     "id": 410,
     "name": "Shieldon",
-    "image": "http://image-pokemonthingy.com/image/410"
+    "image": "https://pogoapi.net/sprites/410.png"
   },
   {
     "id": 411,
     "name": "Bastiodon",
-    "image": "http://image-pokemonthingy.com/image/411"
+    "image": "https://pogoapi.net/sprites/411.png"
   },
   {
     "id": 412,
     "name": "Burmy",
-    "image": "http://image-pokemonthingy.com/image/412"
+    "image": "https://pogoapi.net/sprites/412.png"
   },
   {
     "id": 413,
     "name": "Wormadam",
-    "image": "http://image-pokemonthingy.com/image/413"
+    "image": "https://pogoapi.net/sprites/413.png"
   },
   {
     "id": 414,
     "name": "Mothim",
-    "image": "http://image-pokemonthingy.com/image/414"
+    "image": "https://pogoapi.net/sprites/414.png"
   },
   {
     "id": 415,
     "name": "Combee",
-    "image": "http://image-pokemonthingy.com/image/415"
+    "image": "https://pogoapi.net/sprites/415.png"
   },
   {
     "id": 416,
     "name": "Vespiquen",
-    "image": "http://image-pokemonthingy.com/image/416"
+    "image": "https://pogoapi.net/sprites/416.png"
   },
   {
     "id": 417,
     "name": "Pachirisu",
-    "image": "http://image-pokemonthingy.com/image/417"
+    "image": "https://pogoapi.net/sprites/417.png"
   },
   {
     "id": 418,
     "name": "Buizel",
-    "image": "http://image-pokemonthingy.com/image/418"
+    "image": "https://pogoapi.net/sprites/418.png"
   },
   {
     "id": 419,
     "name": "Floatzel",
-    "image": "http://image-pokemonthingy.com/image/419"
+    "image": "https://pogoapi.net/sprites/419.png"
   },
   {
     "id": 420,
     "name": "Cherubi",
-    "image": "http://image-pokemonthingy.com/image/420"
+    "image": "https://pogoapi.net/sprites/420.png"
   },
   {
     "id": 421,
     "name": "Cherrim",
-    "image": "http://image-pokemonthingy.com/image/421"
+    "image": "https://pogoapi.net/sprites/421.png"
   },
   {
     "id": 422,
     "name": "Shellos",
-    "image": "http://image-pokemonthingy.com/image/422"
+    "image": "https://pogoapi.net/sprites/422.png"
   },
   {
     "id": 423,
     "name": "Gastrodon",
-    "image": "http://image-pokemonthingy.com/image/423"
+    "image": "https://pogoapi.net/sprites/423.png"
   },
   {
     "id": 424,
     "name": "Ambipom",
-    "image": "http://image-pokemonthingy.com/image/424"
+    "image": "https://pogoapi.net/sprites/424.png"
   },
   {
     "id": 425,
     "name": "Drifloon",
-    "image": "http://image-pokemonthingy.com/image/425"
+    "image": "https://pogoapi.net/sprites/425.png"
   },
   {
     "id": 426,
     "name": "Drifblim",
-    "image": "http://image-pokemonthingy.com/image/426"
+    "image": "https://pogoapi.net/sprites/426.png"
   },
   {
     "id": 427,
     "name": "Buneary",
-    "image": "http://image-pokemonthingy.com/image/427"
+    "image": "https://pogoapi.net/sprites/427.png"
   },
   {
     "id": 428,
     "name": "Lopunny",
-    "image": "http://image-pokemonthingy.com/image/428"
+    "image": "https://pogoapi.net/sprites/428.png"
   },
   {
     "id": 429,
     "name": "Mismagius",
-    "image": "http://image-pokemonthingy.com/image/429"
+    "image": "https://pogoapi.net/sprites/429.png"
   },
   {
     "id": 430,
     "name": "Honchkrow",
-    "image": "http://image-pokemonthingy.com/image/430"
+    "image": "https://pogoapi.net/sprites/430.png"
   },
   {
     "id": 431,
     "name": "Glameow",
-    "image": "http://image-pokemonthingy.com/image/431"
+    "image": "https://pogoapi.net/sprites/431.png"
   },
   {
     "id": 432,
     "name": "Purugly",
-    "image": "http://image-pokemonthingy.com/image/432"
+    "image": "https://pogoapi.net/sprites/432.png"
   },
   {
     "id": 433,
     "name": "Chingling",
-    "image": "http://image-pokemonthingy.com/image/433"
+    "image": "https://pogoapi.net/sprites/433.png"
   },
   {
     "id": 434,
     "name": "Stunky",
-    "image": "http://image-pokemonthingy.com/image/434"
+    "image": "https://pogoapi.net/sprites/434.png"
   },
   {
     "id": 435,
     "name": "Skuntank",
-    "image": "http://image-pokemonthingy.com/image/435"
+    "image": "https://pogoapi.net/sprites/435.png"
   },
   {
     "id": 436,
     "name": "Bronzor",
-    "image": "http://image-pokemonthingy.com/image/436"
+    "image": "https://pogoapi.net/sprites/436.png"
   },
   {
     "id": 437,
     "name": "Bronzong",
-    "image": "http://image-pokemonthingy.com/image/437"
+    "image": "https://pogoapi.net/sprites/437.png"
   },
   {
     "id": 438,
     "name": "Bonsly",
-    "image": "http://image-pokemonthingy.com/image/438"
+    "image": "https://pogoapi.net/sprites/438.png"
   },
   {
     "id": 439,
     "name": "Mime Jr.",
-    "image": "http://image-pokemonthingy.com/image/439"
+    "image": "https://pogoapi.net/sprites/439.png"
   },
   {
     "id": 440,
     "name": "Happiny",
-    "image": "http://image-pokemonthingy.com/image/440"
+    "image": "https://pogoapi.net/sprites/440.png"
   },
   {
     "id": 441,
     "name": "Chatot",
-    "image": "http://image-pokemonthingy.com/image/441"
+    "image": "https://pogoapi.net/sprites/441.png"
   },
   {
     "id": 442,
     "name": "Spiritomb",
-    "image": "http://image-pokemonthingy.com/image/442"
+    "image": "https://pogoapi.net/sprites/442.png"
   },
   {
     "id": 443,
     "name": "Gible",
-    "image": "http://image-pokemonthingy.com/image/443"
+    "image": "https://pogoapi.net/sprites/443.png"
   },
   {
     "id": 444,
     "name": "Gabite",
-    "image": "http://image-pokemonthingy.com/image/444"
+    "image": "https://pogoapi.net/sprites/444.png"
   },
   {
     "id": 445,
     "name": "Garchomp",
-    "image": "http://image-pokemonthingy.com/image/445"
+    "image": "https://pogoapi.net/sprites/445.png"
   },
   {
     "id": 446,
     "name": "Munchlax",
-    "image": "http://image-pokemonthingy.com/image/446"
+    "image": "https://pogoapi.net/sprites/446.png"
   },
   {
     "id": 447,
     "name": "Riolu",
-    "image": "http://image-pokemonthingy.com/image/447"
+    "image": "https://pogoapi.net/sprites/447.png"
   },
   {
     "id": 448,
     "name": "Lucario",
-    "image": "http://image-pokemonthingy.com/image/448"
+    "image": "https://pogoapi.net/sprites/448.png"
   },
   {
     "id": 449,
     "name": "Hippopotas",
-    "image": "http://image-pokemonthingy.com/image/449"
+    "image": "https://pogoapi.net/sprites/449.png"
   },
   {
     "id": 450,
     "name": "Hippowdon",
-    "image": "http://image-pokemonthingy.com/image/450"
+    "image": "https://pogoapi.net/sprites/450.png"
   },
   {
     "id": 451,
     "name": "Skorupi",
-    "image": "http://image-pokemonthingy.com/image/451"
+    "image": "https://pogoapi.net/sprites/451.png"
   },
   {
     "id": 452,
     "name": "Drapion",
-    "image": "http://image-pokemonthingy.com/image/452"
+    "image": "https://pogoapi.net/sprites/452.png"
   },
   {
     "id": 453,
     "name": "Croagunk",
-    "image": "http://image-pokemonthingy.com/image/453"
+    "image": "https://pogoapi.net/sprites/453.png"
   },
   {
     "id": 454,
     "name": "Toxicroak",
-    "image": "http://image-pokemonthingy.com/image/454"
+    "image": "https://pogoapi.net/sprites/454.png"
   },
   {
     "id": 455,
     "name": "Carnivine",
-    "image": "http://image-pokemonthingy.com/image/455"
+    "image": "https://pogoapi.net/sprites/455.png"
   },
   {
     "id": 456,
     "name": "Finneon",
-    "image": "http://image-pokemonthingy.com/image/456"
+    "image": "https://pogoapi.net/sprites/456.png"
   },
   {
     "id": 457,
     "name": "Lumineon",
-    "image": "http://image-pokemonthingy.com/image/457"
+    "image": "https://pogoapi.net/sprites/457.png"
   },
   {
     "id": 458,
     "name": "Mantyke",
-    "image": "http://image-pokemonthingy.com/image/458"
+    "image": "https://pogoapi.net/sprites/458.png"
   },
   {
     "id": 459,
     "name": "Snover",
-    "image": "http://image-pokemonthingy.com/image/459"
+    "image": "https://pogoapi.net/sprites/459.png"
   },
   {
     "id": 460,
     "name": "Abomasnow",
-    "image": "http://image-pokemonthingy.com/image/460"
+    "image": "https://pogoapi.net/sprites/460.png"
   },
   {
     "id": 461,
     "name": "Weavile",
-    "image": "http://image-pokemonthingy.com/image/461"
+    "image": "https://pogoapi.net/sprites/461.png"
   },
   {
     "id": 462,
     "name": "Magnezone",
-    "image": "http://image-pokemonthingy.com/image/462"
+    "image": "https://pogoapi.net/sprites/462.png"
   },
   {
     "id": 463,
     "name": "Lickilicky",
-    "image": "http://image-pokemonthingy.com/image/463"
+    "image": "https://pogoapi.net/sprites/463.png"
   },
   {
     "id": 464,
     "name": "Rhyperior",
-    "image": "http://image-pokemonthingy.com/image/464"
+    "image": "https://pogoapi.net/sprites/464.png"
   },
   {
     "id": 465,
     "name": "Tangrowth",
-    "image": "http://image-pokemonthingy.com/image/465"
+    "image": "https://pogoapi.net/sprites/465.png"
   },
   {
     "id": 466,
     "name": "Electivire",
-    "image": "http://image-pokemonthingy.com/image/466"
+    "image": "https://pogoapi.net/sprites/466.png"
   },
   {
     "id": 467,
     "name": "Magmortar",
-    "image": "http://image-pokemonthingy.com/image/467"
+    "image": "https://pogoapi.net/sprites/467.png"
   },
   {
     "id": 468,
     "name": "Togekiss",
-    "image": "http://image-pokemonthingy.com/image/468"
+    "image": "https://pogoapi.net/sprites/468.png"
   },
   {
     "id": 469,
     "name": "Yanmega",
-    "image": "http://image-pokemonthingy.com/image/469"
+    "image": "https://pogoapi.net/sprites/469.png"
   },
   {
     "id": 470,
     "name": "Leafeon",
-    "image": "http://image-pokemonthingy.com/image/470"
+    "image": "https://pogoapi.net/sprites/470.png"
   },
   {
     "id": 471,
     "name": "Glaceon",
-    "image": "http://image-pokemonthingy.com/image/471"
+    "image": "https://pogoapi.net/sprites/471.png"
   },
   {
     "id": 472,
     "name": "Gliscor",
-    "image": "http://image-pokemonthingy.com/image/472"
+    "image": "https://pogoapi.net/sprites/472.png"
   },
   {
     "id": 473,
     "name": "Mamoswine",
-    "image": "http://image-pokemonthingy.com/image/473"
+    "image": "https://pogoapi.net/sprites/473.png"
   },
   {
     "id": 474,
     "name": "Porygon-Z",
-    "image": "http://image-pokemonthingy.com/image/474"
+    "image": "https://pogoapi.net/sprites/474.png"
   },
   {
     "id": 475,
     "name": "Gallade",
-    "image": "http://image-pokemonthingy.com/image/475"
+    "image": "https://pogoapi.net/sprites/475.png"
   },
   {
     "id": 476,
     "name": "Probopass",
-    "image": "http://image-pokemonthingy.com/image/476"
+    "image": "https://pogoapi.net/sprites/476.png"
   },
   {
     "id": 477,
     "name": "Dusknoir",
-    "image": "http://image-pokemonthingy.com/image/477"
+    "image": "https://pogoapi.net/sprites/477.png"
   },
   {
     "id": 478,
     "name": "Froslass",
-    "image": "http://image-pokemonthingy.com/image/478"
+    "image": "https://pogoapi.net/sprites/478.png"
   },
   {
     "id": 479,
     "name": "Rotom",
-    "image": "http://image-pokemonthingy.com/image/479"
+    "image": "https://pogoapi.net/sprites/479.png"
   },
   {
     "id": 480,
     "name": "Uxie",
-    "image": "http://image-pokemonthingy.com/image/480"
+    "image": "https://pogoapi.net/sprites/480.png"
   },
   {
     "id": 481,
     "name": "Mesprit",
-    "image": "http://image-pokemonthingy.com/image/481"
+    "image": "https://pogoapi.net/sprites/481.png"
   },
   {
     "id": 482,
     "name": "Azelf",
-    "image": "http://image-pokemonthingy.com/image/482"
+    "image": "https://pogoapi.net/sprites/482.png"
   },
   {
     "id": 483,
     "name": "Dialga",
-    "image": "http://image-pokemonthingy.com/image/483"
+    "image": "https://pogoapi.net/sprites/483.png"
   },
   {
     "id": 484,
     "name": "Palkia",
-    "image": "http://image-pokemonthingy.com/image/484"
+    "image": "https://pogoapi.net/sprites/484.png"
   },
   {
     "id": 485,
     "name": "Heatran",
-    "image": "http://image-pokemonthingy.com/image/485"
+    "image": "https://pogoapi.net/sprites/485.png"
   },
   {
     "id": 486,
     "name": "Regigigas",
-    "image": "http://image-pokemonthingy.com/image/486"
+    "image": "https://pogoapi.net/sprites/486.png"
   },
   {
     "id": 487,
     "name": "Giratina",
-    "image": "http://image-pokemonthingy.com/image/487"
+    "image": "https://pogoapi.net/sprites/487.png"
   },
   {
     "id": 488,
     "name": "Cresselia",
-    "image": "http://image-pokemonthingy.com/image/488"
+    "image": "https://pogoapi.net/sprites/488.png"
   },
   {
     "id": 491,
     "name": "Darkrai",
-    "image": "http://image-pokemonthingy.com/image/491"
+    "image": "https://pogoapi.net/sprites/491.png"
   },
   {
     "id": 492,
     "name": "Shaymin",
-    "image": "http://image-pokemonthingy.com/image/492"
+    "image": "https://pogoapi.net/sprites/492.png"
   },
   {
     "id": 494,
     "name": "Victini",
-    "image": "http://image-pokemonthingy.com/image/494"
+    "image": "https://pogoapi.net/sprites/494.png"
   },
   {
     "id": 495,
     "name": "Snivy",
-    "image": "http://image-pokemonthingy.com/image/495"
+    "image": "https://pogoapi.net/sprites/495.png"
   },
   {
     "id": 496,
     "name": "Servine",
-    "image": "http://image-pokemonthingy.com/image/496"
+    "image": "https://pogoapi.net/sprites/496.png"
   },
   {
     "id": 497,
     "name": "Serperior",
-    "image": "http://image-pokemonthingy.com/image/497"
+    "image": "https://pogoapi.net/sprites/497.png"
   },
   {
     "id": 498,
     "name": "Tepig",
-    "image": "http://image-pokemonthingy.com/image/498"
+    "image": "https://pogoapi.net/sprites/498.png"
   },
   {
     "id": 499,
     "name": "Pignite",
-    "image": "http://image-pokemonthingy.com/image/499"
+    "image": "https://pogoapi.net/sprites/499.png"
   },
   {
     "id": 500,
     "name": "Emboar",
-    "image": "http://image-pokemonthingy.com/image/500"
+    "image": "https://pogoapi.net/sprites/500.png"
   },
   {
     "id": 501,
     "name": "Oshawott",
-    "image": "http://image-pokemonthingy.com/image/501"
+    "image": "https://pogoapi.net/sprites/501.png"
   },
   {
     "id": 502,
     "name": "Dewott",
-    "image": "http://image-pokemonthingy.com/image/502"
+    "image": "https://pogoapi.net/sprites/502.png"
   },
   {
     "id": 503,
     "name": "Samurott",
-    "image": "http://image-pokemonthingy.com/image/503"
+    "image": "https://pogoapi.net/sprites/503.png"
   },
   {
     "id": 504,
     "name": "Patrat",
-    "image": "http://image-pokemonthingy.com/image/504"
+    "image": "https://pogoapi.net/sprites/504.png"
   },
   {
     "id": 505,
     "name": "Watchog",
-    "image": "http://image-pokemonthingy.com/image/505"
+    "image": "https://pogoapi.net/sprites/505.png"
   },
   {
     "id": 506,
     "name": "Lillipup",
-    "image": "http://image-pokemonthingy.com/image/506"
+    "image": "https://pogoapi.net/sprites/506.png"
   },
   {
     "id": 507,
     "name": "Herdier",
-    "image": "http://image-pokemonthingy.com/image/507"
+    "image": "https://pogoapi.net/sprites/507.png"
   },
   {
     "id": 508,
     "name": "Stoutland",
-    "image": "http://image-pokemonthingy.com/image/508"
+    "image": "https://pogoapi.net/sprites/508.png"
   },
   {
     "id": 509,
     "name": "Purrloin",
-    "image": "http://image-pokemonthingy.com/image/509"
+    "image": "https://pogoapi.net/sprites/509.png"
   },
   {
     "id": 510,
     "name": "Liepard",
-    "image": "http://image-pokemonthingy.com/image/510"
+    "image": "https://pogoapi.net/sprites/510.png"
   },
   {
     "id": 511,
     "name": "Pansage",
-    "image": "http://image-pokemonthingy.com/image/511"
+    "image": "https://pogoapi.net/sprites/511.png"
   },
   {
     "id": 512,
     "name": "Simisage",
-    "image": "http://image-pokemonthingy.com/image/512"
+    "image": "https://pogoapi.net/sprites/512.png"
   },
   {
     "id": 513,
     "name": "Pansear",
-    "image": "http://image-pokemonthingy.com/image/513"
+    "image": "https://pogoapi.net/sprites/513.png"
   },
   {
     "id": 514,
     "name": "Simisear",
-    "image": "http://image-pokemonthingy.com/image/514"
+    "image": "https://pogoapi.net/sprites/514.png"
   },
   {
     "id": 515,
     "name": "Panpour",
-    "image": "http://image-pokemonthingy.com/image/515"
+    "image": "https://pogoapi.net/sprites/515.png"
   },
   {
     "id": 516,
     "name": "Simipour",
-    "image": "http://image-pokemonthingy.com/image/516"
+    "image": "https://pogoapi.net/sprites/516.png"
   },
   {
     "id": 517,
     "name": "Munna",
-    "image": "http://image-pokemonthingy.com/image/517"
+    "image": "https://pogoapi.net/sprites/517.png"
   },
   {
     "id": 518,
     "name": "Musharna",
-    "image": "http://image-pokemonthingy.com/image/518"
+    "image": "https://pogoapi.net/sprites/518.png"
   },
   {
     "id": 519,
     "name": "Pidove",
-    "image": "http://image-pokemonthingy.com/image/519"
+    "image": "https://pogoapi.net/sprites/519.png"
   },
   {
     "id": 520,
     "name": "Tranquill",
-    "image": "http://image-pokemonthingy.com/image/520"
+    "image": "https://pogoapi.net/sprites/520.png"
   },
   {
     "id": 521,
     "name": "Unfezant",
-    "image": "http://image-pokemonthingy.com/image/521"
+    "image": "https://pogoapi.net/sprites/521.png"
   },
   {
     "id": 522,
     "name": "Blitzle",
-    "image": "http://image-pokemonthingy.com/image/522"
+    "image": "https://pogoapi.net/sprites/522.png"
   },
   {
     "id": 523,
     "name": "Zebstrika",
-    "image": "http://image-pokemonthingy.com/image/523"
+    "image": "https://pogoapi.net/sprites/523.png"
   },
   {
     "id": 524,
     "name": "Roggenrola",
-    "image": "http://image-pokemonthingy.com/image/524"
+    "image": "https://pogoapi.net/sprites/524.png"
   },
   {
     "id": 525,
     "name": "Boldore",
-    "image": "http://image-pokemonthingy.com/image/525"
+    "image": "https://pogoapi.net/sprites/525.png"
   },
   {
     "id": 526,
     "name": "Gigalith",
-    "image": "http://image-pokemonthingy.com/image/526"
+    "image": "https://pogoapi.net/sprites/526.png"
   },
   {
     "id": 527,
     "name": "Woobat",
-    "image": "http://image-pokemonthingy.com/image/527"
+    "image": "https://pogoapi.net/sprites/527.png"
   },
   {
     "id": 528,
     "name": "Swoobat",
-    "image": "http://image-pokemonthingy.com/image/528"
+    "image": "https://pogoapi.net/sprites/528.png"
   },
   {
     "id": 529,
     "name": "Drilbur",
-    "image": "http://image-pokemonthingy.com/image/529"
+    "image": "https://pogoapi.net/sprites/529.png"
   },
   {
     "id": 530,
     "name": "Excadrill",
-    "image": "http://image-pokemonthingy.com/image/530"
+    "image": "https://pogoapi.net/sprites/530.png"
   },
   {
     "id": 531,
     "name": "Audino",
-    "image": "http://image-pokemonthingy.com/image/531"
+    "image": "https://pogoapi.net/sprites/531.png"
   },
   {
     "id": 532,
     "name": "Timburr",
-    "image": "http://image-pokemonthingy.com/image/532"
+    "image": "https://pogoapi.net/sprites/532.png"
   },
   {
     "id": 533,
     "name": "Gurdurr",
-    "image": "http://image-pokemonthingy.com/image/533"
+    "image": "https://pogoapi.net/sprites/533.png"
   },
   {
     "id": 534,
     "name": "Conkeldurr",
-    "image": "http://image-pokemonthingy.com/image/534"
+    "image": "https://pogoapi.net/sprites/534.png"
   },
   {
     "id": 535,
     "name": "Tympole",
-    "image": "http://image-pokemonthingy.com/image/535"
+    "image": "https://pogoapi.net/sprites/535.png"
   },
   {
     "id": 536,
     "name": "Palpitoad",
-    "image": "http://image-pokemonthingy.com/image/536"
+    "image": "https://pogoapi.net/sprites/536.png"
   },
   {
     "id": 537,
     "name": "Seismitoad",
-    "image": "http://image-pokemonthingy.com/image/537"
+    "image": "https://pogoapi.net/sprites/537.png"
   },
   {
     "id": 538,
     "name": "Throh",
-    "image": "http://image-pokemonthingy.com/image/538"
+    "image": "https://pogoapi.net/sprites/538.png"
   },
   {
     "id": 539,
     "name": "Sawk",
-    "image": "http://image-pokemonthingy.com/image/539"
+    "image": "https://pogoapi.net/sprites/539.png"
   },
   {
     "id": 540,
     "name": "Sewaddle",
-    "image": "http://image-pokemonthingy.com/image/540"
+    "image": "https://pogoapi.net/sprites/540.png"
   },
   {
     "id": 541,
     "name": "Swadloon",
-    "image": "http://image-pokemonthingy.com/image/541"
+    "image": "https://pogoapi.net/sprites/541.png"
   },
   {
     "id": 542,
     "name": "Leavanny",
-    "image": "http://image-pokemonthingy.com/image/542"
+    "image": "https://pogoapi.net/sprites/542.png"
   },
   {
     "id": 543,
     "name": "Venipede",
-    "image": "http://image-pokemonthingy.com/image/543"
+    "image": "https://pogoapi.net/sprites/543.png"
   },
   {
     "id": 544,
     "name": "Whirlipede",
-    "image": "http://image-pokemonthingy.com/image/544"
+    "image": "https://pogoapi.net/sprites/544.png"
   },
   {
     "id": 545,
     "name": "Scolipede",
-    "image": "http://image-pokemonthingy.com/image/545"
+    "image": "https://pogoapi.net/sprites/545.png"
   },
   {
     "id": 546,
     "name": "Cottonee",
-    "image": "http://image-pokemonthingy.com/image/546"
+    "image": "https://pogoapi.net/sprites/546.png"
   },
   {
     "id": 547,
     "name": "Whimsicott",
-    "image": "http://image-pokemonthingy.com/image/547"
+    "image": "https://pogoapi.net/sprites/547.png"
   },
   {
     "id": 548,
     "name": "Petilil",
-    "image": "http://image-pokemonthingy.com/image/548"
+    "image": "https://pogoapi.net/sprites/548.png"
   },
   {
     "id": 549,
     "name": "Lilligant",
-    "image": "http://image-pokemonthingy.com/image/549"
+    "image": "https://pogoapi.net/sprites/549.png"
   },
   {
     "id": 550,
     "name": "Basculin",
-    "image": "http://image-pokemonthingy.com/image/550"
+    "image": "https://pogoapi.net/sprites/550.png"
   },
   {
     "id": 551,
     "name": "Sandile",
-    "image": "http://image-pokemonthingy.com/image/551"
+    "image": "https://pogoapi.net/sprites/551.png"
   },
   {
     "id": 552,
     "name": "Krokorok",
-    "image": "http://image-pokemonthingy.com/image/552"
+    "image": "https://pogoapi.net/sprites/552.png"
   },
   {
     "id": 553,
     "name": "Krookodile",
-    "image": "http://image-pokemonthingy.com/image/553"
+    "image": "https://pogoapi.net/sprites/553.png"
   },
   {
     "id": 554,
     "name": "Darumaka",
-    "image": "http://image-pokemonthingy.com/image/554"
+    "image": "https://pogoapi.net/sprites/554.png"
   },
   {
     "id": 555,
     "name": "Darmanitan",
-    "image": "http://image-pokemonthingy.com/image/555"
+    "image": "https://pogoapi.net/sprites/555.png"
   },
   {
     "id": 556,
     "name": "Maractus",
-    "image": "http://image-pokemonthingy.com/image/556"
+    "image": "https://pogoapi.net/sprites/556.png"
   },
   {
     "id": 557,
     "name": "Dwebble",
-    "image": "http://image-pokemonthingy.com/image/557"
+    "image": "https://pogoapi.net/sprites/557.png"
   },
   {
     "id": 558,
     "name": "Crustle",
-    "image": "http://image-pokemonthingy.com/image/558"
+    "image": "https://pogoapi.net/sprites/558.png"
   },
   {
     "id": 559,
     "name": "Scraggy",
-    "image": "http://image-pokemonthingy.com/image/559"
+    "image": "https://pogoapi.net/sprites/559.png"
   },
   {
     "id": 560,
     "name": "Scrafty",
-    "image": "http://image-pokemonthingy.com/image/560"
+    "image": "https://pogoapi.net/sprites/560.png"
   },
   {
     "id": 561,
     "name": "Sigilyph",
-    "image": "http://image-pokemonthingy.com/image/561"
+    "image": "https://pogoapi.net/sprites/561.png"
   },
   {
     "id": 562,
     "name": "Yamask",
-    "image": "http://image-pokemonthingy.com/image/562"
+    "image": "https://pogoapi.net/sprites/562.png"
   },
   {
     "id": 563,
     "name": "Cofagrigus",
-    "image": "http://image-pokemonthingy.com/image/563"
+    "image": "https://pogoapi.net/sprites/563.png"
   },
   {
     "id": 564,
     "name": "Tirtouga",
-    "image": "http://image-pokemonthingy.com/image/564"
+    "image": "https://pogoapi.net/sprites/564.png"
   },
   {
     "id": 565,
     "name": "Carracosta",
-    "image": "http://image-pokemonthingy.com/image/565"
+    "image": "https://pogoapi.net/sprites/565.png"
   },
   {
     "id": 566,
     "name": "Archen",
-    "image": "http://image-pokemonthingy.com/image/566"
+    "image": "https://pogoapi.net/sprites/566.png"
   },
   {
     "id": 567,
     "name": "Archeops",
-    "image": "http://image-pokemonthingy.com/image/567"
+    "image": "https://pogoapi.net/sprites/567.png"
   },
   {
     "id": 568,
     "name": "Trubbish",
-    "image": "http://image-pokemonthingy.com/image/568"
+    "image": "https://pogoapi.net/sprites/568.png"
   },
   {
     "id": 569,
     "name": "Garbodor",
-    "image": "http://image-pokemonthingy.com/image/569"
+    "image": "https://pogoapi.net/sprites/569.png"
   },
   {
     "id": 570,
     "name": "Zorua",
-    "image": "http://image-pokemonthingy.com/image/570"
+    "image": "https://pogoapi.net/sprites/570.png"
   },
   {
     "id": 571,
     "name": "Zoroark",
-    "image": "http://image-pokemonthingy.com/image/571"
+    "image": "https://pogoapi.net/sprites/571.png"
   },
   {
     "id": 572,
     "name": "Minccino",
-    "image": "http://image-pokemonthingy.com/image/572"
+    "image": "https://pogoapi.net/sprites/572.png"
   },
   {
     "id": 573,
     "name": "Cinccino",
-    "image": "http://image-pokemonthingy.com/image/573"
+    "image": "https://pogoapi.net/sprites/573.png"
   },
   {
     "id": 574,
     "name": "Gothita",
-    "image": "http://image-pokemonthingy.com/image/574"
+    "image": "https://pogoapi.net/sprites/574.png"
   },
   {
     "id": 575,
     "name": "Gothorita",
-    "image": "http://image-pokemonthingy.com/image/575"
+    "image": "https://pogoapi.net/sprites/575.png"
   },
   {
     "id": 576,
     "name": "Gothitelle",
-    "image": "http://image-pokemonthingy.com/image/576"
+    "image": "https://pogoapi.net/sprites/576.png"
   },
   {
     "id": 577,
     "name": "Solosis",
-    "image": "http://image-pokemonthingy.com/image/577"
+    "image": "https://pogoapi.net/sprites/577.png"
   },
   {
     "id": 578,
     "name": "Duosion",
-    "image": "http://image-pokemonthingy.com/image/578"
+    "image": "https://pogoapi.net/sprites/578.png"
   },
   {
     "id": 579,
     "name": "Reuniclus",
-    "image": "http://image-pokemonthingy.com/image/579"
+    "image": "https://pogoapi.net/sprites/579.png"
   },
   {
     "id": 580,
     "name": "Ducklett",
-    "image": "http://image-pokemonthingy.com/image/580"
+    "image": "https://pogoapi.net/sprites/580.png"
   },
   {
     "id": 581,
     "name": "Swanna",
-    "image": "http://image-pokemonthingy.com/image/581"
+    "image": "https://pogoapi.net/sprites/581.png"
   },
   {
     "id": 582,
     "name": "Vanillite",
-    "image": "http://image-pokemonthingy.com/image/582"
+    "image": "https://pogoapi.net/sprites/582.png"
   },
   {
     "id": 583,
     "name": "Vanillish",
-    "image": "http://image-pokemonthingy.com/image/583"
+    "image": "https://pogoapi.net/sprites/583.png"
   },
   {
     "id": 584,
     "name": "Vanilluxe",
-    "image": "http://image-pokemonthingy.com/image/584"
+    "image": "https://pogoapi.net/sprites/584.png"
   },
   {
     "id": 585,
     "name": "Deerling",
-    "image": "http://image-pokemonthingy.com/image/585"
+    "image": "https://pogoapi.net/sprites/585.png"
   },
   {
     "id": 586,
     "name": "Sawsbuck",
-    "image": "http://image-pokemonthingy.com/image/586"
+    "image": "https://pogoapi.net/sprites/586.png"
   },
   {
     "id": 587,
     "name": "Emolga",
-    "image": "http://image-pokemonthingy.com/image/587"
+    "image": "https://pogoapi.net/sprites/587.png"
   },
   {
     "id": 588,
     "name": "Karrablast",
-    "image": "http://image-pokemonthingy.com/image/588"
+    "image": "https://pogoapi.net/sprites/588.png"
   },
   {
     "id": 589,
     "name": "Escavalier",
-    "image": "http://image-pokemonthingy.com/image/589"
+    "image": "https://pogoapi.net/sprites/589.png"
   },
   {
     "id": 590,
     "name": "Foongus",
-    "image": "http://image-pokemonthingy.com/image/590"
+    "image": "https://pogoapi.net/sprites/590.png"
   },
   {
     "id": 591,
     "name": "Amoonguss",
-    "image": "http://image-pokemonthingy.com/image/591"
+    "image": "https://pogoapi.net/sprites/591.png"
   },
   {
     "id": 592,
     "name": "Frillish",
-    "image": "http://image-pokemonthingy.com/image/592"
+    "image": "https://pogoapi.net/sprites/592.png"
   },
   {
     "id": 593,
     "name": "Jellicent",
-    "image": "http://image-pokemonthingy.com/image/593"
+    "image": "https://pogoapi.net/sprites/593.png"
   },
   {
     "id": 594,
     "name": "Alomomola",
-    "image": "http://image-pokemonthingy.com/image/594"
+    "image": "https://pogoapi.net/sprites/594.png"
   },
   {
     "id": 595,
     "name": "Joltik",
-    "image": "http://image-pokemonthingy.com/image/595"
+    "image": "https://pogoapi.net/sprites/595.png"
   },
   {
     "id": 596,
     "name": "Galvantula",
-    "image": "http://image-pokemonthingy.com/image/596"
+    "image": "https://pogoapi.net/sprites/596.png"
   },
   {
     "id": 597,
     "name": "Ferroseed",
-    "image": "http://image-pokemonthingy.com/image/597"
+    "image": "https://pogoapi.net/sprites/597.png"
   },
   {
     "id": 598,
     "name": "Ferrothorn",
-    "image": "http://image-pokemonthingy.com/image/598"
+    "image": "https://pogoapi.net/sprites/598.png"
   },
   {
     "id": 599,
     "name": "Klink",
-    "image": "http://image-pokemonthingy.com/image/599"
+    "image": "https://pogoapi.net/sprites/599.png"
   },
   {
     "id": 600,
     "name": "Klang",
-    "image": "http://image-pokemonthingy.com/image/600"
+    "image": "https://pogoapi.net/sprites/600.png"
   },
   {
     "id": 601,
     "name": "Klinklang",
-    "image": "http://image-pokemonthingy.com/image/601"
+    "image": "https://pogoapi.net/sprites/601.png"
   },
   {
     "id": 602,
     "name": "Tynamo",
-    "image": "http://image-pokemonthingy.com/image/602"
+    "image": "https://pogoapi.net/sprites/602.png"
   },
   {
     "id": 603,
     "name": "Eelektrik",
-    "image": "http://image-pokemonthingy.com/image/603"
+    "image": "https://pogoapi.net/sprites/603.png"
   },
   {
     "id": 604,
     "name": "Eelektross",
-    "image": "http://image-pokemonthingy.com/image/604"
+    "image": "https://pogoapi.net/sprites/604.png"
   },
   {
     "id": 605,
     "name": "Elgyem",
-    "image": "http://image-pokemonthingy.com/image/605"
+    "image": "https://pogoapi.net/sprites/605.png"
   },
   {
     "id": 606,
     "name": "Beheeyem",
-    "image": "http://image-pokemonthingy.com/image/606"
+    "image": "https://pogoapi.net/sprites/606.png"
   },
   {
     "id": 607,
     "name": "Litwick",
-    "image": "http://image-pokemonthingy.com/image/607"
+    "image": "https://pogoapi.net/sprites/607.png"
   },
   {
     "id": 608,
     "name": "Lampent",
-    "image": "http://image-pokemonthingy.com/image/608"
+    "image": "https://pogoapi.net/sprites/608.png"
   },
   {
     "id": 609,
     "name": "Chandelure",
-    "image": "http://image-pokemonthingy.com/image/609"
+    "image": "https://pogoapi.net/sprites/609.png"
   },
   {
     "id": 610,
     "name": "Axew",
-    "image": "http://image-pokemonthingy.com/image/610"
+    "image": "https://pogoapi.net/sprites/610.png"
   },
   {
     "id": 611,
     "name": "Fraxure",
-    "image": "http://image-pokemonthingy.com/image/611"
+    "image": "https://pogoapi.net/sprites/611.png"
   },
   {
     "id": 612,
     "name": "Haxorus",
-    "image": "http://image-pokemonthingy.com/image/612"
+    "image": "https://pogoapi.net/sprites/612.png"
   },
   {
     "id": 613,
     "name": "Cubchoo",
-    "image": "http://image-pokemonthingy.com/image/613"
+    "image": "https://pogoapi.net/sprites/613.png"
   },
   {
     "id": 614,
     "name": "Beartic",
-    "image": "http://image-pokemonthingy.com/image/614"
+    "image": "https://pogoapi.net/sprites/614.png"
   },
   {
     "id": 615,
     "name": "Cryogonal",
-    "image": "http://image-pokemonthingy.com/image/615"
+    "image": "https://pogoapi.net/sprites/615.png"
   },
   {
     "id": 616,
     "name": "Shelmet",
-    "image": "http://image-pokemonthingy.com/image/616"
+    "image": "https://pogoapi.net/sprites/616.png"
   },
   {
     "id": 617,
     "name": "Accelgor",
-    "image": "http://image-pokemonthingy.com/image/617"
+    "image": "https://pogoapi.net/sprites/617.png"
   },
   {
     "id": 618,
     "name": "Stunfisk",
-    "image": "http://image-pokemonthingy.com/image/618"
+    "image": "https://pogoapi.net/sprites/618.png"
   },
   {
     "id": 619,
     "name": "Mienfoo",
-    "image": "http://image-pokemonthingy.com/image/619"
+    "image": "https://pogoapi.net/sprites/619.png"
   },
   {
     "id": 620,
     "name": "Mienshao",
-    "image": "http://image-pokemonthingy.com/image/620"
+    "image": "https://pogoapi.net/sprites/620.png"
   },
   {
     "id": 621,
     "name": "Druddigon",
-    "image": "http://image-pokemonthingy.com/image/621"
+    "image": "https://pogoapi.net/sprites/621.png"
   },
   {
     "id": 622,
     "name": "Golett",
-    "image": "http://image-pokemonthingy.com/image/622"
+    "image": "https://pogoapi.net/sprites/622.png"
   },
   {
     "id": 623,
     "name": "Golurk",
-    "image": "http://image-pokemonthingy.com/image/623"
+    "image": "https://pogoapi.net/sprites/623.png"
   },
   {
     "id": 624,
     "name": "Pawniard",
-    "image": "http://image-pokemonthingy.com/image/624"
+    "image": "https://pogoapi.net/sprites/624.png"
   },
   {
     "id": 625,
     "name": "Bisharp",
-    "image": "http://image-pokemonthingy.com/image/625"
+    "image": "https://pogoapi.net/sprites/625.png"
   },
   {
     "id": 626,
     "name": "Bouffalant",
-    "image": "http://image-pokemonthingy.com/image/626"
+    "image": "https://pogoapi.net/sprites/626.png"
   },
   {
     "id": 627,
     "name": "Rufflet",
-    "image": "http://image-pokemonthingy.com/image/627"
+    "image": "https://pogoapi.net/sprites/627.png"
   },
   {
     "id": 628,
     "name": "Braviary",
-    "image": "http://image-pokemonthingy.com/image/628"
+    "image": "https://pogoapi.net/sprites/628.png"
   },
   {
     "id": 629,
     "name": "Vullaby",
-    "image": "http://image-pokemonthingy.com/image/629"
+    "image": "https://pogoapi.net/sprites/629.png"
   },
   {
     "id": 630,
     "name": "Mandibuzz",
-    "image": "http://image-pokemonthingy.com/image/630"
+    "image": "https://pogoapi.net/sprites/630.png"
   },
   {
     "id": 631,
     "name": "Heatmor",
-    "image": "http://image-pokemonthingy.com/image/631"
+    "image": "https://pogoapi.net/sprites/631.png"
   },
   {
     "id": 632,
     "name": "Durant",
-    "image": "http://image-pokemonthingy.com/image/632"
+    "image": "https://pogoapi.net/sprites/632.png"
   },
   {
     "id": 633,
     "name": "Deino",
-    "image": "http://image-pokemonthingy.com/image/633"
+    "image": "https://pogoapi.net/sprites/633.png"
   },
   {
     "id": 634,
     "name": "Zweilous",
-    "image": "http://image-pokemonthingy.com/image/634"
+    "image": "https://pogoapi.net/sprites/634.png"
   },
   {
     "id": 635,
     "name": "Hydreigon",
-    "image": "http://image-pokemonthingy.com/image/635"
+    "image": "https://pogoapi.net/sprites/635.png"
   },
   {
     "id": 638,
     "name": "Cobalion",
-    "image": "http://image-pokemonthingy.com/image/638"
+    "image": "https://pogoapi.net/sprites/638.png"
   },
   {
     "id": 639,
     "name": "Terrakion",
-    "image": "http://image-pokemonthingy.com/image/639"
+    "image": "https://pogoapi.net/sprites/639.png"
   },
   {
     "id": 640,
     "name": "Virizion",
-    "image": "http://image-pokemonthingy.com/image/640"
+    "image": "https://pogoapi.net/sprites/640.png"
   },
   {
     "id": 641,
     "name": "Tornadus",
-    "image": "http://image-pokemonthingy.com/image/641"
+    "image": "https://pogoapi.net/sprites/641.png"
   },
   {
     "id": 642,
     "name": "Thundurus",
-    "image": "http://image-pokemonthingy.com/image/642"
+    "image": "https://pogoapi.net/sprites/642.png"
   },
   {
     "id": 643,
     "name": "Reshiram",
-    "image": "http://image-pokemonthingy.com/image/643"
+    "image": "https://pogoapi.net/sprites/643.png"
   },
   {
     "id": 644,
     "name": "Zekrom",
-    "image": "http://image-pokemonthingy.com/image/644"
+    "image": "https://pogoapi.net/sprites/644.png"
   },
   {
     "id": 645,
     "name": "Landorus",
-    "image": "http://image-pokemonthingy.com/image/645"
+    "image": "https://pogoapi.net/sprites/645.png"
   },
   {
     "id": 646,
     "name": "Kyurem",
-    "image": "http://image-pokemonthingy.com/image/646"
+    "image": "https://pogoapi.net/sprites/646.png"
   },
   {
     "id": 647,
     "name": "Keldeo",
-    "image": "http://image-pokemonthingy.com/image/647"
+    "image": "https://pogoapi.net/sprites/647.png"
   },
   {
     "id": 648,
     "name": "Meloetta",
-    "image": "http://image-pokemonthingy.com/image/648"
+    "image": "https://pogoapi.net/sprites/648.png"
   },
   {
     "id": 649,
     "name": "Genesect",
-    "image": "http://image-pokemonthingy.com/image/649"
+    "image": "https://pogoapi.net/sprites/649.png"
   },
   {
     "id": 650,
     "name": "Chespin",
-    "image": "http://image-pokemonthingy.com/image/650"
+    "image": "https://pogoapi.net/sprites/650.png"
   },
   {
     "id": 651,
     "name": "Quilladin",
-    "image": "http://image-pokemonthingy.com/image/651"
+    "image": "https://pogoapi.net/sprites/651.png"
   },
   {
     "id": 652,
     "name": "Chesnaught",
-    "image": "http://image-pokemonthingy.com/image/652"
+    "image": "https://pogoapi.net/sprites/652.png"
   },
   {
     "id": 653,
     "name": "Fennekin",
-    "image": "http://image-pokemonthingy.com/image/653"
+    "image": "https://pogoapi.net/sprites/653.png"
   },
   {
     "id": 654,
     "name": "Braixen",
-    "image": "http://image-pokemonthingy.com/image/654"
+    "image": "https://pogoapi.net/sprites/654.png"
   },
   {
     "id": 655,
     "name": "Delphox",
-    "image": "http://image-pokemonthingy.com/image/655"
+    "image": "https://pogoapi.net/sprites/655.png"
   },
   {
     "id": 656,
     "name": "Froakie",
-    "image": "http://image-pokemonthingy.com/image/656"
+    "image": "https://pogoapi.net/sprites/656.png"
   },
   {
     "id": 657,
     "name": "Frogadier",
-    "image": "http://image-pokemonthingy.com/image/657"
+    "image": "https://pogoapi.net/sprites/657.png"
   },
   {
     "id": 658,
     "name": "Greninja",
-    "image": "http://image-pokemonthingy.com/image/658"
+    "image": "https://pogoapi.net/sprites/658.png"
   },
   {
     "id": 659,
     "name": "Bunnelby",
-    "image": "http://image-pokemonthingy.com/image/659"
+    "image": "https://pogoapi.net/sprites/659.png"
   },
   {
     "id": 660,
     "name": "Diggersby",
-    "image": "http://image-pokemonthingy.com/image/660"
+    "image": "https://pogoapi.net/sprites/660.png"
   },
   {
     "id": 661,
     "name": "Fletchling",
-    "image": "http://image-pokemonthingy.com/image/661"
+    "image": "https://pogoapi.net/sprites/661.png"
   },
   {
     "id": 662,
     "name": "Fletchinder",
-    "image": "http://image-pokemonthingy.com/image/662"
+    "image": "https://pogoapi.net/sprites/662.png"
   },
   {
     "id": 663,
     "name": "Talonflame",
-    "image": "http://image-pokemonthingy.com/image/663"
+    "image": "https://pogoapi.net/sprites/663.png"
   },
   {
     "id": 664,
     "name": "Scatterbug",
-    "image": "http://image-pokemonthingy.com/image/664"
+    "image": "https://pogoapi.net/sprites/664.png"
   },
   {
     "id": 665,
     "name": "Spewpa",
-    "image": "http://image-pokemonthingy.com/image/665"
+    "image": "https://pogoapi.net/sprites/665.png"
   },
   {
     "id": 666,
     "name": "Vivillon",
-    "image": "http://image-pokemonthingy.com/image/666"
+    "image": "https://pogoapi.net/sprites/666.png"
   },
   {
     "id": 667,
     "name": "Litleo",
-    "image": "http://image-pokemonthingy.com/image/667"
+    "image": "https://pogoapi.net/sprites/667.png"
   },
   {
     "id": 668,
     "name": "Pyroar",
-    "image": "http://image-pokemonthingy.com/image/668"
+    "image": "https://pogoapi.net/sprites/668.png"
   },
   {
     "id": 669,
     "name": "Flabebe",
-    "image": "http://image-pokemonthingy.com/image/669"
+    "image": "https://pogoapi.net/sprites/669.png"
   },
   {
     "id": 670,
     "name": "Floette",
-    "image": "http://image-pokemonthingy.com/image/670"
+    "image": "https://pogoapi.net/sprites/670.png"
   },
   {
     "id": 671,
     "name": "Florges",
-    "image": "http://image-pokemonthingy.com/image/671"
+    "image": "https://pogoapi.net/sprites/671.png"
   },
   {
     "id": 674,
     "name": "Pancham",
-    "image": "http://image-pokemonthingy.com/image/674"
+    "image": "https://pogoapi.net/sprites/674.png"
   },
   {
     "id": 675,
     "name": "Pangoro",
-    "image": "http://image-pokemonthingy.com/image/675"
+    "image": "https://pogoapi.net/sprites/675.png"
   },
   {
     "id": 676,
     "name": "Furfrou",
-    "image": "http://image-pokemonthingy.com/image/676"
+    "image": "https://pogoapi.net/sprites/676.png"
   },
   {
     "id": 677,
     "name": "Espurr",
-    "image": "http://image-pokemonthingy.com/image/677"
+    "image": "https://pogoapi.net/sprites/677.png"
   },
   {
     "id": 678,
     "name": "Meowstic",
-    "image": "http://image-pokemonthingy.com/image/678"
+    "image": "https://pogoapi.net/sprites/678.png"
   },
   {
     "id": 682,
     "name": "Spritzee",
-    "image": "http://image-pokemonthingy.com/image/682"
+    "image": "https://pogoapi.net/sprites/682.png"
   },
   {
     "id": 683,
     "name": "Aromatisse",
-    "image": "http://image-pokemonthingy.com/image/683"
+    "image": "https://pogoapi.net/sprites/683.png"
   },
   {
     "id": 684,
     "name": "Swirlix",
-    "image": "http://image-pokemonthingy.com/image/684"
+    "image": "https://pogoapi.net/sprites/684.png"
   },
   {
     "id": 685,
     "name": "Slurpuff",
-    "image": "http://image-pokemonthingy.com/image/685"
+    "image": "https://pogoapi.net/sprites/685.png"
   },
   {
     "id": 686,
     "name": "Inkay",
-    "image": "http://image-pokemonthingy.com/image/686"
+    "image": "https://pogoapi.net/sprites/686.png"
   },
   {
     "id": 687,
     "name": "Malamar",
-    "image": "http://image-pokemonthingy.com/image/687"
+    "image": "https://pogoapi.net/sprites/687.png"
   },
   {
     "id": 688,
     "name": "Binacle",
-    "image": "http://image-pokemonthingy.com/image/688"
+    "image": "https://pogoapi.net/sprites/688.png"
   },
   {
     "id": 689,
     "name": "Barbaracle",
-    "image": "http://image-pokemonthingy.com/image/689"
+    "image": "https://pogoapi.net/sprites/689.png"
   },
   {
     "id": 690,
     "name": "Skrelp",
-    "image": "http://image-pokemonthingy.com/image/690"
+    "image": "https://pogoapi.net/sprites/690.png"
   },
   {
     "id": 691,
     "name": "Dragalge",
-    "image": "http://image-pokemonthingy.com/image/691"
+    "image": "https://pogoapi.net/sprites/691.png"
   },
   {
     "id": 692,
     "name": "Clauncher",
-    "image": "http://image-pokemonthingy.com/image/692"
+    "image": "https://pogoapi.net/sprites/692.png"
   },
   {
     "id": 693,
     "name": "Clawitzer",
-    "image": "http://image-pokemonthingy.com/image/693"
+    "image": "https://pogoapi.net/sprites/693.png"
   },
   {
     "id": 694,
     "name": "Helioptile",
-    "image": "http://image-pokemonthingy.com/image/694"
+    "image": "https://pogoapi.net/sprites/694.png"
   },
   {
     "id": 695,
     "name": "Heliolisk",
-    "image": "http://image-pokemonthingy.com/image/695"
+    "image": "https://pogoapi.net/sprites/695.png"
   },
   {
     "id": 696,
     "name": "Tyrunt",
-    "image": "http://image-pokemonthingy.com/image/696"
+    "image": "https://pogoapi.net/sprites/696.png"
   },
   {
     "id": 697,
     "name": "Tyrantrum",
-    "image": "http://image-pokemonthingy.com/image/697"
+    "image": "https://pogoapi.net/sprites/697.png"
   },
   {
     "id": 698,
     "name": "Amaura",
-    "image": "http://image-pokemonthingy.com/image/698"
+    "image": "https://pogoapi.net/sprites/698.png"
   },
   {
     "id": 699,
     "name": "Aurorus",
-    "image": "http://image-pokemonthingy.com/image/699"
+    "image": "https://pogoapi.net/sprites/699.png"
   },
   {
     "id": 700,
     "name": "Sylveon",
-    "image": "http://image-pokemonthingy.com/image/700"
+    "image": "https://pogoapi.net/sprites/700.png"
   },
   {
     "id": 702,
     "name": "Dedenne",
-    "image": "http://image-pokemonthingy.com/image/702"
+    "image": "https://pogoapi.net/sprites/702.png"
   },
   {
     "id": 704,
     "name": "Goomy",
-    "image": "http://image-pokemonthingy.com/image/704"
+    "image": "https://pogoapi.net/sprites/704.png"
   },
   {
     "id": 705,
     "name": "Sliggoo",
-    "image": "http://image-pokemonthingy.com/image/705"
+    "image": "https://pogoapi.net/sprites/705.png"
   },
   {
     "id": 706,
     "name": "Goodra",
-    "image": "http://image-pokemonthingy.com/image/706"
+    "image": "https://pogoapi.net/sprites/706.png"
   },
   {
     "id": 707,
     "name": "Klefki",
-    "image": "http://image-pokemonthingy.com/image/707"
+    "image": "https://pogoapi.net/sprites/707.png"
   },
   {
     "id": 708,
     "name": "Phantump",
-    "image": "http://image-pokemonthingy.com/image/708"
+    "image": "https://pogoapi.net/sprites/708.png"
   },
   {
     "id": 709,
     "name": "Trevenant",
-    "image": "http://image-pokemonthingy.com/image/709"
+    "image": "https://pogoapi.net/sprites/709.png"
   },
   {
     "id": 710,
     "name": "Pumpkaboo",
-    "image": "http://image-pokemonthingy.com/image/710"
+    "image": "https://pogoapi.net/sprites/710.png"
   },
   {
     "id": 711,
     "name": "Gourgeist",
-    "image": "http://image-pokemonthingy.com/image/711"
+    "image": "https://pogoapi.net/sprites/711.png"
   },
   {
     "id": 712,
     "name": "Bergmite",
-    "image": "http://image-pokemonthingy.com/image/712"
+    "image": "https://pogoapi.net/sprites/712.png"
   },
   {
     "id": 713,
     "name": "Avalugg",
-    "image": "http://image-pokemonthingy.com/image/713"
+    "image": "https://pogoapi.net/sprites/713.png"
   },
   {
     "id": 714,
     "name": "Noibat",
-    "image": "http://image-pokemonthingy.com/image/714"
+    "image": "https://pogoapi.net/sprites/714.png"
   },
   {
     "id": 715,
     "name": "Noivern",
-    "image": "http://image-pokemonthingy.com/image/715"
+    "image": "https://pogoapi.net/sprites/715.png"
   },
   {
     "id": 716,
     "name": "Xerneas",
-    "image": "http://image-pokemonthingy.com/image/716"
+    "image": "https://pogoapi.net/sprites/716.png"
   },
   {
     "id": 717,
     "name": "Yveltal",
-    "image": "http://image-pokemonthingy.com/image/717"
+    "image": "https://pogoapi.net/sprites/717.png"
   },
   {
     "id": 720,
     "name": "Hoopa",
-    "image": "http://image-pokemonthingy.com/image/720"
+    "image": "https://pogoapi.net/sprites/720.png"
   },
   {
     "id": 722,
     "name": "Rowlet",
-    "image": "http://image-pokemonthingy.com/image/722"
+    "image": "https://pogoapi.net/sprites/722.png"
   },
   {
     "id": 723,
     "name": "Dartrix",
-    "image": "http://image-pokemonthingy.com/image/723"
+    "image": "https://pogoapi.net/sprites/723.png"
   },
   {
     "id": 724,
     "name": "Decidueye",
-    "image": "http://image-pokemonthingy.com/image/724"
+    "image": "https://pogoapi.net/sprites/724.png"
   },
   {
     "id": 725,
     "name": "Litten",
-    "image": "http://image-pokemonthingy.com/image/725"
+    "image": "https://pogoapi.net/sprites/725.png"
   },
   {
     "id": 726,
     "name": "Torracat",
-    "image": "http://image-pokemonthingy.com/image/726"
+    "image": "https://pogoapi.net/sprites/726.png"
   },
   {
     "id": 727,
     "name": "Incineroar",
-    "image": "http://image-pokemonthingy.com/image/727"
+    "image": "https://pogoapi.net/sprites/727.png"
   },
   {
     "id": 728,
     "name": "Popplio",
-    "image": "http://image-pokemonthingy.com/image/728"
+    "image": "https://pogoapi.net/sprites/728.png"
   },
   {
     "id": 729,
     "name": "Brionne",
-    "image": "http://image-pokemonthingy.com/image/729"
+    "image": "https://pogoapi.net/sprites/729.png"
   },
   {
     "id": 730,
     "name": "Primarina",
-    "image": "http://image-pokemonthingy.com/image/730"
+    "image": "https://pogoapi.net/sprites/730.png"
   },
   {
     "id": 731,
     "name": "Pikipek",
-    "image": "http://image-pokemonthingy.com/image/731"
+    "image": "https://pogoapi.net/sprites/731.png"
   },
   {
     "id": 732,
     "name": "Trumbeak",
-    "image": "http://image-pokemonthingy.com/image/732"
+    "image": "https://pogoapi.net/sprites/732.png"
   },
   {
     "id": 733,
     "name": "Toucannon",
-    "image": "http://image-pokemonthingy.com/image/733"
+    "image": "https://pogoapi.net/sprites/733.png"
   },
   {
     "id": 734,
     "name": "Yungoos",
-    "image": "http://image-pokemonthingy.com/image/734"
+    "image": "https://pogoapi.net/sprites/734.png"
   },
   {
     "id": 735,
     "name": "Gumshoos",
-    "image": "http://image-pokemonthingy.com/image/735"
+    "image": "https://pogoapi.net/sprites/735.png"
   },
   {
     "id": 736,
     "name": "Grubbin",
-    "image": "http://image-pokemonthingy.com/image/736"
+    "image": "https://pogoapi.net/sprites/736.png"
   },
   {
     "id": 737,
     "name": "Charjabug",
-    "image": "http://image-pokemonthingy.com/image/737"
+    "image": "https://pogoapi.net/sprites/737.png"
   },
   {
     "id": 738,
     "name": "Vikavolt",
-    "image": "http://image-pokemonthingy.com/image/738"
+    "image": "https://pogoapi.net/sprites/738.png"
   },
   {
     "id": 739,
     "name": "Crabrawler",
-    "image": "http://image-pokemonthingy.com/image/739"
+    "image": "https://pogoapi.net/sprites/739.png"
   },
   {
     "id": 740,
     "name": "Crabominable",
-    "image": "http://image-pokemonthingy.com/image/740"
+    "image": "https://pogoapi.net/sprites/740.png"
   },
   {
     "id": 741,
     "name": "Oricorio",
-    "image": "http://image-pokemonthingy.com/image/741"
+    "image": "https://pogoapi.net/sprites/741.png"
   },
   {
     "id": 744,
     "name": "Rockruff",
-    "image": "http://image-pokemonthingy.com/image/744"
+    "image": "https://pogoapi.net/sprites/744.png"
   },
   {
     "id": 745,
     "name": "Lycanroc",
-    "image": "http://image-pokemonthingy.com/image/745"
+    "image": "https://pogoapi.net/sprites/745.png"
   },
   {
     "id": 747,
     "name": "Mareanie",
-    "image": "http://image-pokemonthingy.com/image/747"
+    "image": "https://pogoapi.net/sprites/747.png"
   },
   {
     "id": 748,
     "name": "Toxapex",
-    "image": "http://image-pokemonthingy.com/image/748"
+    "image": "https://pogoapi.net/sprites/748.png"
   },
   {
     "id": 751,
     "name": "Dewpider",
-    "image": "http://image-pokemonthingy.com/image/751"
+    "image": "https://pogoapi.net/sprites/751.png"
   },
   {
     "id": 752,
     "name": "Araquanid",
-    "image": "http://image-pokemonthingy.com/image/752"
+    "image": "https://pogoapi.net/sprites/752.png"
   },
   {
     "id": 753,
     "name": "Fomantis",
-    "image": "http://image-pokemonthingy.com/image/753"
+    "image": "https://pogoapi.net/sprites/753.png"
   },
   {
     "id": 754,
     "name": "Lurantis",
-    "image": "http://image-pokemonthingy.com/image/754"
+    "image": "https://pogoapi.net/sprites/754.png"
   },
   {
     "id": 755,
     "name": "Morelull",
-    "image": "http://image-pokemonthingy.com/image/755"
+    "image": "https://pogoapi.net/sprites/755.png"
   },
   {
     "id": 756,
     "name": "Shiinotic",
-    "image": "http://image-pokemonthingy.com/image/756"
+    "image": "https://pogoapi.net/sprites/756.png"
   },
   {
     "id": 757,
     "name": "Salandit",
-    "image": "http://image-pokemonthingy.com/image/757"
+    "image": "https://pogoapi.net/sprites/757.png"
   },
   {
     "id": 758,
     "name": "Salazzle",
-    "image": "http://image-pokemonthingy.com/image/758"
+    "image": "https://pogoapi.net/sprites/758.png"
   },
   {
     "id": 759,
     "name": "Stufful",
-    "image": "http://image-pokemonthingy.com/image/759"
+    "image": "https://pogoapi.net/sprites/759.png"
   },
   {
     "id": 760,
     "name": "Bewear",
-    "image": "http://image-pokemonthingy.com/image/760"
+    "image": "https://pogoapi.net/sprites/760.png"
   },
   {
     "id": 764,
     "name": "Comfey",
-    "image": "http://image-pokemonthingy.com/image/764"
+    "image": "https://pogoapi.net/sprites/764.png"
   },
   {
     "id": 765,
     "name": "Oranguru",
-    "image": "http://image-pokemonthingy.com/image/765"
+    "image": "https://pogoapi.net/sprites/765.png"
   },
   {
     "id": 767,
     "name": "Wimpod",
-    "image": "http://image-pokemonthingy.com/image/767"
+    "image": "https://pogoapi.net/sprites/767.png"
   },
   {
     "id": 768,
     "name": "Golisopod",
-    "image": "http://image-pokemonthingy.com/image/768"
+    "image": "https://pogoapi.net/sprites/768.png"
   },
   {
     "id": 777,
     "name": "Togedemaru",
-    "image": "http://image-pokemonthingy.com/image/777"
+    "image": "https://pogoapi.net/sprites/777.png"
   },
   {
     "id": 782,
     "name": "Jangmo-o",
-    "image": "http://image-pokemonthingy.com/image/782"
+    "image": "https://pogoapi.net/sprites/782.png"
   },
   {
     "id": 783,
     "name": "Hakamo-o",
-    "image": "http://image-pokemonthingy.com/image/783"
+    "image": "https://pogoapi.net/sprites/783.png"
   },
   {
     "id": 784,
     "name": "Kommo-o",
-    "image": "http://image-pokemonthingy.com/image/784"
+    "image": "https://pogoapi.net/sprites/784.png"
   },
   {
     "id": 785,
     "name": "Tapu Koko",
-    "image": "http://image-pokemonthingy.com/image/785"
+    "image": "https://pogoapi.net/sprites/785.png"
   },
   {
     "id": 786,
     "name": "Tapu Lele",
-    "image": "http://image-pokemonthingy.com/image/786"
+    "image": "https://pogoapi.net/sprites/786.png"
   },
   {
     "id": 787,
     "name": "Tapu Bulu",
-    "image": "http://image-pokemonthingy.com/image/787"
+    "image": "https://pogoapi.net/sprites/787.png"
   },
   {
     "id": 788,
     "name": "Tapu Fini",
-    "image": "http://image-pokemonthingy.com/image/788"
+    "image": "https://pogoapi.net/sprites/788.png"
   },
   {
     "id": 789,
     "name": "Cosmog",
-    "image": "http://image-pokemonthingy.com/image/789"
+    "image": "https://pogoapi.net/sprites/789.png"
   },
   {
     "id": 790,
     "name": "Cosmoem",
-    "image": "http://image-pokemonthingy.com/image/790"
+    "image": "https://pogoapi.net/sprites/790.png"
   },
   {
     "id": 791,
     "name": "Solgaleo",
-    "image": "http://image-pokemonthingy.com/image/791"
+    "image": "https://pogoapi.net/sprites/791.png"
   },
   {
     "id": 792,
     "name": "Lunala",
-    "image": "http://image-pokemonthingy.com/image/792"
+    "image": "https://pogoapi.net/sprites/792.png"
   },
   {
     "id": 793,
     "name": "Nihilego",
-    "image": "http://image-pokemonthingy.com/image/793"
+    "image": "https://pogoapi.net/sprites/793.png"
   },
   {
     "id": 794,
     "name": "Buzzwole",
-    "image": "http://image-pokemonthingy.com/image/794"
+    "image": "https://pogoapi.net/sprites/794.png"
   },
   {
     "id": 795,
     "name": "Pheromosa",
-    "image": "http://image-pokemonthingy.com/image/795"
+    "image": "https://pogoapi.net/sprites/795.png"
   },
   {
     "id": 796,
     "name": "Xurkitree",
-    "image": "http://image-pokemonthingy.com/image/796"
+    "image": "https://pogoapi.net/sprites/796.png"
   },
   {
     "id": 797,
     "name": "Celesteela",
-    "image": "http://image-pokemonthingy.com/image/797"
+    "image": "https://pogoapi.net/sprites/797.png"
   },
   {
     "id": 798,
     "name": "Kartana",
-    "image": "http://image-pokemonthingy.com/image/798"
+    "image": "https://pogoapi.net/sprites/798.png"
   },
   {
     "id": 799,
     "name": "Guzzlord",
-    "image": "http://image-pokemonthingy.com/image/799"
+    "image": "https://pogoapi.net/sprites/799.png"
   },
   {
     "id": 808,
     "name": "Meltan",
-    "image": "http://image-pokemonthingy.com/image/808"
+    "image": "https://pogoapi.net/sprites/808.png"
   },
   {
     "id": 809,
     "name": "Melmetal",
-    "image": "http://image-pokemonthingy.com/image/809"
+    "image": "https://pogoapi.net/sprites/809.png"
   },
   {
     "id": 819,
     "name": "Skwovet",
-    "image": "http://image-pokemonthingy.com/image/819"
+    "image": "https://pogoapi.net/sprites/819.png"
   },
   {
     "id": 820,
     "name": "Greedent",
-    "image": "http://image-pokemonthingy.com/image/820"
+    "image": "https://pogoapi.net/sprites/820.png"
   },
   {
     "id": 831,
     "name": "Wooloo",
-    "image": "http://image-pokemonthingy.com/image/831"
+    "image": "https://pogoapi.net/sprites/831.png"
   },
   {
     "id": 832,
     "name": "Dubwool",
-    "image": "http://image-pokemonthingy.com/image/832"
+    "image": "https://pogoapi.net/sprites/832.png"
   },
   {
     "id": 862,
     "name": "Obstagoon",
-    "image": "http://image-pokemonthingy.com/image/862"
+    "image": "https://pogoapi.net/sprites/862.png"
   },
   {
     "id": 863,
     "name": "Perrserker",
-    "image": "http://image-pokemonthingy.com/image/863"
+    "image": "https://pogoapi.net/sprites/863.png"
   },
   {
     "id": 865,
     "name": "Sirfetch’d",
-    "image": "http://image-pokemonthingy.com/image/865"
+    "image": "https://pogoapi.net/sprites/865.png"
   },
   {
     "id": 866,
     "name": "Mr. Rime",
-    "image": "http://image-pokemonthingy.com/image/866"
+    "image": "https://pogoapi.net/sprites/866.png"
   },
   {
     "id": 867,
     "name": "Runerigus",
-    "image": "http://image-pokemonthingy.com/image/867"
+    "image": "https://pogoapi.net/sprites/867.png"
   },
   {
     "id": 870,
     "name": "Falinks",
-    "image": "http://image-pokemonthingy.com/image/870"
+    "image": "https://pogoapi.net/sprites/870.png"
   },
   {
     "id": 888,
     "name": "Zacian",
-    "image": "http://image-pokemonthingy.com/image/888"
+    "image": "https://pogoapi.net/sprites/888.png"
   },
   {
     "id": 889,
     "name": "Zamazenta",
-    "image": "http://image-pokemonthingy.com/image/889"
+    "image": "https://pogoapi.net/sprites/889.png"
   },
   {
     "id": 893,
     "name": "Zarude",
-    "image": "http://image-pokemonthingy.com/image/893"
+    "image": "https://pogoapi.net/sprites/893.png"
   },
   {
     "id": 901,
     "name": "Ursaluna",
-    "image": "http://image-pokemonthingy.com/image/901"
+    "image": "https://pogoapi.net/sprites/901.png"
   },
   {
     "id": 903,
     "name": "Sneasler",
-    "image": "http://image-pokemonthingy.com/image/903"
+    "image": "https://pogoapi.net/sprites/903.png"
   },
   {
     "id": 904,
     "name": "Overqwil",
-    "image": "http://image-pokemonthingy.com/image/904"
+    "image": "https://pogoapi.net/sprites/904.png"
   }
 ]

@@ -5,11 +5,19 @@ const ListingSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  username: {
+    type: String,
+    required: true
+  },
   pokemonId:{
     type: String,
     required: true
   },
   pokemonName: {
+    type: String,
+    required: true
+  },
+  pokemonImage: {
     type: String,
     required: true
   },

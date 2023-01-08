@@ -1,23 +1,23 @@
 import express from "express"
 import authenticateUser from '../middlewares/authenticateUser'
 import Listing from '../models/Listing'
-import { getPokemonNameById } from '../libs/pokemon'
+import { getPokemonById } from '../libs/pokemon'
 
 const router = express.Router()
 
 // Display all listings (defaults to 20 most recent)
 router.get("/api/listings", async (req, res) => {
   const limit = req.query.limit || 20
+  const listingType = req.query.type 
 
-
-  const listings = await Listing.find().sort({ createdAt: -1 }).limit(limit)
+  const listings = listingType ? await Listing.find({ type: listingType }).sort({ createdAt: -1 }).limit(limit) : await Listing.find().sort({ createdAt: -1 }).limit(limit)
   res.status(200).json(listings)
 })
 
 // Display listing by ID
 router.get("/api/listings/:id", async (req, res) => {
   const listing = await Listing.findById(req.params.id)
-  if (!listing) {
+  if (listing) {
     res.status(200).json(listing)
   } else {
     res.status(404).json({success: false, error: 'No such listing found'})
@@ -29,15 +29,19 @@ router.post('/api/listings', authenticateUser)
 router.post("/api/listings", async (req, res) => {
   const { pokemonId, type = 'wanted', location, shiny, description } = req.body
 
-  const pokemonName = getPokemonNameById(pokemonId)
+  const pokemon = getPokemonById(pokemonId)
+  const pokemonName = pokemon.name
+  const pokemonImage = pokemon.image
   
   const userId = req.user.id
+  const username = req.user.username
+  console.log(username)
 
-  console.log({userId,  pokemonId, pokemonName, type, location, shiny, description})
+  console.log({userId, username, pokemonId, pokemonName,pokemonImage,  type, location, shiny, description})
 
   try {
     const newListing = await new Listing({
-      userId, pokemonId, pokemonName, type, location, shiny, description
+      userId, username, pokemonId, pokemonName, pokemonImage, type, location, shiny, description
     }).save()
     res.status(201).json(newListing)
   } catch (e) {
