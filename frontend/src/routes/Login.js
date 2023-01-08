@@ -1,26 +1,26 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
+  Alert,
   Button, Checkbox, Form, Input,
 } from 'antd'
 import { UserOutlined, LockOutlined } from '@ant-design/icons'
 import Center from 'components/Center'
 
-// import { useDispatch, useSelector, batch } from 'react-redux'
+import { useDispatch, useSelector, batch } from 'react-redux'
 import { useNavigate, Link } from 'react-router-dom'
+import user from 'reducers/user'
 import { API_URL } from '../utils/utils'
-// import user from 'reducers/user'
 
 function Login() {
-  // const dispatch = useDispatch()
+  const dispatch = useDispatch()
   const navigate = useNavigate()
 
-  const accessToken = false
-  // const accessToken = useSelector((store) => store.user.accessToken)
-  // const error = useSelector((store) => store.user.error)
-
+  const [errors, setErrors] = useState(null)
+  const accessToken = useSelector((store) => store.user.accessToken)
+  console.log(accessToken)
   useEffect(() => {
     if (accessToken) {
-      navigate('/')
+      navigate('/home')
     }
   }, [accessToken])
 
@@ -41,22 +41,29 @@ function Login() {
       .then((data) => {
         console.log(data)
         if (data.success) {
-          console.log('LOGGED IN!!!')
-          // batch(() => {
-          //   dispatch(user.actions.setUsername(data.response.username))
-          //   dispatch(user.actions.setUserId(data.response.id))
-          //   dispatch(user.actions.setAccessToken(data.response.accessToken))
-          //   dispatch(user.actions.setError(null))
-          // })
+          setErrors(null)
+          batch(() => {
+            dispatch(user.actions.setUser(data.response.user))
+            dispatch(user.actions.setAccessToken(data.response.accessToken))
+          })
         } else {
-          console.log('failed')
-          // @todo show errors
+          setErrors([data.response])
         }
+      }).catch((e) => {
+        console.log(e)
+        setErrors(['Could not connect to server'])
       })
   };
 
+  console.log(errors)
   return (
+
     <Center>
+
+      {errors && (
+        <Alert type="error" message={errors.join(', ')} />
+      )}
+
       <Form
         layout="vertical"
         style={{ width: '280px', paddingTop: '70px' }}

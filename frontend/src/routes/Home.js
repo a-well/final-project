@@ -5,11 +5,31 @@ import { Col, Row } from 'antd'
 import Center from 'components/Center'
 import SearchBox from 'components/SearchBox'
 import RecentListings from 'components/RecentListings'
+import { useSelector } from 'react-redux'
+import { useNavigate, Link } from 'react-router-dom'
 
 function Home() {
+  const navigate = useNavigate()
+  const user = useSelector((store) => store.user.user)
+  console.log({ user })
+  if (!user) {
+    navigate('/login')
+    return (
+      <div>
+        Not logged in!
+        <br />
+        <Link to="/login">Go to login</Link>
+      </div>
+    )
+  }
+
   return (
     <>
-      <h1>Home (signed in)</h1>
+      <h1>
+        Home (signed in as
+        {user.username}
+        )
+      </h1>
       <Center>
         <h2>Search</h2>
         <SearchBox />

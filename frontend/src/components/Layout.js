@@ -10,12 +10,15 @@ import {
   MenuOutlined,
 } from '@ant-design/icons'
 import { useNavigate, Link } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 import Center from './Center';
+import LogoutButton from './LogoutButton';
 
 const { Header, Content, Footer } = Layout;
 
 function AppLayout({ children }) {
   const nav = useNavigate()
+  const accessToken = useSelector((store) => store.user.accessToken)
 
   return (
     <Layout style={{ minHeight: '100vh' }}>
@@ -77,7 +80,7 @@ function AppLayout({ children }) {
                 ),
               },
               // @TODO add MyListings
-              {
+              !accessToken && {
                 key: '/login',
                 label: (
                   <>
@@ -86,8 +89,11 @@ function AppLayout({ children }) {
                   </>
                 ),
               },
-              // {key: '/logout', label: (<><LogoutOutlined />{' Log out'}</>)},
-              {
+              accessToken && {
+                key: '/logout',
+                label: <LogoutButton />,
+              },
+              !accessToken && {
                 key: '/signup',
                 label: (
                   <>

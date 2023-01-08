@@ -48,8 +48,10 @@ router.post("/api/auth/login", async (req, res) => {
       res.status(200).json({
         success: true,
         response: {
-          username: user.username,
-          id: user._id,
+          user: {
+            username: user.username,
+            id: user._id,
+          },
           accessToken: user.accessToken
         }
       })
