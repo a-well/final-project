@@ -41,7 +41,7 @@ function Login() {
       .then((data) => {
         console.log(data)
         if (data.success) {
-          alert('LOGGED IN!!!')
+          console.log('LOGGED IN!!!')
           // batch(() => {
           //   dispatch(user.actions.setUsername(data.response.username))
           //   dispatch(user.actions.setUserId(data.response.id))
@@ -49,7 +49,7 @@ function Login() {
           //   dispatch(user.actions.setError(null))
           // })
         } else {
-          alert('failed')
+          console.log('failed')
           // @todo show errors
         }
       })

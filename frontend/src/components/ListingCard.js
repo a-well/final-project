@@ -1,6 +1,8 @@
 import React from 'react'
-import { Card } from 'antd'
-import { PushpinOutlined } from '@ant-design/icons'
+import { Card, Space, Typography } from 'antd'
+import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
+
+const { Paragraph } = Typography;
 
 const { Meta } = Card
 
@@ -18,6 +20,7 @@ const ShinyStar = () => (
 )
 
 function ListingCard({
+  standalone,
   pokemonId,
   pokemonName,
   shiny,
@@ -26,8 +29,7 @@ function ListingCard({
   description,
   username,
   pokemonImage,
-  dateAdded,
-  contact,
+  createdAt,
   hoverable = true,
 }) {
   const content = (
@@ -42,9 +44,13 @@ function ListingCard({
         {' '}
         {username}
       </div>
-      <div>
-        {contact}
-      </div>
+
+      {standalone && (
+      <Space align="top">
+        <FacebookOutlined />
+        <Paragraph copyable>{username}</Paragraph>
+      </Space>
+      )}
       <div>
         {description}
       </div>
@@ -60,7 +66,7 @@ function ListingCard({
 
   return (
     <Card
-      size="small"
+      size={standalone ? 'large' : 'small'}
       hoverable={hoverable}
       cover={cover}
     >

@@ -43,7 +43,7 @@ function App() {
 
           <Route path="/home" element={<Home />} />
 
-          <Route path="/listing" element={<Listing />} />
+          <Route path="/listing/*" element={<Listing />} />
           <Route path="/my-listings" element={<MyListings />} />
           <Route path="/post-listing" element={<PostListing />} />
           <Route path="/search" element={<Search />} />

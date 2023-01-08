@@ -24,7 +24,7 @@ function Listing({
         username="unicorns_yay"
         pokemonName="Mew"
         location="Ekerö"
-        contact="Contact: Facebook icon: _____, Discord icon:____, WhatsApp icon: _____"
+        standalone
         comment="Comment: Bla bla I want a shiny one plz"
       />
     </>

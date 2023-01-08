@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Button, Form, Input, Select, Radio, Col, Row,
 } from 'antd'
-import Center from 'components/Center'
 import ListingCard from 'components/ListingCard'
 
 const { TextArea } = Input;
