@@ -10,7 +10,7 @@ import Signup from 'routes/Signup'
 import ForgotPassword from 'routes/ForgotPassword'
 import Home from 'routes/Home'
 import Search from 'routes/Search'
-import Profile from 'routes/Profile'
+import MyProfile from 'routes/MyProfile'
 import MyListings from 'routes/MyListings'
 import Listing from 'routes/Listing'
 import PostListing from 'routes/PostListing'
@@ -49,12 +49,12 @@ function App() {
 
             <Route path="/home" element={<Home />} />
 
-            <Route path="/listing/*" element={<Listing />} />
+            <Route path="/listing/:id" element={<Listing />} />
             <Route path="/my-listings" element={<MyListings />} />
             <Route path="/post-listing" element={<PostListing />} />
             <Route path="/search" element={<Search />} />
 
-            <Route path="/me" element={<Profile />} />
+            <Route path="/me" element={<MyProfile />} />
 
             <Route path="/about" element={<About />} />
 

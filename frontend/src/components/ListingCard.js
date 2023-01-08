@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Space, Typography } from 'antd'
 import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
 
-const { Paragraph } = Typography;
+const { Paragraph } = Typography
 
 const { Meta } = Card
 
@@ -15,7 +15,7 @@ const ShinyStar = () => (
       fontSize: 40,
     }}
   >
-    🌟✨
+    ✨
   </div>
 )
 
@@ -40,7 +40,7 @@ function ListingCard({
         {location}
       </div>
       <div>
-        Today 9:20 by
+        {createdAt}
         {' '}
         {username}
       </div>
@@ -59,7 +59,7 @@ function ListingCard({
 
   const cover = (
     <div style={{ position: 'relative' }}>
-      <img alt={pokemonName} src={pokemonImage} />
+      <img alt={pokemonName} src={pokemonImage} style={{ maxWidth: '100%' }} />
       {shiny && <ShinyStar />}
     </div>
   )

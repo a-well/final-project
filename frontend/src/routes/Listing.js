@@ -1,33 +1,42 @@
 import React from 'react'
 import { ArrowLeftOutlined } from '@ant-design/icons'
 import { Button } from 'antd'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import ListingCard from 'components/ListingCard'
+import useApi from 'hooks/useApi'
+import Center from 'components/Center'
 
-function Listing({
-  pokemonId, pokemonName, shiny, location, description, username, pokemonImage, whenAdded, contact,
-}) {
+function Listing() {
+  const { id } = useParams()
+  const { data: listing, isLoading } = useApi(`/api/listings/${id}`)
+
+  if (!id) {
+    return <div>No ID parameter given</div>
+  }
+
+  if (isLoading) {
+    return <div>Loading...</div>
+  }
+
   return (
-    <>
-      <h1>Listing</h1>
-
-      <h2>Wanted: Shiny pinsir</h2>
-      <Link to="/">
-        <Button type="primary" icon={<ArrowLeftOutlined />}>
-          Back to results
-        </Button>
-      </Link>
+    <Center>
+      <h2>
+        {listing.type === 'wanted' ? 'Wanted' : 'Looking for a new home'}
+        {': '}
+        {listing.pokemonName}
+      </h2>
       <ListingCard
+        shiny={listing.shiny}
         hoverable={false}
-        hideTitle
-        pokemonImage="https://lorempokemon.fakerapi.it/pokemon/500"
-        username="unicorns_yay"
-        pokemonName="Mew"
-        location="Ekerö"
+        createdAt={listing.createdAt}
+        pokemonImage={listing.pokemonImage}
+        username={listing.username}
+        pokemonName={listing.pokemonName}
+        location={listing.location}
         standalone
-        comment="Comment: Bla bla I want a shiny one plz"
+        description={listing.description}
       />
-    </>
+    </Center>
   )
 }
 

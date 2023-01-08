@@ -1,11 +1,23 @@
 import React from 'react'
 import { Col, Row } from 'antd'
 import { Link } from 'react-router-dom'
+import useApi from 'hooks/useApi'
 import ListingCard from './ListingCard'
 import Center from './Center'
 
 function RecentListings({ type }) {
-  // todo get data from api
+  const { data, isLoading } = useApi(`/api/listings?limit=6&type=${type}`)
+
+  console.log({ data, isLoading })
+  if (isLoading || !data) {
+    return (
+      <div>
+        Loading type
+        {type}
+        ...
+      </div>
+    )
+  }
 
   return (
     <div>
@@ -16,41 +28,19 @@ function RecentListings({ type }) {
       )}
 
       <Row gutter={[15, 15]}>
-        <Col xs={8}>
-          <Link to="/listing/123">
-            <ListingCard
-              pokemonImage="https://lorempokemon.fakerapi.it/pokemon/200"
-              username="unicorns_yay"
-              pokemonName="Mew"
-              location="Stockholm"
-            />
-          </Link>
-        </Col>
-        <Col xs={8}>
-          <Link to="/listing/123">
-            <ListingCard pokemonImage="https://lorempokemon.fakerapi.it/pokemon/201" username="tuss" pokemonName="Pikachu" location="Stockholm" />
-          </Link>
-        </Col>
-        <Col xs={8}>
-          <Link to="/listing/123">
-            <ListingCard pokemonImage="https://lorempokemon.fakerapi.it/pokemon/202" username="buss" pokemonName="Lapras" location="Oslo" />
-          </Link>
-        </Col>
-        <Col xs={8}>
-          <Link to="/listing/123">
-            <ListingCard pokemonImage="https://lorempokemon.fakerapi.it/pokemon/203" username="DANIL" pokemonName="Pinsir" location="Bromma" />
-          </Link>
-        </Col>
-        <Col xs={8}>
-          <Link to="/listing/123">
-            <ListingCard pokemonImage="https://lorempokemon.fakerapi.it/pokemon/204" username="ASLÅNGTNAMNHMM" pokemonName="Eevee" location="Stockholm" />
-          </Link>
-        </Col>
-        <Col xs={8}>
-          <Link to="/listing/123">
-            <ListingCard pokemonImage="https://lorempokemon.fakerapi.it/pokemon/205" username="woop" pokemonName="Surskit" location="Umeå" />
-          </Link>
-        </Col>
+        {data.map((listing) => (
+          <Col xs={8} key={listing._id}>
+            <Link to={`/listing/${listing._id}`}>
+              <ListingCard
+                username={listing.username}
+                pokemonName={listing.pokemonName}
+                pokemonImage={listing.pokemonImage}
+                location={listing.location}
+                createdAt={listing.createdAt}
+              />
+            </Link>
+          </Col>
+        ))}
       </Row>
       <Center>
         <br />

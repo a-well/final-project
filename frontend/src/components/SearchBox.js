@@ -3,7 +3,7 @@ import React from 'react';
 import { Input, Radio, Form } from 'antd'
 import { SearchOutlined } from '@ant-design/icons'
 
-const { Search } = Input;
+const { Search } = Input
 
 function SearchBox() {
   return (

@@ -1,25 +1,70 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
-  Button, Form, Input, Select, Radio, Col, Row,
+  Button, Form, Input, Select, Radio, Col, Row, Switch,
 } from 'antd'
 import ListingCard from 'components/ListingCard'
+import useApi from 'hooks/useApi'
+import postApi from 'hooks/postApi'
+import { useNavigate } from 'react-router-dom';
 
 const { TextArea } = Input;
 const { Option } = Select
 
 function PostListing() {
-  const [form] = Form.useForm();
-  const pokemonType = Form.useWatch('type', form);
-  const description = Form.useWatch('description', form);
-  const location = Form.useWatch('location', form);
-  const shiny = Form.useWatch('shiny', form) === '1'
-  console.log(shiny)
+  const { trigger } = postApi('/api/listings')
+  const { isLoading, data: pokemons = [] } = useApi('/api/pokemons.json')
+  const navigate = useNavigate()
+
+  const [errors, setErrors] = useState(null)
+  const [redirectTo, setRedirect] = useState(null)
+
+  const [form] = Form.useForm()
+  const pokemonId = Form.useWatch('pokemonId', form)
+  const description = Form.useWatch('description', form)
+  const location = Form.useWatch('location', form)
+  const shiny = Form.useWatch('shiny', form)
+
+  // eslint-disable-next-line eqeqeq
+  const getPokemon = (id) => pokemons.find((p) => p.id == id)
+  const selectedPokemon = getPokemon(pokemonId)
+  const pokemonImage = selectedPokemon?.image
+  const pokemonName = selectedPokemon?.name
+
+  if (isLoading) {
+    return <div>Loading pokemons...</div>
+  }
+
+  if (redirectTo) {
+    navigate(redirectTo)
+    return null
+  }
+  const save = async (values) => {
+    const res = await trigger(values)
+
+    if (res.errors) {
+      setErrors(res.errors)
+    } else {
+      // visa nån popup att det gick bra?
+      // redirecta till din nya listing?
+      // useNavigate()
+      console.log(`send user to  /listing/${res._id}`)
+      setRedirect(`/listing/${res._id}`)
+    }
+    //
+    console.log(res)
+  }
 
   return (
     <Row gutter={40} align="top" justify="center">
       <Col xs={24} sm={12}>
+        {errors && (
+          <div style={{ color: 'red' }}>
+              {JSON.stringify(errors)}
+          </div>
+        )}
         <Form
           form={form}
+          onFinish={save}
           layout="vertical"
           style={{ width: '350px' }}
           requiredMark={false}
@@ -49,23 +94,38 @@ function PostListing() {
             <Input placeholder="Where to meet up for trade" />
           </Form.Item>
 
-          <Form.Item label="Select Pokemon" name="pokemonId">
-            <Select placeholder="Charmander">
-              <Option value="charmander">Charmander</Option>
-              <Option value="anotherpokemon">Another Pokemon</Option>
+          <Form.Item
+            label="Select Pokemon"
+            name="pokemonId"
+            rules={[
+              {
+                required: true,
+                message: 'Please select a Pokemon',
+              },
+            ]}
+          >
+            <Select placeholder="Pokemon name">
+              {pokemons.map((p) => (
+                <Option value={p.id} key={p.id}>{p.name}</Option>
+              ))}
             </Select>
           </Form.Item>
 
-          <Form.Item label="Shiny" name="shiny" tooltip="Doesn't matter can only be selected for Wanted listings">
-            <Radio.Group>
-              <Radio value="1">Yes</Radio>
-              <Radio value="0">No</Radio>
-              <Radio value="c" disabled>Doesn't matter</Radio>
-            </Radio.Group>
+          <Form.Item label="Shiny" name="shiny" valuePropName="checked">
+            <Switch />
           </Form.Item>
 
-          <Form.Item label="Description" name="description">
-            <TextArea showCount maxLength={350} placeholder="Here you can add lorem lorem" />
+          <Form.Item
+            label="Description"
+            name="description"
+            tooltip="Add more details, eg. which Pokemon(s) you want to trade it for, at which hours you typically can respond to messages about the ad"
+            rules={[
+              {
+                required: true, message: 'Please add a description or Pikachu will be sad',
+              },
+            ]}
+          >
+            <TextArea showCount maxLength={350} placeholder="Add a comment with more info" />
           </Form.Item>
 
           <Form.Item>
@@ -79,11 +139,11 @@ function PostListing() {
       <Col xs={24} sm={12}>
         <h3 style={{ textTransform: 'uppercase' }}>Preview</h3>
         <ListingCard
-          pokemonImage="https://lorempokemon.fakerapi.it/pokemon/350"
           username="unicorns_yay"
           hoverable={false}
           shiny={shiny}
-          pokemonName="Mew"
+          pokemonName={pokemonName}
+          pokemonImage={pokemonImage}
           location={location}
           description={description}
         />
