@@ -8,7 +8,7 @@ const router = express.Router()
 // Handle user registration
 router.post("/api/auth/register", async (req, res) => {
   // Get username and password from user input
-  const { username, password } = req.body
+  const { username, emailAddress, password, about, location, whatsApp, facebook, poGoUsername, trainerCode, poGoLevel } = req.body
 
   try {
     // Generate salt for password encryption (https://en.wikipedia.org/wiki/Salt_(cryptography))
@@ -16,21 +16,29 @@ router.post("/api/auth/register", async (req, res) => {
     if (password.length < 10) {
       res.status(400).json({
         success: false,
-        response: "Passord must be at least 10 characters long"
+        response: "Password must be at least 10 characters long"
       })
     } else {
       // Insert new user to database and encrypt password
-      const newUser = await new User({username, password: bcrypt.hashSync(password, salt)}).save()
+      const newUser = await new User({
+        username,
+        password: bcrypt.hashSync(password, salt),
+        emailAddress,
+        location,
+        about,
+        whatsApp, 
+        facebook,
+        poGoUsername, 
+        trainerCode, 
+        poGoLevel
+      }).save()
       res.status(201).json({
         success: true,
-        response: {
-          username: newUser.username,
-          accessToken: newUser.accessToken,
-          id: newUser._id
-        }
+        user: newUser
       })
     }
   } catch(e) {
+    console.log(e)
     res.status(400).json({
       success: false,
       response: e
