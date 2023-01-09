@@ -32,16 +32,18 @@ router.post("/api/listings", async (req, res) => {
   const pokemon = getPokemonById(pokemonId)
   const pokemonName = pokemon.name
   const pokemonImage = pokemon.image
+  const pokemonImageShiny = pokemon.imageShiny
   
   const userId = req.user.id
   const username = req.user.username
+
   console.log(username)
 
-  console.log({userId, username, pokemonId, pokemonName,pokemonImage,  type, location, shiny, description})
+  console.log({userId, username, pokemonId, pokemonName, pokemonImage, pokemonImageShiny, type, location, shiny, description})
 
   try {
     const newListing = await new Listing({
-      userId, username, pokemonId, pokemonName, pokemonImage, type, location, shiny, description
+      userId, username, pokemonId, pokemonName, pokemonImage, pokemonImageShiny, type, location, shiny, description
     }).save()
     res.status(201).json(newListing)
   } catch (e) {

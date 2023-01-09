@@ -21,6 +21,10 @@ const ListingSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  pokemonImageShiny: {
+    type: String,
+    required: true
+  },
   type: {
     type: String,
     required: true,

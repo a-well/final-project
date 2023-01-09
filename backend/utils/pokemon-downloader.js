@@ -12,10 +12,8 @@ const download = function(url, dest, cb) {
   })
 }
 
-// Download list of all Pokemons currently available in PokemonGo (name and pokedex entry number)
+// Download list of all Pokemons currently available in PokemonGo (name and pokedex number)
 download('https://pogoapi.net/api/v1/released_pokemon.json', './data/pokemon_names.json', () => {
   console.log('File successfully downloaded')
   process.exit()
 })
-
-//@TODO add shiny sprites https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/133.png
