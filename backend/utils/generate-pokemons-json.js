@@ -59,4 +59,4 @@ jsonfile.writeFileSync(file, allPokemon, { spaces: 2 })
 
 // npm run generate-pokemons
 
-//@TODO add shiny https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png or just replace shiny emoji with shiny sprite?
+//@TODO add if it can be shiny or no https://pogoapi.net/Is_It_Shiny/
