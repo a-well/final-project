@@ -30,6 +30,7 @@ function Listing() {
         hoverable={false}
         createdAt={listing.createdAt}
         pokemonImage={listing.pokemonImage}
+        pokemonImageShiny={listing.pokemonImageShiny}
         username={listing.username}
         pokemonName={listing.pokemonName}
         location={listing.location}

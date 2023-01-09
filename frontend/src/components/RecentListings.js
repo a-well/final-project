@@ -1,9 +1,13 @@
 import React from 'react'
-import { Col, Row } from 'antd'
+import {
+  Col, Row, Typography,
+} from 'antd'
 import { Link } from 'react-router-dom'
 import useApi from 'hooks/useApi'
 import ListingCard from './ListingCard'
 import Center from './Center'
+
+const { Title, Text } = Typography
 
 function RecentListings({ type }) {
   const { data, isLoading } = useApi(`/api/listings?limit=6&type=${type}`)
@@ -22,9 +26,9 @@ function RecentListings({ type }) {
   return (
     <div>
       {type === 'wanted' ? (
-        <h2>Wanted</h2>
+        <Title level={3}>Wanted</Title>
       ) : (
-        <h2>Looking for a new home</h2>
+        <Title level={3}>Looking for a new home</Title>
       )}
 
       <Row gutter={[15, 15]}>
@@ -36,6 +40,7 @@ function RecentListings({ type }) {
                 username={listing.username}
                 pokemonName={listing.pokemonName}
                 pokemonImage={listing.pokemonImage}
+                pokemonImageShiny={listing.pokemonImageShiny}
                 location={listing.location}
                 createdAt={listing.createdAt}
               />
@@ -44,8 +49,7 @@ function RecentListings({ type }) {
         ))}
       </Row>
       <Center>
-        <br />
-        Load more...
+        <Text>Load more...</Text>
       </Center>
     </div>
   )

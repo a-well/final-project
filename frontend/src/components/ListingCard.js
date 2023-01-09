@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Space, Typography } from 'antd'
 import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
+import Center from './Center'
 
 const { Paragraph } = Typography
 
@@ -11,7 +12,7 @@ const ShinyStar = () => (
     style={{
       position: 'absolute',
       top: 10,
-      right: 10,
+      left: 10,
       fontSize: 40,
     }}
   >
@@ -29,6 +30,7 @@ function ListingCard({
   description,
   username,
   pokemonImage,
+  pokemonImageShiny,
   createdAt,
   hoverable = true,
 }) {
@@ -59,7 +61,7 @@ function ListingCard({
 
   const cover = (
     <div style={{ position: 'relative' }}>
-      <img alt={pokemonName} src={pokemonImage} style={{ maxWidth: '100%' }} />
+      <Center><img alt={pokemonName} src={shiny ? pokemonImageShiny : pokemonImage} style={{ width: '150px' }} /></Center>
       {shiny && <ShinyStar />}
     </div>
   )
@@ -79,5 +81,3 @@ export default ListingCard
 
 // @TODO add loading skeleton https://codesandbox.io/s/bj5pc0?file=/demo.tsx:307-380
 // @TODO add username
-
-// pokemonImage={"https://lorempokemon.fakerapi.it/pokemon/200"}

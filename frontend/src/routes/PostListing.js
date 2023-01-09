@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {
-  Button, Form, Input, Select, Radio, Col, Row, Switch,
+  Button, Form, Input, Select, Radio, Col, Row, Switch, Badge,
 } from 'antd'
 import ListingCard from 'components/ListingCard'
 import useApi from 'hooks/useApi'
@@ -23,11 +23,13 @@ function PostListing() {
   const description = Form.useWatch('description', form)
   const location = Form.useWatch('location', form)
   const shiny = Form.useWatch('shiny', form)
+  const type = Form.useWatch('type', form)
 
   // eslint-disable-next-line eqeqeq
   const getPokemon = (id) => pokemons.find((p) => p.id == id)
   const selectedPokemon = getPokemon(pokemonId)
   const pokemonImage = selectedPokemon?.image
+  const pokemonImageShiny = selectedPokemon?.imageShiny
   const pokemonName = selectedPokemon?.name
 
   if (isLoading) {
@@ -138,15 +140,25 @@ function PostListing() {
 
       <Col xs={24} sm={12}>
         <h3 style={{ textTransform: 'uppercase' }}>Preview</h3>
-        <ListingCard
-          username="unicorns_yay"
-          hoverable={false}
-          shiny={shiny}
-          pokemonName={pokemonName}
-          pokemonImage={pokemonImage}
-          location={location}
-          description={description}
-        />
+        <Badge.Ribbon
+          type={type}
+          text={type === 'wanted' ? (
+            'Wanted'
+          ) : (
+            'Looking for a new home'
+          )}
+        >
+          <ListingCard
+            username="unicorns_yay"
+            hoverable={false}
+            shiny={shiny}
+            pokemonName={pokemonName}
+            pokemonImage={pokemonImage}
+            pokemonImageShiny={pokemonImageShiny}
+            location={location}
+            description={description}
+          />
+        </Badge.Ribbon>
       </Col>
 
     </Row>
