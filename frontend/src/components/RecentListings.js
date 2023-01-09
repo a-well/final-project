@@ -32,6 +32,7 @@ function RecentListings({ type }) {
           <Col xs={8} key={listing._id}>
             <Link to={`/listing/${listing._id}`}>
               <ListingCard
+                shiny={listing.shiny}
                 username={listing.username}
                 pokemonName={listing.pokemonName}
                 pokemonImage={listing.pokemonImage}
