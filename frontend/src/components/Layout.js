@@ -11,10 +11,10 @@ import {
 } from '@ant-design/icons'
 import { useNavigate, Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import Center from './Center';
-import LogoutButton from './LogoutButton';
+import Center from './Center'
+import LogoutButton from './LogoutButton'
 
-const { Header, Content, Footer } = Layout;
+const { Header, Content, Footer } = Layout
 
 function AppLayout({ children }) {
   const nav = useNavigate()
@@ -90,7 +90,8 @@ function AppLayout({ children }) {
                 ),
               },
               accessToken && {
-                key: '/logout',
+                key: '/',
+                // @TODO add sing out page
                 label: <LogoutButton />,
               },
               !accessToken && {

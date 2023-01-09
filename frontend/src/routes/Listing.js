@@ -2,7 +2,7 @@ import React from 'react'
 import { ArrowLeftOutlined } from '@ant-design/icons'
 import { Button } from 'antd'
 import { Link, useParams } from 'react-router-dom'
-import ListingCard from 'components/ListingCard'
+import ListingItem from 'components/ListingItem'
 import useApi from 'hooks/useApi'
 import Center from 'components/Center'
 
@@ -25,19 +25,7 @@ function Listing() {
         {': '}
         {listing.pokemonName}
       </h2>
-      <ListingCard
-        type={listing.type}
-        shiny={listing.shiny}
-        hoverable={false}
-        createdAt={listing.createdAt}
-        pokemonImage={listing.pokemonImage}
-        pokemonImageShiny={listing.pokemonImageShiny}
-        username={listing.username}
-        pokemonName={listing.pokemonName}
-        location={listing.location}
-        standalone
-        description={listing.description}
-      />
+      <ListingItem listing={listing} hoverable={false} standalone />
     </Center>
   )
 }

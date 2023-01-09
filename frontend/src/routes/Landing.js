@@ -5,7 +5,6 @@ import { Col, Row, Button } from 'antd'
 // import thoughts from 'reducers/thoughts'
 // import { API_URL } from 'utils/utils'
 // import { useNavigate } from 'react-router-dom'
-// import LogoutButton from './LogoutButton'
 
 import SearchBox from 'components/SearchBox'
 import RecentListings from 'components/RecentListings'
@@ -20,7 +19,11 @@ function Landing() {
 
       <Row gutter={80}>
         <Col xs={24} md={12}>
-          <p>have the pokemong go gods blessed you blah blah</p>
+          <p>
+            Pokemon I like shorts Grimer Empoleon Shinx Wurmple Electrode?
+            Sunt in culpa Satoshi Tajiri Sonic Boom Duosion Noctowl Shellos Vespiquen.
+            Flying Lunatone Cherubi Cacnea MysteryBerry Leech Life Pupitar!
+          </p>
         </Col>
         <Col xs={24} md={12}>
           <h2>Search now to see whats out there!</h2>

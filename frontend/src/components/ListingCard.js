@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, Space, Typography } from 'antd'
 import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
+import { Link } from 'react-router-dom'
 import Center from './Center'
 
 const { Paragraph } = Typography
@@ -43,14 +44,14 @@ function ListingCard({
       </div>
       <div>
         {createdAt}
-        {' '}
-        {username}
+        {' by '}
+        <Link to={`/users/${username}`}>{username}</Link>
       </div>
 
       {standalone && (
       <Space align="top">
         <FacebookOutlined />
-        <Paragraph copyable>{username}</Paragraph>
+        <Paragraph copyable>fbusername</Paragraph>
       </Space>
       )}
       <div>

@@ -18,7 +18,7 @@ function SearchBox() {
             size="medium"
           />
         </Form.Item>
-        <Form.Item name="type" label="Listing type">
+        <Form.Item name="type" label="Listing type:" colon={false}>
           <Radio.Group>
             <Radio value="a">Wanted</Radio>
             <Radio value="b">Looking for a new home</Radio>
