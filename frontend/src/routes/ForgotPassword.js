@@ -1,8 +1,12 @@
 import React from 'react'
 
+import { Typography } from 'antd'
+
+const { Title, Text } = Typography
+
 function ForgotPassword() {
   return (
-    <h1>Forgot Password</h1>
+    <Title>Forgot Password</Title>
   )
 }
 

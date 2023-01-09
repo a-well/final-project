@@ -1,12 +1,14 @@
 import React from 'react'
 
-import { Col, Row } from 'antd'
+import { Col, Row, Typography } from 'antd'
 
 import Center from 'components/Center'
 import SearchBox from 'components/SearchBox'
 import RecentListings from 'components/RecentListings'
 import { useSelector } from 'react-redux'
 import { useNavigate, Link } from 'react-router-dom'
+
+const { Title, Text } = Typography
 
 function Home() {
   const navigate = useNavigate()
@@ -25,18 +27,18 @@ function Home() {
 
   return (
     <>
-      <h1>
+      <Title>
         Home (signed in as
         {user.username}
         )
-      </h1>
+      </Title>
       <Center>
-        <h2>Search</h2>
+        <Title level={2}>Search</Title>
         <SearchBox />
 
       </Center>
 
-      <h2>Recent listings</h2>
+      <Title level={2}>Recent listings</Title>
 
       <Row gutter={80}>
         <Col xs={24} md={12}>

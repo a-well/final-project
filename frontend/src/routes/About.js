@@ -1,12 +1,19 @@
 import React from 'react'
+import { Typography } from 'antd'
+
+const { Title, Text } = Typography
 
 function About() {
   return (
     <>
-      <h1>What is this?</h1>
-      <p>Fan built thingie to help you trade Pokemons, not affiliated with PokemonGO or Nintendo</p>
-      <h2>Kudos</h2>
-      <p>Link to PokeAPI and other stuff maybe</p>
+      <Title>About PokeYAY</Title>
+      <Title level={2}>What is this?</Title>
+      <Text>
+        Fan built thingie to help you trade Pokemons,
+        not affiliated with PokemonGO or Nintendo
+      </Text>
+      <Title level={2}>Kudos</Title>
+      <Text>Link to PokeAPI and other stuff maybe</Text>
     </>
   )
 }

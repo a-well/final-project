@@ -26,6 +26,7 @@ function Listing() {
         {listing.pokemonName}
       </h2>
       <ListingCard
+        type={listing.type}
         shiny={listing.shiny}
         hoverable={false}
         createdAt={listing.createdAt}
