@@ -1,18 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
-  Button, Form, Input, Select, Radio, Col, Row, Switch, Badge,
+  Button, Form, Input, Select, Radio, Col, Row, Switch, Badge, Modal,
 } from 'antd'
 import ListingCard from 'components/ListingCard'
 import useApi from 'hooks/useApi'
 import postApi from 'hooks/postApi'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
+import useUser from 'hooks/useUser'
 
-const { TextArea } = Input;
+const { TextArea } = Input
 const { Option } = Select
 
 function PostListing() {
   const { trigger } = postApi('/api/listings')
   const { isLoading, data: pokemons = [] } = useApi('/api/pokemons.json')
+  const { user } = useUser()
   const navigate = useNavigate()
 
   const [errors, setErrors] = useState(null)
@@ -25,34 +27,31 @@ function PostListing() {
   const shiny = Form.useWatch('shiny', form)
   const type = Form.useWatch('type', form)
 
-  // eslint-disable-next-line eqeqeq
+  // eslint-disable-next-line
   const getPokemon = (id) => pokemons.find((p) => p.id == id)
   const selectedPokemon = getPokemon(pokemonId)
   const pokemonImage = selectedPokemon?.image
   const pokemonImageShiny = selectedPokemon?.imageShiny
   const pokemonName = selectedPokemon?.name
 
+  useEffect(() => {
+    if (redirectTo) {
+      navigate(redirectTo)
+    }
+  }, [redirectTo])
+
   if (isLoading) {
     return <div>Loading pokemons...</div>
   }
 
-  if (redirectTo) {
-    navigate(redirectTo)
-    return null
-  }
   const save = async (values) => {
     const res = await trigger(values)
 
     if (res.errors) {
       setErrors(res.errors)
     } else {
-      // visa nån popup att det gick bra?
-      // redirecta till din nya listing?
-      // useNavigate()
-      console.log(`send user to  /listing/${res._id}`)
       setRedirect(`/listing/${res._id}`)
     }
-    //
     console.log(res)
   }
 
@@ -149,7 +148,7 @@ function PostListing() {
           )}
         >
           <ListingCard
-            username="unicorns_yay"
+            username={user.username}
             hoverable={false}
             shiny={shiny}
             pokemonName={pokemonName}

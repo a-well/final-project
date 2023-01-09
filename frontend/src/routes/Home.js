@@ -5,37 +5,26 @@ import { Col, Row, Typography } from 'antd'
 import Center from 'components/Center'
 import SearchBox from 'components/SearchBox'
 import RecentListings from 'components/RecentListings'
-import { useSelector } from 'react-redux'
-import { useNavigate, Link } from 'react-router-dom'
+import useUser from 'hooks/useUser'
 
-const { Title, Text } = Typography
+const { Title } = Typography
 
 function Home() {
-  const navigate = useNavigate()
-  const user = useSelector((store) => store.user.user)
-  console.log({ user })
-  if (!user) {
-    navigate('/login')
-    return (
-      <div>
-        Not logged in!
-        <br />
-        <Link to="/login">Go to login</Link>
-      </div>
-    )
-  }
+  const { user } = useUser()
+
+  if (!user) return null
 
   return (
     <>
       <Title>
         Home (signed in as
+        {' '}
         {user.username}
         )
       </Title>
       <Center>
         <Title level={2}>Search</Title>
         <SearchBox />
-
       </Center>
 
       <Title level={2}>Recent listings</Title>
