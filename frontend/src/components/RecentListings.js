@@ -4,7 +4,7 @@ import {
 } from 'antd'
 import { Link } from 'react-router-dom'
 import useApi from 'hooks/useApi'
-import ListingCard from './ListingCard'
+import ListingItem from './ListingItem'
 import Center from './Center'
 
 const { Title, Text } = Typography
@@ -35,22 +35,14 @@ function RecentListings({ type }) {
         {data.map((listing) => (
           <Col xs={8} key={listing._id}>
             <Link to={`/listing/${listing._id}`}>
-              <ListingCard
-                shiny={listing.shiny}
-                username={listing.username}
-                pokemonName={listing.pokemonName}
-                pokemonImage={listing.pokemonImage}
-                pokemonImageShiny={listing.pokemonImageShiny}
-                location={listing.location}
-                createdAt={listing.createdAt}
-              />
+              <ListingItem listing={listing} />
             </Link>
           </Col>
         ))}
       </Row>
-      <Center>
+      {/* <Center>
         <Text>Load more...</Text>
-      </Center>
+      </Center> */}
     </div>
   )
 }
