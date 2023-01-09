@@ -3,11 +3,11 @@ import React from 'react'
 
 import Profile from 'components/Profile'
 import useApi from 'hooks/useApi'
+import { useParams } from 'react-router-dom'
 
-function MyProfile() {
-  const { data, error, isLoading } = useApi('/api/users/me')
-
-  console.log({ data, error, isLoading })
+function ProfilePage() {
+  const { username } = useParams()
+  const { data, error, isLoading } = useApi(`/api/users/${username}`)
 
   if (isLoading) {
     return <div>Loading...</div>
@@ -20,4 +20,4 @@ function MyProfile() {
   )
 }
 
-export default MyProfile
+export default ProfilePage

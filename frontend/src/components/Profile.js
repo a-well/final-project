@@ -1,38 +1,34 @@
 import React from 'react';
 import RecentListings from 'components/RecentListings'
-import { Typography, Avatar, Space } from 'antd'
-import { UserOutlined } from '@ant-design/icons'
+import {
+  Typography, Row, Col,
+} from 'antd'
 import UserDetails from './UserDetails'
 
 const { Title, Text } = Typography
 
-const Profile = ({ username }) => (
-  <>
-    <Space>
-      <Avatar size={64} icon={<UserOutlined />} />
-      <Title>
+const Profile = ({ user }) => {
+  const { username } = user
 
+  return (
+    <>
+      <UserDetails user={user} />
+      <Title level={2}>
         {username}
         s
         {' '}
-        profile
+        listings
       </Title>
-    </Space>
-    <Title level={2}>
-      About
-      {' '}
-      {username}
-    </Title>
-    <UserDetails username={username} />
-    <Title level={2}>
-      {username}
-      s
-      {' '}
-      listings
-    </Title>
-    <RecentListings type="wanted" username={username} />
-    <RecentListings type="looking-for-a-new-home" username={username} />
-  </>
-)
+      <Row gutter={80}>
+        <Col xs={24} md={12}>
+          <RecentListings type="wanted" username={username} />
+        </Col>
+        <Col xs={24} md={12}>
+          <RecentListings type="looking-for-a-new-home" username={username} />
+        </Col>
+      </Row>
+    </>
+  )
+}
 
 export default Profile
