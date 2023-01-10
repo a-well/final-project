@@ -7,6 +7,7 @@ import {
   MailOutlined, FacebookOutlined, PushpinOutlined, WhatsAppOutlined,
 } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
+import moment from 'moment'
 
 const { Title, Paragraph } = Typography
 
@@ -104,9 +105,9 @@ const UserDetails = ({ user }) => {
         >
           <Space align="top">
             <Paragraph>
-              Member since
+              Member since:
               {' '}
-              {createdAt}
+              {moment(createdAt).format('D MMMM YYYY')}
             </Paragraph>
           </Space>
         </Card>
