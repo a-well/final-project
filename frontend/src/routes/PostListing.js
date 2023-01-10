@@ -50,7 +50,7 @@ function PostListing() {
     if (res.errors) {
       setErrors(res.errors)
     } else {
-      setRedirect(`/listing/${res._id}`)
+      setRedirect(`/listing/${res._id}?new=1`)
     }
     console.log(res)
   }

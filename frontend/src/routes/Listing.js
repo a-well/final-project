@@ -1,13 +1,18 @@
 import React from 'react'
 import { ArrowLeftOutlined } from '@ant-design/icons'
-import { Button } from 'antd'
-import { Link, useParams } from 'react-router-dom'
+import { Alert, Button } from 'antd'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
 import useApi from 'hooks/useApi'
 import Center from 'components/Center'
 
 function Listing() {
   const { id } = useParams()
+
+  const [searchParams] = useSearchParams()
+  const isNew = searchParams.get('new')
+
+  console.log(isNew)
   const { data: listing, isLoading } = useApi(`/api/listings/${id}`)
 
   if (!id) {
@@ -20,6 +25,9 @@ function Listing() {
 
   return (
     <Center>
+      {isNew && (
+        <Alert message="Listing successfully posted!" type="success" showIcon closable />
+      )}
       <h2>
         {listing.type === 'wanted' ? 'Wanted' : 'Looking for a new home'}
         {': '}
