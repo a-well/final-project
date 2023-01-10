@@ -108,7 +108,7 @@ function AppLayout({ children }) {
         </div>
       </Header>
 
-      <Content style={{ padding: '60px', background: 'white' }}>
+      <Content className="main-wrapper">
         <div>
           {children}
         </div>

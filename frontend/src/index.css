@@ -1,3 +1,13 @@
 html, body {
   margin: 0;
 }
+
+.main-wrapper {
+  padding: 60px;
+  background-color: white;
+}
+@media (max-width: 600px)  {
+  .main-wrapper {
+    padding: 20px;
+  }
+}
