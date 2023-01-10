@@ -51,6 +51,21 @@ const ListingSchema = new mongoose.Schema({
   }
 
 })
+
+ListingSchema.index({
+  username: 'text',
+  pokemonName: 'text',
+  location: 'text',
+  description: 'text'
+}, { 
+  username: 10,
+  location: 10,
+  pokemonName: 20,
+  description: 5 
+})
+
 const Listing = mongoose.model("Listing", ListingSchema)
+
+
 
 module.exports = Listing

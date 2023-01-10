@@ -144,7 +144,16 @@ function Signup() {
           <Input placeholder="eg. 0000 0000 0000" />
         </Form.Item>
 
-        <Form.Item label="Location" name="location">
+        <Form.Item
+          label="Location"
+          name="location"
+          rules={[
+            {
+              required: true,
+              message: 'Please input your location',
+            },
+          ]}
+        >
           <Input placeholder="Your location" />
         </Form.Item>
 

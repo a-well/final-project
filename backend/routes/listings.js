@@ -86,7 +86,17 @@ router.delete("/api/listings/:id", (req, res) => {
 
 // Handle searching in listings
 router.get("/api/listings-search", async (req, res) => {
-  res.send('Search listings')
+  const query = req.query.q 
+  const listings = await Listing.find(
+      { $text : { $search : query } }, 
+      { score : { $meta: "textScore" } }
+    )
+    .sort({ score : { $meta : 'textScore' } })
+    .exec()
+
+  console.log({listings})
+
+  res.json(listings)
 })
 
 module.exports = router

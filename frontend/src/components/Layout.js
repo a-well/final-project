@@ -90,7 +90,7 @@ function AppLayout({ children }) {
                 ),
               },
               accessToken && {
-                key: '/home',
+                key: '/logout',
                 // @TODO add "you have been signed out" message to home
                 label: <LogoutButton />,
               },
