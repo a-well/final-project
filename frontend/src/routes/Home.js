@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {
-  Col, Row, Typography, Button,
+  Col, Row, Typography, Button, Space,
 } from 'antd'
 
 import Center from 'components/Center'
@@ -11,7 +11,7 @@ import HowDoesItWork from 'components/HowDoesItWork'
 import useUser from 'hooks/useUser'
 import { useSelector } from 'react-redux'
 
-const { Title } = Typography
+const { Title, Text } = Typography
 
 function Home() {
   // const { user } = useUser()
@@ -29,27 +29,25 @@ function Home() {
       </Title>
 
       {!accessToken && (
-      <Row gutter={80}>
+      <Row gutter={80} justify="center">
         <Col xs={24} md={12}>
           <Title>What is PokeYAY?</Title>
-          <p>
-            Pokemon I like shorts Grimer Empoleon Shinx Wurmple Electrode?
-            Sunt in culpa Satoshi Tajiri Sonic Boom Duosion Noctowl Shellos Vespiquen.
-            Flying Lunatone Cherubi Cacnea MysteryBerry Leech Life Pupitar!
-          </p>
+          <Text>
+            PokeYAY is an app that helps Pokemon GO players trade Pokemons
+          </Text>
         </Col>
         <Col xs={24} md={12}>
-          <Center>
-            <HowDoesItWork />
-          </Center>
+          <HowDoesItWork />
         </Col>
       </Row>
       )}
 
-      <Center>
-        <Title level={2}>Search</Title>
-        <SearchBox />
-      </Center>
+      <Row justify="center">
+        <Space direction="vertical">
+          <Title level={2}>Search</Title>
+          <SearchBox />
+        </Space>
+      </Row>
 
       <Title level={2}>Recent listings</Title>
 

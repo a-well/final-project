@@ -31,11 +31,11 @@ const UserDetails = ({ user, signedInUser }) => {
       <Col xs={24}>
         <Title>
           {`${username}s profile`}
-          {signedInUser && <Button style={{ float: 'right' }}>Edit profile</Button>}
         </Title>
         <Paragraph>
           <PushpinOutlined style={{ marginRight: 5 }} />
           {location}
+          {signedInUser && (<Button style={{ float: 'right' }}>Edit profile</Button>)}
         </Paragraph>
       </Col>
       <Col xs={24}>

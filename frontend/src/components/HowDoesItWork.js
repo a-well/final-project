@@ -5,40 +5,41 @@ import { Link } from 'react-router-dom';
 
 const data = [
   {
-    title: 'Step one',
-    description: 'Ant ddions, is refined by Ant UED Team',
+    title: 'Find trade',
+    description: 'Or upload a listing of your own',
     step: '1',
   },
   {
-    title: 'Step two',
-    description: 'Eeeäeäeäeäeä wewe ee',
+    title: 'Meet up',
+    description: 'Message user and meet up',
     step: '2',
   },
   {
-    title: 'Step three',
-    description: 'Jasså',
+    title: 'Yay!',
+    description: 'Happy Pokedex is happy',
     step: '3',
   },
 ];
 
 function HowDoesItWork() {
   return (
-    <div>
+    <>
       <h2>How does it work?</h2>
       <List
-        itemLayout="horizontal"
+        itemLayout="vertical"
         dataSource={data}
         renderItem={(item) => (
           <List.Item key={item.step}>
             <List.Item.Meta
-              avatar={<Avatar size="default">{item.step}</Avatar>}
+              style={{ alignItems: 'baseline' }}
+              avatar={<Avatar size="60">{item.step}</Avatar>}
               title={item.title}
               description={item.description}
             />
           </List.Item>
         )}
       />
-    </div>
+    </>
   );
 }
 
