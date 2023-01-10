@@ -1,7 +1,7 @@
 import useSWR from 'swr'
 import { useSelector } from 'react-redux'
 
-const API_BASE_URL = 'http://localhost:8080'
+import { API_URL } from 'utils/utils'
 
 function useApi(path) {
   const accessToken = useSelector((store) => store.user.accessToken)
@@ -9,7 +9,7 @@ function useApi(path) {
   const {
     data, error, isValidating, mutate, isLoading,
   } = useSWR(
-    !path ? null : `${API_BASE_URL}${path}`,
+    !path ? null : `${API_URL}${path}`,
 
     async (url) => {
       const res = await fetch(url, {

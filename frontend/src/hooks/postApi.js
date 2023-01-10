@@ -2,7 +2,7 @@ import useSWR from 'swr'
 import { useSelector } from 'react-redux'
 import useSWRMutation from 'swr/mutation'
 
-const API_BASE_URL = 'http://localhost:8080'
+import { API_URL } from 'utils/utils'
 
 function postApi(path, data) {
   const accessToken = useSelector((store) => store.user.accessToken)
@@ -21,7 +21,7 @@ function postApi(path, data) {
 
     return res.json()
   }
-  return useSWRMutation(!path ? null : `${API_BASE_URL}${path}`, sendRequest)
+  return useSWRMutation(!path ? null : `${API_URL}${path}`, sendRequest)
 }
 
 export default postApi
