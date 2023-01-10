@@ -26,7 +26,7 @@ function Listing() {
   return (
     <Center>
       {isNew && (
-        <Alert message="Listing successfully posted!" type="success" showIcon closable />
+        <Alert message="Listing successfully posted!" type="success" showIcon />
       )}
       <h2>
         {listing.type === 'wanted' ? 'Wanted' : 'Looking for a new home'}

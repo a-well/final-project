@@ -5,6 +5,8 @@ import {
 import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 import Paragraph from 'antd/es/skeleton/Paragraph'
+import nl2br from 'react-nl2br'
+import moment from 'moment'
 import Center from './Center'
 
 const { Text } = Typography
@@ -24,6 +26,15 @@ const ShinyStar = () => (
   </div>
 )
 
+const ListingLocation = ({ location }) => (
+  <div>
+    <PushpinOutlined />
+    {' '}
+    {location || <span style={{ opacity: 0.6 }}>Location</span>}
+  </div>
+
+)
+
 function ListingCard({
   standalone,
   pokemonId,
@@ -41,30 +52,35 @@ function ListingCard({
 }) {
   const content = (
     <div>
+      <ListingLocation location={location} />
+
       <div>
-        <PushpinOutlined />
-        {' '}
-        {location || <span style={{ opacity: 0.6 }}>Location</span>}
-      </div>
-      <div>
-        {createdAt || <span style={{ opacity: 0.6 }}>today </span>}
+        {moment(createdAt).format('YYYY-MM-DD ') || <span style={{ opacity: 0.6 }}>today </span>}
+        <br />
         {' by '}
         <Link to={`/users/${username}`}>{username}</Link>
       </div>
-      <Divider orientation="left" plain>
-        Description
-      </Divider>
+
+      {standalone && (
+        <Divider orientation="left" plain>
+          Description
+        </Divider>
+      )}
       <div>
-        {/*
-      //@TODO add ellipsis
-      <Text
-        style={ellipsis ? { width: 100 } : undefined}
-        ellipsis={ellipsis ? { tooltip: 'I am ellipsis now!' } : false}
-      >
-        Ant Design, a design language for background applications, is refined by Ant UED Team.
-      </Text> */}
-        {' '}
-        {description || <span style={{ opacity: 0.6 }}>Listing description</span>}
+
+        <Text
+          style={standalone ? {} : { width: '100%', height: 50 }}
+          ellipsis={!standalone && { tooltip: description }}
+        >
+          {description ? (
+            <span style={{ overflowWrap: 'anywhere' }}>
+              {nl2br(description)}
+            </span>
+          ) : (
+            <span style={{ opacity: 0.6 }}>Listing description</span>
+          )}
+        </Text>
+
       </div>
       {standalone && (
       <>
@@ -109,6 +125,7 @@ function ListingCard({
     <Card
       loading={isLoading}
       size={standalone ? 'large' : 'small'}
+      style={{ maxWidth: 600 }}
       hoverable={hoverable}
       cover={cover}
     >

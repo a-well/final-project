@@ -41,7 +41,7 @@ function RecentListings({ type, username }) {
           <Empty />
         )}
         {data.map((listing) => (
-          <Col xs={8} key={listing._id}>
+          <Col xs={12} sm={8} key={listing._id}>
             <Link to={`/listing/${listing._id}`}>
               <ListingItem listing={listing} />
             </Link>
