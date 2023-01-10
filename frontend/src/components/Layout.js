@@ -57,11 +57,11 @@ function AppLayout({ children }) {
                 label: (
                   <>
                     <SearchOutlined />
-                    {' Search listings'}
+                    {' Browse listings'}
                   </>
                 ),
               },
-              {
+              accessToken && {
                 key: '/post-listing',
                 label: (
                   <>
@@ -69,8 +69,8 @@ function AppLayout({ children }) {
                     {' Post new listing'}
                   </>
                 ),
-              },
-              {
+              }, accessToken
+              && {
                 key: '/me',
                 label: (
                   <>
@@ -90,8 +90,8 @@ function AppLayout({ children }) {
                 ),
               },
               accessToken && {
-                key: '/',
-                // @TODO add sing out page
+                key: '/home',
+                // @TODO add "you have been signed out" message to home
                 label: <LogoutButton />,
               },
               !accessToken && {
