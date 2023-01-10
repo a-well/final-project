@@ -7,12 +7,12 @@ import UserDetails from './UserDetails'
 
 const { Title, Text } = Typography
 
-const Profile = ({ user }) => {
+const Profile = ({ user, signedInUser }) => {
   const { username } = user
 
   return (
     <>
-      <UserDetails user={user} />
+      <UserDetails user={user} signedInUser={signedInUser} />
       <Title level={2}>
         {username}
         s

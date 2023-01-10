@@ -15,7 +15,7 @@ function MyProfile() {
 
   return (
     <Center>
-      <Profile user={data} />
+      <Profile user={data} signedInUser />
     </Center>
   )
 }

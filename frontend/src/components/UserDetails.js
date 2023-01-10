@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {
-  Typography, Descriptions, Space, Col, Row, Card,
+  Typography, Descriptions, Space, Col, Row, Card, Button,
 } from 'antd'
 import {
   MailOutlined, FacebookOutlined, PushpinOutlined, WhatsAppOutlined,
@@ -12,7 +12,7 @@ import nl2br from 'react-nl2br'
 
 const { Title, Paragraph } = Typography
 
-const UserDetails = ({ user }) => {
+const UserDetails = ({ user, signedInUser }) => {
   const {
     username,
     location,
@@ -30,14 +30,11 @@ const UserDetails = ({ user }) => {
     <Row gutter={16}>
       <Col xs={24}>
         <Title>
-          {username}
-          s
-          {' '}
-          profile
+          {`${username}s profile`}
+          {signedInUser && <Button style={{ float: 'right' }}>Edit profile</Button>}
         </Title>
         <Paragraph>
-          <PushpinOutlined />
-          {' '}
+          <PushpinOutlined style={{ marginRight: 5 }} />
           {location}
         </Paragraph>
       </Col>
@@ -59,7 +56,7 @@ const UserDetails = ({ user }) => {
             marginTop: 16,
           }}
           type="inner"
-          title="Pokemon Go stats"
+          title="Pokémon GO details"
         >
           <Descriptions colon={false} column={1}>
             <Descriptions.Item label="Level:">{poGoLevel}</Descriptions.Item>
