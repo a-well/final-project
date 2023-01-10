@@ -25,8 +25,8 @@ function AppLayout({ children }) {
       <Header style={{ paddingInline: '10px' }}>
         <div style={{ display: 'flex' }}>
           <Link
-            to="/"
-            title="Go to start page"
+            to="/home"
+            title="Go to home page"
             style={{
               paddingLeft: '50px', color: 'white', fontSize: 24, fontWeight: 'bold',
             }}

@@ -3,8 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Layout from 'components/Layout'
 
-import Landing from 'routes/Landing'
-
 import Login from 'routes/Login'
 import Signup from 'routes/Signup'
 import ForgotPassword from 'routes/ForgotPassword'
@@ -45,7 +43,7 @@ function App() {
 
           <Layout>
             <Routes>
-              <Route path="/" element={<Landing />} />
+              <Route path="/" element={<Home />} />
 
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
