@@ -38,7 +38,9 @@ function RecentListings({ type, username }) {
 
       <Row gutter={[15, 15]}>
         {(!data || data.length === 0) && (
-          <Empty />
+          <Col xs={24}>
+            <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description="No listings to show" />
+          </Col>
         )}
         {data.map((listing) => (
           <Col xs={12} sm={8} key={listing._id}>
