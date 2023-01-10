@@ -71,10 +71,11 @@ function Signup() {
         <Form.Item
           label="Username"
           name="username"
-          tooltip="Your username on the site, maximum 25 characters"
+          tooltip="Your username on the site, maximum 20 characters"
           rules={[
             {
               required: true,
+              max: 20,
               message: 'Please enter a username',
             },
           ]}

@@ -25,7 +25,7 @@ function Login() {
   }, [accessToken])
 
   const onFinish = (values) => {
-    console.log('Success:', values)
+    console.log('Success')
     const { username, password } = values
 
     const options = {
