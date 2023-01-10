@@ -35,7 +35,6 @@
 [x] deploy to netlify 
 [x] add basic routing
 
-? localstorage? cookies? vart stoppa logindatta?'' - tror localstorage
 
 
 
@@ -56,3 +55,40 @@ Frontend:
 [] style stuff
 
 se listing card
+
+
+
+
+
+
+
+
+[x] sätt upp redux
+[x] göra en knapp som fejk-loggar in
+[x] göra en knapp som fejk-loggar ut 
+[x] göra faktiskktktkt inloggning mot api 
+[x] knapp som loggar ut 
+[x] göra så vi kan hämta saker (GET) från apit som inloggad
+[x] göra så vi kan skapa saker (POST) i apit som inloggad
+
+
+[x] göra så man kan singa upp med mera grejor i backend
+[x] göra klart sign up front end så den kan ta in mera info typ mail
+[x] add image placeholders
+[x] add stuff to fill out preview card
+
+[x] bygg hook för att kolla om man är inloggad och lägg in den på alla sidor som kräver inloggning
+[x] laga så bara ens egna poster syns på ens profil?
+[x] gör home och landing till samma
+
+[x] laga line breaks https://www.npmjs.com/package/react-nl2br/v/1.0.4
+
+[/] lägg till success alt fail meddelenade innan redirect i postlisting: https://ant.design/components/result
+[ ] lägg till delete listing
+[ ] göra så man kan edita sin profil
+[ ] göra så ej ifyllda fält ej är med i profil
+[] söka??
+
+[ ] readme, tech list, about
+
+[ ]
