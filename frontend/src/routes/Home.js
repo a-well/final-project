@@ -22,15 +22,16 @@ function Home() {
   return (
     <>
       <Title>
-        Home
         {/* (signed in as
         {' '}
         {user.username}
         ) */}
       </Title>
 
-      {/* <Row gutter={80}>
+      {!accessToken && (
+      <Row gutter={80}>
         <Col xs={24} md={12}>
+          <Title>What is PokeYAY?</Title>
           <p>
             Pokemon I like shorts Grimer Empoleon Shinx Wurmple Electrode?
             Sunt in culpa Satoshi Tajiri Sonic Boom Duosion Noctowl Shellos Vespiquen.
@@ -38,10 +39,12 @@ function Home() {
           </p>
         </Col>
         <Col xs={24} md={12}>
-          <h2>Search now to see whats out there!</h2>
-          <SearchBox />
+          <Center>
+            <HowDoesItWork />
+          </Center>
         </Col>
-      </Row> */}
+      </Row>
+      )}
 
       <Center>
         <Title level={2}>Search</Title>
@@ -74,11 +77,6 @@ function Home() {
           )}
         </Col>
       </Row>
-      {!accessToken && (
-      <Center>
-        <HowDoesItWork />
-      </Center>
-      )}
     </>
   )
 }
