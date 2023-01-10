@@ -69,7 +69,7 @@ function ListingCard({
       <div>
 
         <Text
-          style={standalone ? {} : { width: '100%', height: 50 }}
+          style={standalone ? {} : { width: '100%', height: 25 }}
           ellipsis={!standalone && { tooltip: description }}
         >
           {description ? (
