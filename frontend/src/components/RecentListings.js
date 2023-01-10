@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  Col, Row, Typography,
+  Col, Empty, Row, Typography,
 } from 'antd'
 import { Link } from 'react-router-dom'
 import useApi from 'hooks/useApi'
@@ -9,8 +9,13 @@ import Center from './Center'
 
 const { Title, Text } = Typography
 
-function RecentListings({ type }) {
-  const { data, isLoading } = useApi(`/api/listings?limit=6&type=${type}`)
+function RecentListings({ type, username }) {
+  let url = `/api/listings?limit=6&type=${type}`
+  if (username) {
+    url += `&username=${username}`
+  }
+
+  const { data, isLoading } = useApi(url)
 
   console.log({ data, isLoading })
   if (isLoading || !data) {
@@ -32,6 +37,9 @@ function RecentListings({ type }) {
       )}
 
       <Row gutter={[15, 15]}>
+        {(!data || data.length === 0) && (
+          <Empty />
+        )}
         {data.map((listing) => (
           <Col xs={8} key={listing._id}>
             <Link to={`/listing/${listing._id}`}>
