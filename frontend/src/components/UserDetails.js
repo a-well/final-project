@@ -8,6 +8,7 @@ import {
 } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 import moment from 'moment'
+import nl2br from 'react-nl2br'
 
 const { Title, Paragraph } = Typography
 
@@ -48,7 +49,7 @@ const UserDetails = ({ user }) => {
           type="inner"
           title="About"
         >
-          {about}
+          {nl2br(about)}
         </Card>
       </Col>
       <Col xs={24}>
