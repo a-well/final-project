@@ -36,7 +36,7 @@ function Login() {
       body: JSON.stringify({ username, password }),
     }
 
-    fetch(`${API_URL}api/auth/login`, options)
+    fetch(`${API_URL}/api/auth/login`, options)
       .then((response) => response.json())
       .then((data) => {
         console.log(data)
