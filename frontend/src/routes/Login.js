@@ -101,7 +101,7 @@ function Login() {
           <Input.Password prefix={<LockOutlined className="site-form-item-icon" />} placeholder="Password" />
         </Form.Item>
 
-        <Form.Item>
+        {/* <Form.Item>
           <Form.Item name="remember" valuePropName="checked" style={{ float: 'left' }} noStyle>
             <Checkbox>Remember me</Checkbox>
           </Form.Item>
@@ -109,7 +109,7 @@ function Login() {
           <Link to="/forgot-password" style={{ float: 'right' }}>
             Forgot password?
           </Link>
-        </Form.Item>
+        </Form.Item> */}
 
         <Form.Item>
           <Form.Item>

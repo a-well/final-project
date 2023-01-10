@@ -39,5 +39,4 @@ function Listing() {
 }
 
 // @TODO make back link work (or replace w breadcrumbs?)
-// @TODO mak<e not hoverable and regular, add button to link to user profile
 export default Listing
