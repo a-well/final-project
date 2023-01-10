@@ -9,8 +9,21 @@ const router = express.Router()
 router.get("/api/listings", async (req, res) => {
   const limit = req.query.limit || 20
   const listingType = req.query.type 
+  const username = req.query.username 
 
-  const listings = listingType ? await Listing.find({ type: listingType }).sort({ createdAt: -1 }).limit(limit) : await Listing.find().sort({ createdAt: -1 }).limit(limit)
+  const searchQuery = {}
+  if (listingType) {
+    searchQuery["type"] = listingType
+  }
+
+  if (username) {
+    searchQuery["username"] = username
+  }
+
+  console.log(searchQuery)
+
+  const listings = await Listing.find(searchQuery).sort({ createdAt: -1 }).limit(limit) 
+  console.log(listings)
   res.status(200).json(listings)
 })
 
