@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
-import React from 'react';
-import ListingCard from './ListingCard';
+import React from 'react'
+import DeleteButton from './DeleteButton'
+import ListingCard from './ListingCard'
 
 const ListingItem = ({ listing, ...additionalProps }) => (
   <ListingCard
@@ -12,6 +13,7 @@ const ListingItem = ({ listing, ...additionalProps }) => (
     pokemonImage={listing.pokemonImage}
     pokemonImageShiny={listing.pokemonImageShiny}
     location={listing.location}
+    id={listing._id}
     createdAt={listing.createdAt}
     {...additionalProps}
   />

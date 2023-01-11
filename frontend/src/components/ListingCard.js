@@ -1,13 +1,15 @@
 import React from 'react'
 import {
-  Card, Space, Typography, Divider,
+  Card, Space, Typography, Divider, Row,
 } from 'antd'
 import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 import Paragraph from 'antd/es/skeleton/Paragraph'
 import nl2br from 'react-nl2br'
 import moment from 'moment'
+import useApi from 'hooks/useApi'
 import Center from './Center'
+import DeleteButton from './DeleteButton'
 
 const { Text } = Typography
 
@@ -47,9 +49,12 @@ function ListingCard({
   pokemonImage,
   pokemonImageShiny,
   createdAt,
+  id,
   hoverable = true,
   isLoading = false,
 }) {
+  const { data } = useApi('/api/users/me')
+
   const content = (
     <div>
       <ListingLocation location={location} />
@@ -95,6 +100,12 @@ function ListingCard({
         </Link>
         {' '}
         profile to find their details
+        {username === data.username && (
+        <>
+          <Divider />
+          <DeleteButton id={id} />
+        </>
+        )}
       </>
       )}
     </div>
