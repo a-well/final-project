@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {
   Alert,
-  Button, Checkbox, Form, Input,
+  Button, Checkbox, Form, Input, Typography,
 } from 'antd'
 import { UserOutlined, LockOutlined } from '@ant-design/icons'
 import Center from 'components/Center'
@@ -10,6 +10,8 @@ import { useDispatch, useSelector, batch } from 'react-redux'
 import { useNavigate, Link } from 'react-router-dom'
 import user from 'reducers/user'
 import { API_URL } from '../utils/utils'
+
+const { Title, Text } = Typography
 
 function Login() {
   const dispatch = useDispatch()
