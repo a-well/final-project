@@ -27,4 +27,23 @@ router.get("/api/users/:username", async (req, res) => {
   res.status(200).json(user)
 })
 
+// Edit user details
+router.patch('/api/users/me', authenticateUser)
+router.patch("/api/users/me", async (req, res) => {
+  const filter = { _id: req.user.id }
+
+  const fieldsToUpdate = req.body // @todo check what fields user should be allowed to change here
+
+  await User.findOneAndUpdate(filter, fieldsToUpdate, {
+    returnOriginal: false
+  })
+
+  const user = await User.findOne(filter)
+
+  res.json({
+    success: true,
+    user
+  })
+})
+
 module.exports = router
