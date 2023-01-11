@@ -35,7 +35,7 @@ const UserDetails = ({ user, signedInUser }) => {
         <Paragraph>
           <PushpinOutlined style={{ marginRight: 5 }} />
           {location}
-          {signedInUser && (<Button style={{ float: 'right' }}>Edit profile</Button>)}
+          {signedInUser && (<Link to="/edit-profile"><Button type="default" style={{ float: 'right' }}>Edit profile</Button></Link>)}
         </Paragraph>
       </Col>
       <Col xs={24}>
@@ -60,8 +60,8 @@ const UserDetails = ({ user, signedInUser }) => {
         >
           <Descriptions colon={false} column={1}>
             <Descriptions.Item label="Level:">{poGoLevel}</Descriptions.Item>
-            <Descriptions.Item label="Username:">{poGoUsername}</Descriptions.Item>
-            <Descriptions.Item label="Friend code:"><Paragraph copyable>{trainerCode}</Paragraph></Descriptions.Item>
+            {poGoUsername && (<Descriptions.Item label="Username:">{poGoUsername}</Descriptions.Item>)}
+            {trainerCode && (<Descriptions.Item label="Trainer code:"><Paragraph copyable>{trainerCode}</Paragraph></Descriptions.Item>)}
           </Descriptions>
         </Card>
 
@@ -74,23 +74,27 @@ const UserDetails = ({ user, signedInUser }) => {
           type="inner"
           title="Contact"
         >
-          <Space align="top">
-            <MailOutlined />
-            <Paragraph copyable>{emailAddress}</Paragraph>
-          </Space>
-          <br />
+          <Space direction="vertical">
+            <Space align="top">
+              <MailOutlined />
+              <Paragraph copyable>{emailAddress}</Paragraph>
+            </Space>
 
-          <Space align="top">
-            <WhatsAppOutlined />
-            <Paragraph copyable>{whatsApp}</Paragraph>
-          </Space>
-          <br />
+            {whatsApp && (
+            <Space align="top">
+              <WhatsAppOutlined />
+              <Paragraph copyable>{whatsApp}</Paragraph>
+            </Space>
+            )}
 
-          <Space align="top">
-            <FacebookOutlined />
-            <a href={`https://facebook.com/users/${facebook}`} target="_blank" rel="noreferrer" title={`Open ${username}'s Facebook profile`}>{facebook}</a>
-
+            {facebook && (
+            <Space align="top">
+              <FacebookOutlined />
+              <a href={`https://facebook.com/users/${facebook}`} target="_blank" rel="noreferrer" title={`Open ${username}'s Facebook profile`}>{facebook}</a>
+            </Space>
+            )}
           </Space>
+
         </Card>
       </Col>
       <Col xs={24} sm={8}>
@@ -101,12 +105,10 @@ const UserDetails = ({ user, signedInUser }) => {
           type="inner"
           title="Other info"
         >
-          <Space align="top">
-            <Paragraph>
-              Member since:
-              {' '}
-              {moment(createdAt).format('D MMMM YYYY')}
-            </Paragraph>
+          <Space>
+            Member since:
+            {' '}
+            {moment(createdAt).format('D MMMM YYYY')}
           </Space>
         </Card>
       </Col>

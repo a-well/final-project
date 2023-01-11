@@ -9,10 +9,10 @@ import ForgotPassword from 'routes/ForgotPassword'
 import Home from 'routes/Home'
 import Search from 'routes/Search'
 import MyProfile from 'routes/MyProfile'
-import MyListings from 'routes/MyListings'
 import Listing from 'routes/Listing'
 import PostListing from 'routes/PostListing'
 import ProfilePage from 'routes/ProfilePage'
+import EditProfile from 'routes/EditProfile'
 
 import About from 'routes/About'
 import NotFound from 'routes/NotFound'
@@ -42,6 +42,8 @@ const theme = {
   },
 }
 
+// @TODO create theme https://ant.design/theme-editor
+
 function App() {
   return (
     <ErrorBoundary>
@@ -60,11 +62,12 @@ function App() {
                 <Route path="/home" element={<Home />} />
 
                 <Route path="/listing/:id" element={<Listing />} />
-                <Route path="/my-listings" element={<MyListings />} />
                 <Route path="/post-listing" element={<PostListing />} />
                 <Route path="/search" element={<Search />} />
 
                 <Route path="/me" element={<MyProfile />} />
+                <Route path="/edit-profile" element={<EditProfile />} />
+
                 <Route path="/users/:username" element={<ProfilePage />} />
 
                 <Route path="/about" element={<About />} />
