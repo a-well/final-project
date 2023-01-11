@@ -2,10 +2,9 @@
 
 import React, { useState, useEffect } from 'react'
 import {
-  Button, Checkbox, Form, Input, Select,
+  Button, Checkbox, Form, Input, Select, Row,
 } from 'antd'
 import { UserOutlined, LockOutlined, MailOutlined } from '@ant-design/icons'
-import Center from 'components/Center'
 import { Link, useNavigate } from 'react-router-dom'
 
 import postApi from 'hooks/postApi'
@@ -52,7 +51,7 @@ function Signup() {
   }
 
   return (
-    <Center>
+    <Row justify="center">
       <Form
         onFinish={save}
         layout="vertical"
@@ -182,7 +181,7 @@ function Signup() {
         </Form.Item>
       </Form>
 
-    </Center>
+    </Row>
   )
 }
 

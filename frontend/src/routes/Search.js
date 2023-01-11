@@ -1,8 +1,11 @@
 import React from 'react'
+import { Typography } from 'antd'
+
+const { Title } = Typography
 
 function Search() {
   return (
-    <h1>Search</h1>
+    <Title>Search</Title>
   )
 }
 

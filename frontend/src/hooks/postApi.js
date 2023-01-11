@@ -1,4 +1,3 @@
-import useSWR from 'swr'
 import { useSelector } from 'react-redux'
 import useSWRMutation from 'swr/mutation'
 

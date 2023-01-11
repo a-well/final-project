@@ -1,10 +1,11 @@
 import React from 'react'
 import { ArrowLeftOutlined } from '@ant-design/icons'
-import { Alert, Button } from 'antd'
+import { Alert, Button, Row } from 'antd'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
 import useApi from 'hooks/useApi'
 import Center from 'components/Center'
+import useUser from 'hooks/useUser'
 
 function Listing() {
   const { id } = useParams()
@@ -24,7 +25,7 @@ function Listing() {
   }
 
   return (
-    <Center>
+    <Row justify="center">
       {isNew && (
         <Alert message="Listing successfully posted!" type="success" showIcon />
       )}
@@ -34,7 +35,7 @@ function Listing() {
         {listing.pokemonName}
       </h2>
       <ListingItem listing={listing} hoverable={false} standalone />
-    </Center>
+    </Row>
   )
 }
 

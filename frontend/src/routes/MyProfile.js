@@ -3,6 +3,7 @@ import React from 'react'
 
 import Profile from 'components/Profile'
 import useApi from 'hooks/useApi'
+import { Row } from 'antd'
 
 function MyProfile() {
   const { data, error, isLoading } = useApi('/api/users/me')
@@ -14,9 +15,9 @@ function MyProfile() {
   }
 
   return (
-    <Center>
+    <Row>
       <Profile user={data} signedInUser />
-    </Center>
+    </Row>
   )
 }
 
