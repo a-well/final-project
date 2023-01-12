@@ -5,9 +5,8 @@ import Layout from 'components/Layout'
 
 import Login from 'routes/Login'
 import Signup from 'routes/Signup'
-import ForgotPassword from 'routes/ForgotPassword'
 import Home from 'routes/Home'
-import Search from 'routes/Search'
+import BrowseListings from 'routes/BrowseListings'
 import MyProfile from 'routes/MyProfile'
 import Listing from 'routes/Listing'
 import PostListing from 'routes/PostListing'
@@ -59,21 +58,19 @@ function App() {
             <Layout>
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
 
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
-                <Route path="/forgot-password" element={<ForgotPassword />} />
-
-                <Route path="/home" element={<Home />} />
 
                 <Route path="/listing/:id" element={<Listing />} />
                 <Route path="/post-listing" element={<PostListing />} />
-                <Route path="/search" element={<Search />} />
+                <Route path="/browse" element={<BrowseListings />} />
+
+                <Route path="/users/:username" element={<ProfilePage />} />
 
                 <Route path="/me" element={<MyProfile />} />
                 <Route path="/edit-profile" element={<EditProfile />} />
-
-                <Route path="/users/:username" element={<ProfilePage />} />
 
                 <Route path="/about" element={<About />} />
 
