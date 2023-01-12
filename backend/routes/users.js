@@ -12,7 +12,7 @@ router.get('/api/users/me', async (req, res) => {
 })
 
 //Display profile of user by username
-router.get('/api/users/:username', authenticateUser)
+router.get('/api/users/:username')
 router.get("/api/users/:username", async (req, res) => {
   const { username } = req.params
 
