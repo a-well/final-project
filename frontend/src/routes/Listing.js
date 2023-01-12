@@ -27,13 +27,6 @@ function Listing() {
   return (
     <Row justify="center">
       <Col xs="24">
-        <Title>
-          {/* {listing.type === 'wanted' ? 'Wanted' : 'Looking for a new home'}
-          {': '}
-          {listing.shiny && 'Shiny'}
-          {' '}
-          {listing.pokemonName} */}
-        </Title>
         <ListingItem listing={listing} hoverable={false} standalone />
       </Col>
     </Row>

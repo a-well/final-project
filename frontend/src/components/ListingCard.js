@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Card, Space, Typography, Divider, Row, Badge,
 } from 'antd'
-import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
+import { PushpinOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 import nl2br from 'react-nl2br'
 import moment from 'moment'
