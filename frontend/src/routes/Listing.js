@@ -1,18 +1,11 @@
 import React from 'react'
-import { ArrowLeftOutlined } from '@ant-design/icons'
-import {
-  Alert, Button, Row, Col, Typography,
-} from 'antd'
-import { Link, useParams, useSearchParams } from 'react-router-dom'
+import { Row, Col } from 'antd'
+import { useParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
 import useApi from 'hooks/useApi'
 
-const { Title } = Typography
-
 function Listing() {
   const { id } = useParams()
-
-  const [searchParams] = useSearchParams()
 
   const { data: listing, isLoading } = useApi(`/api/listings/${id}`)
 

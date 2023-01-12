@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import {
-  Button, Form, Input, Select, Radio, Col, Row, Switch, Badge, message, Typography,
+  Button, Form, Input, Select, Radio, Col, Row, Switch, message, Typography,
 } from 'antd'
 import ListingCard from 'components/ListingCard'
-import useApi from 'hooks/useApi'
 import postApi from 'hooks/postApi'
 import { useNavigate } from 'react-router-dom'
 import useUser from 'hooks/useUser'
+import PokemonSelect from 'components/PokemonSelect'
+import useApi from 'hooks/useApi'
 
 const { TextArea } = Input
 const { Option } = Select
@@ -15,11 +16,11 @@ const { Title } = Typography
 function PostListing() {
   const { trigger } = postApi('/api/listings')
   const { isLoading, data: pokemons = [] } = useApi('/api/pokemons.json')
+
   const { user } = useUser()
   const navigate = useNavigate()
 
   const [errors, setErrors] = useState(null)
-  const [redirectTo, setRedirect] = useState(null)
 
   const [form] = Form.useForm()
   const pokemonId = Form.useWatch('pokemonId', form)
@@ -35,24 +36,14 @@ function PostListing() {
   const pokemonImageShiny = selectedPokemon?.imageShiny
   const pokemonName = selectedPokemon?.name
 
-  useEffect(() => {
-    if (redirectTo) {
-      navigate(redirectTo)
-    }
-  }, [redirectTo])
-
-  if (isLoading) {
-    return <div>Loading pokemons...</div>
-  }
-
   const save = async (values) => {
     const res = await trigger(values)
 
     if (res.errors) {
       setErrors(res.errors)
     } else {
-      setRedirect(`/listing/${res._id}`)
       message.success('Listing was successfully posted')
+      navigate(`/listing/${res._id}`)
     }
     console.log(res)
   }
@@ -116,11 +107,7 @@ function PostListing() {
               },
             ]}
           >
-            <Select placeholder="Pokemon name">
-              {pokemons.map((p) => (
-                <Option value={p.id} key={p.id}>{p.name}</Option>
-              ))}
-            </Select>
+            <PokemonSelect />
           </Form.Item>
 
           <Form.Item label="Shiny" name="shiny" valuePropName="checked">
