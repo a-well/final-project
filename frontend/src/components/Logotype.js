@@ -8,7 +8,7 @@ function Logotype() {
       to="/home"
       title="Go to home page"
       style={{
-        paddingLeft: '50px', color: 'white', fontSize: 24, fontWeight: 'bold',
+        paddingLeft: '16px', color: 'white', fontSize: 24, fontWeight: 'bold',
       }}
     >
       PokeYAY
