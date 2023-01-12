@@ -1,7 +1,11 @@
 import React from 'react';
 
-import { Button, List, Avatar } from 'antd';
-import { Link } from 'react-router-dom';
+import {
+  Button, List, Avatar, Typography,
+} from 'antd'
+import { Link } from 'react-router-dom'
+
+const Title = Typography
 
 const data = [
   {
@@ -24,7 +28,7 @@ const data = [
 function HowDoesItWork() {
   return (
     <>
-      <h2>How does it work?</h2>
+      <Title level={2}>How does it work?</Title>
       <List
         itemLayout="vertical"
         dataSource={data}
