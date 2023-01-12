@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import {
-  Button, Checkbox, Form, Input, Select, Row, message, Typography,
+  Button, Checkbox, Form, Input, Select, Row, message, Typography, Alert,
 } from 'antd'
 import { UserOutlined, LockOutlined, MailOutlined } from '@ant-design/icons'
 import { Link, useNavigate } from 'react-router-dom'
@@ -40,15 +40,16 @@ function Signup() {
     const res = await trigger(values)
 
     console.log(res)
-    if (res.errors) {
-      setErrors(res.errors)
-    } else if (res.success) {
+    if (res.success) {
       batch(() => {
         dispatch(user.actions.setUser(res.user))
         dispatch(user.actions.setAccessToken(res.user.accessToken))
       })
       setRedirect('/home')
       message.success('Sign up successful! Welcome to PokeYAY')
+    } else if (res.success === false) {
+      window.scrollTo(0, 0);
+      setErrors(res.response)
     } else {
       console.log('Something unexpected happened in signup')
     }
@@ -63,12 +64,7 @@ function Signup() {
         <Title>Sign up</Title>
 
         {errors && (
-        <div>
-          <h3>FEL!!</h3>
-          <pre>
-            {JSON.stringify(errors, null, 2)}
-          </pre>
-        </div>
+          <Alert type="error" message={JSON.stringify(errors, null, 2)} style={{ marginBottom: 12 }} />
         )}
         <Form.Item
           label="Username"
