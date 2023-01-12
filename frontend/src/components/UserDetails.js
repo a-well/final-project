@@ -4,7 +4,7 @@ import {
   Typography, Descriptions, Space, Col, Row, Card, Button,
 } from 'antd'
 import {
-  MailOutlined, FacebookOutlined, PushpinOutlined, WhatsAppOutlined,
+  MailOutlined, FacebookOutlined, PushpinOutlined, WhatsAppOutlined, SettingOutlined,
 } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 import moment from 'moment'
@@ -35,7 +35,7 @@ const UserDetails = ({ user, signedInUser }) => {
         <Paragraph>
           <PushpinOutlined style={{ marginRight: 5 }} />
           {location}
-          {signedInUser && (<Link to="/edit-profile"><Button type="default" style={{ float: 'right' }}>Edit profile</Button></Link>)}
+          {signedInUser && (<Link to="/edit-profile"><Button type="default" style={{ float: 'right' }} icon={<SettingOutlined />}>Edit profile</Button></Link>)}
         </Paragraph>
       </Col>
       <Col xs={24}>
