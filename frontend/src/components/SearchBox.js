@@ -1,16 +1,27 @@
 import React from 'react';
+import { Radio, Form, Button } from 'antd'
+import queryString from 'query-string';
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import PokemonSelect from './PokemonSelect';
 
-import {
-  Input, Radio, Form, Row, Col,
-} from 'antd'
-import { SearchOutlined } from '@ant-design/icons'
+function SearchBox({ initialValues = {} }) {
+  const navigate = useNavigate()
+  if (!initialValues.type) {
+    // eslint-disable-next-line no-param-reassign
+    initialValues.type = 'wanted'
+  }
 
-const { Search } = Input
+  console.log('SearchBox initialvalues', initialValues)
 
-function SearchBox() {
   return (
-    <Form>
-      <Form.Item name="query">
+    <Form
+      initialValues={initialValues}
+      onFinish={(values) => {
+        const qs = queryString.stringify(values)
+        navigate(`/browse?${qs}`)
+      }}
+    >
+      {/* <Form.Item name="query">
         <Search
           prefix={<SearchOutlined />}
           placeholder='Enter Pokemon name, or keywords eg. "event" or "shiny"'
@@ -18,13 +29,23 @@ function SearchBox() {
           enterButton="Search"
           size="medium"
         />
-      </Form.Item>
+      </Form.Item> */}
+
       <Form.Item name="type" label="Listing type:" colon={false}>
         <Radio.Group>
-          <Radio value="a">Wanted</Radio>
-          <Radio value="b">Looking for a new home</Radio>
+          <Radio value="wanted">Wanted</Radio>
+          <Radio value="looking-for-a-new-home">Looking for a new home</Radio>
         </Radio.Group>
       </Form.Item>
+
+      <Form.Item
+        label="Select Pokemon"
+        name="pokemonId"
+      >
+        <PokemonSelect />
+      </Form.Item>
+
+      <Button htmlType="submit" type="primary" block>Browse Pokémon</Button>
     </Form>
   );
 }

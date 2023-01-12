@@ -5,6 +5,7 @@ import {
 import { Link } from 'react-router-dom'
 import useApi from 'hooks/useApi'
 import ListingItem from './ListingItem'
+import LoadingCard from './LoadingCard'
 
 const { Title, Text } = Typography
 
@@ -17,15 +18,6 @@ function RecentListings({ type, username }) {
   const { data, isLoading } = useApi(url)
 
   console.log({ data, isLoading })
-  if (isLoading || !data) {
-    return (
-      <div>
-        Loading type
-        {type}
-        ...
-      </div>
-    )
-  }
 
   return (
     <>
@@ -50,7 +42,19 @@ function RecentListings({ type, username }) {
           lg: 16,
         }]}
       >
-        {data.map((listing) => (
+
+        {isLoading && (
+          <>
+            <Col xs={12} sm={10} md={12} lg={8}>
+              <LoadingCard />
+            </Col>
+            <Col xs={12} sm={10} md={12} lg={8}>
+              <LoadingCard />
+            </Col>
+          </>
+        )}
+
+        {data && data.map((listing) => (
           <Col xs={12} sm={10} md={12} lg={8} key={listing._id}>
             <Link to={`/listing/${listing._id}`}>
               <ListingItem listing={listing} />

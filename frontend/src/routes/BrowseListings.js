@@ -3,13 +3,35 @@ import useApi from 'hooks/useApi'
 import {
   Col, Empty, Row, Typography,
 } from 'antd'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
+import SearchBox from 'components/SearchBox'
+import Center from 'components/Center'
+import queryString from 'query-string';
 
 const { Title } = Typography
 
-function Browse({ type }) {
-  const url = '/api/listings?limit=500'
+const BrowsePage = () => {
+  const initialValues = queryString.parse(window.location.search);
+
+  const search = useSearchParams() // hax to make component re-render when search params change
+
+  console.log(initialValues)
+
+  return (
+    // eslint-disable-next-line react/jsx-props-no-spreading
+    <Browse initialValues={initialValues} {...initialValues} />
+  )
+}
+
+function Browse({ initialValues }) {
+  const qs = queryString.stringify({
+    ...initialValues,
+    limit: 500,
+  })
+
+  const url = `/api/listings?${qs}`
+  console.log(url)
   const { data, isLoading } = useApi(url)
 
   console.log({ data, isLoading })
@@ -23,7 +45,11 @@ function Browse({ type }) {
 
   return (
     <>
-      <Title>Browse</Title>
+      <Center>
+        <SearchBox initialValues={initialValues} />
+      </Center>
+
+      <Title>Browse listings</Title>
 
       <Row
         justify="center"
@@ -54,11 +80,8 @@ function Browse({ type }) {
         </Col>
         )}
       </Row>
-      {/* <Center>
-        <Text>Load more...</Text>
-      </Center> */}
     </>
   )
 }
 
-export default Browse
+export default BrowsePage
