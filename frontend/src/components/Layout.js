@@ -90,8 +90,7 @@ function AppLayout({ children }) {
                 ),
               },
               accessToken && {
-                key: '/logout',
-                // @TODO add "you have been signed out" message to home
+                key: '/',
                 label: <LogoutButton />,
               },
               !accessToken && {
@@ -109,7 +108,7 @@ function AppLayout({ children }) {
       </Header>
 
       <Content className="main-wrapper">
-        <div>
+        <div className="main-wrapper__inner">
           {children}
         </div>
       </Content>
