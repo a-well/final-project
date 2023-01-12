@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import {
-  Button, Form, Input, Select, Radio, Col, Row, Switch, Badge, Modal,
+  Button, Form, Input, Select, Radio, Col, Row, Switch, Badge, message, Typography,
 } from 'antd'
 import ListingCard from 'components/ListingCard'
 import useApi from 'hooks/useApi'
@@ -10,6 +10,7 @@ import useUser from 'hooks/useUser'
 
 const { TextArea } = Input
 const { Option } = Select
+const { Title } = Typography
 
 function PostListing() {
   const { trigger } = postApi('/api/listings')
@@ -50,14 +51,25 @@ function PostListing() {
     if (res.errors) {
       setErrors(res.errors)
     } else {
-      setRedirect(`/listing/${res._id}?new=1`)
+      setRedirect(`/listing/${res._id}`)
+      message.success('Listing was successfully posted')
     }
     console.log(res)
   }
 
   return (
-    <Row gutter={40} align="top" justify="center">
-      <Col xs={24} sm={12}>
+
+    <Row
+      gutter={{
+        xs: 8,
+        sm: 16,
+        md: 24,
+        lg: 32,
+      }}
+      align="top"
+      justify="center"
+    >
+      <Col xs={24} sm={12} md={12}>
         {errors && (
           <div style={{ color: 'red' }}>
               {JSON.stringify(errors)}
@@ -67,13 +79,12 @@ function PostListing() {
           form={form}
           onFinish={save}
           layout="vertical"
-          style={{ width: '350px' }}
           requiredMark={false}
           initialValues={{
             type: 'wanted',
           }}
         >
-          <h1 style={{ textTransform: 'uppercase' }}>Create a new listing</h1>
+          <Title>Create a new listing</Title>
 
           <Form.Item label="Listing type" name="type">
             <Radio.Group>
@@ -137,33 +148,28 @@ function PostListing() {
         </Form>
       </Col>
 
-      <Col xs={24} sm={12}>
-        <h3 style={{ textTransform: 'uppercase' }}>Preview</h3>
-        <Badge.Ribbon
+      <Col xs={20} sm={12} md={6}>
+        <Title level={2}>Preview</Title>
+
+        <ListingCard
+          username={user.username}
+          hoverable={false}
+          shiny={shiny}
+          pokemonName={pokemonName}
+          pokemonImage={pokemonImage}
+          pokemonImageShiny={pokemonImageShiny}
+          location={location}
+          description={description}
           type={type}
-          text={type === 'wanted' ? (
-            'Wanted'
-          ) : (
-            'Looking for a new home'
-          )}
-        >
-          <ListingCard
-            username={user.username}
-            hoverable={false}
-            shiny={shiny}
-            pokemonName={pokemonName}
-            pokemonImage={pokemonImage}
-            pokemonImageShiny={pokemonImageShiny}
-            location={location}
-            description={description}
-          />
-        </Badge.Ribbon>
+          standalone
+          preview
+        />
+
       </Col>
 
     </Row>
+
   )
 }
-
-// @TODO add doesnt matter if shiny for wanted listings only?
 
 export default PostListing

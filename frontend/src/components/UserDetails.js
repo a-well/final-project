@@ -46,7 +46,9 @@ const UserDetails = ({ user, signedInUser }) => {
           type="inner"
           title="About"
         >
-          {nl2br(about)}
+          <Paragraph>
+            {nl2br(about)}
+          </Paragraph>
         </Card>
       </Col>
       <Col xs={24}>
@@ -61,7 +63,7 @@ const UserDetails = ({ user, signedInUser }) => {
           <Descriptions colon={false} column={1}>
             <Descriptions.Item label="Level:">{poGoLevel}</Descriptions.Item>
             {poGoUsername && (<Descriptions.Item label="Username:">{poGoUsername}</Descriptions.Item>)}
-            {trainerCode && (<Descriptions.Item label="Trainer code:"><Paragraph copyable>{trainerCode}</Paragraph></Descriptions.Item>)}
+            {trainerCode && (<Descriptions.Item label="Trainer code:" style={{ paddingBottom: 0 }}><Paragraph copyable>{trainerCode}</Paragraph></Descriptions.Item>)}
           </Descriptions>
         </Card>
 
@@ -106,9 +108,8 @@ const UserDetails = ({ user, signedInUser }) => {
           title="Other info"
         >
           <Space>
-            Member since:
-            {' '}
-            {moment(createdAt).format('D MMMM YYYY')}
+            <Paragraph>Member since:</Paragraph>
+            <Paragraph>{moment(createdAt).format('D MMMM YYYY')}</Paragraph>
           </Space>
         </Card>
       </Col>

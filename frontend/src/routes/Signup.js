@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import {
-  Button, Checkbox, Form, Input, Select, Row,
+  Button, Checkbox, Form, Input, Select, Row, message, Typography,
 } from 'antd'
 import { UserOutlined, LockOutlined, MailOutlined } from '@ant-design/icons'
 import { Link, useNavigate } from 'react-router-dom'
@@ -10,8 +10,11 @@ import { Link, useNavigate } from 'react-router-dom'
 import postApi from 'hooks/postApi'
 import { useDispatch, useSelector, batch } from 'react-redux'
 import user from 'reducers/user'
+import Center from 'components/Center'
 
 const { TextArea } = Input
+
+const { Title } = Typography
 
 const { Option } = Select
 
@@ -45,19 +48,19 @@ function Signup() {
         dispatch(user.actions.setAccessToken(res.user.accessToken))
       })
       setRedirect('/home')
+      message.success('Sign up successful! Welcome to PokeYAY')
     } else {
       console.log('Something unexpected happened in signup')
     }
   }
 
   return (
-    <Row justify="center">
+    <Center>
       <Form
         onFinish={save}
         layout="vertical"
-        style={{ width: '280px', paddingTop: '70px' }}
       >
-        <h1 style={{ textTransform: 'uppercase' }}>Sign up</h1>
+        <Title>Sign up</Title>
 
         {errors && (
         <div>
@@ -165,7 +168,7 @@ function Signup() {
         </Form.Item>
 
         <Form.Item label="About" name="about">
-          <TextArea showCount maxLength={350} placeholder="A short introduction :)" />
+          <TextArea showCount maxLength={350} rows={4} placeholder="A short introduction :)" />
         </Form.Item>
 
         {/* <Form.Item name="gdpr-etc" valuePropName="checked">
@@ -181,7 +184,7 @@ function Signup() {
         </Form.Item>
       </Form>
 
-    </Row>
+    </Center>
   )
 }
 

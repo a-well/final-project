@@ -2,25 +2,27 @@
 
 import React, { useState } from 'react'
 import {
-  Button, Form, Input, Select, Row, message,
+  Button, Form, Input, Select, Row, Col, message, Typography,
 } from 'antd'
 import { UserOutlined, MailOutlined } from '@ant-design/icons'
 
 import patchApi from 'hooks/patchApi'
 import { useDispatch } from 'react-redux'
 import useUser from 'hooks/useUser'
+import Center from 'components/Center'
 import userReducer from '../reducers/user'
 
 const { TextArea } = Input
 
 const { Option } = Select
 
+const { Title } = Typography
+
 const pokemonGoMaxLevel = 50
 const minLevelToTrade = 10
 const pokemonLevels = [...Array((pokemonGoMaxLevel + 1) - minLevelToTrade)]
 
 function EditProfile() {
-  const [messageApi, contextHolder] = message.useMessage()
   const { user } = useUser()
   const dispatch = useDispatch()
   const { trigger } = patchApi('/api/users/me')
@@ -36,23 +38,21 @@ function EditProfile() {
       setErrors(res.errors)
     } else if (res.success) {
       dispatch(userReducer.actions.setUser(res.user))
-      messageApi.success('Your info was saved in the database in the cloud in the internet of BYTESZ!');
+      message.success('Your info was saved in the database in the cloud in the internet of BYTESZ!')
     } else {
       console.log('Something unexpected happened when updating your profile')
     }
   }
 
   return (
-    <Row justify="center">
-      {contextHolder}
+    <Center>
       <Form
         requiredMark={false}
         onFinish={save}
         layout="vertical"
-        style={{ width: '280px', paddingTop: '70px' }}
         initialValues={user}
       >
-        <h1 style={{ textTransform: 'uppercase' }}>Edit profile</h1>
+        <Title>Edit profile</Title>
 
         {errors && (
         <div>
@@ -130,8 +130,7 @@ function EditProfile() {
           </Button>
         </Form.Item>
       </Form>
-
-    </Row>
+    </Center>
   )
 }
 

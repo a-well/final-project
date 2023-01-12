@@ -61,14 +61,12 @@ function Login() {
   return (
 
     <Center>
-
       {errors && (
         <Alert type="error" message={errors.join(', ')} />
       )}
 
       <Form
         layout="vertical"
-        style={{ width: '280px', paddingTop: '70px' }}
         onFinish={onFinish}
         requiredMark={false}
         initialValues={{
@@ -76,7 +74,7 @@ function Login() {
           password: 'testloesen',
         }}
       >
-        <h1 style={{ textTransform: 'uppercase' }}>Log in</h1>
+        <Title>Log in</Title>
         <Form.Item
           label="Username"
           name="username"

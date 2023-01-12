@@ -15,9 +15,7 @@ function ProfilePage() {
   }
 
   return (
-    <Row>
-      <Profile user={data} />
-    </Row>
+    <Profile user={data} />
   )
 }
 
