@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  Card, Space, Typography, Divider, Row,
+  Card, Space, Typography, Divider, Row, Badge,
 } from 'antd'
 import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
@@ -14,6 +14,35 @@ import DeleteButton from './DeleteButton'
 const { Text } = Typography
 
 const { Meta } = Card
+
+const TypeRibbon = ({ standalone, children, type }) => {
+  if (!standalone) return children
+
+  return (
+    <Badge.Ribbon
+      type={type}
+      text={type === 'wanted' ? (
+        'Wanted'
+      ) : (
+        'Looking for a new home'
+      )}
+    >
+      {children}
+    </Badge.Ribbon>
+  )
+}
+
+const Title = ({
+  type, pokemonName, shiny, standalone,
+}) => (
+  <div>
+    {standalone
+    && (type === 'wanted' ? 'Wanted: ' : 'Looking for a new home: ')}
+    {shiny && 'Shiny'}
+    {' '}
+    {pokemonName}
+  </div>
+)
 
 const ShinyStar = () => (
   <div
@@ -38,9 +67,11 @@ const ListingLocation = ({ location }) => (
 )
 
 function ListingCard({
+  preview,
   standalone,
   pokemonId,
   pokemonName,
+  type,
   shiny,
   location,
   hideTitle = false,
@@ -56,6 +87,7 @@ function ListingCard({
   const { data } = useApi('/api/users/me')
 
   const content = (
+
     <div>
       <ListingLocation location={location} />
 
@@ -100,7 +132,7 @@ function ListingCard({
         </Link>
         {' '}
         profile to find their details
-        {username === data.username && (
+        {username === data?.username && !preview && (
         <>
           <Divider />
           <DeleteButton id={id} />
@@ -112,19 +144,21 @@ function ListingCard({
   )
 
   const cover = (
-    <div style={{ position: 'relative' }}>
+    <div style={{ position: 'relative', paddingTop: '20px' }}>
       <Center>
         {(!pokemonImage && !pokemonImageShiny) ? (
           <img
             src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-            style={{ width: 200, opacity: '0.3', filter: 'grayscale(100%)' }}
+            style={{
+              width: 170, opacity: '0.3', filter: 'grayscale(100%)',
+            }}
             alt="Placeholder Pokemon"
           />
         ) : (
           <img
             alt={pokemonName}
             src={shiny ? pokemonImageShiny : pokemonImage}
-            style={{ width: 200 }}
+            style={{ maxWidth: '100%', width: 170 }}
           />
         )}
       </Center>
@@ -133,15 +167,27 @@ function ListingCard({
   )
 
   return (
-    <Card
-      loading={isLoading}
-      size={standalone ? 'large' : 'small'}
-      style={{ maxWidth: 600 }}
-      hoverable={hoverable}
-      cover={cover}
-    >
-      <Meta title={hideTitle ? null : pokemonName} description={content} />
-    </Card>
+    <TypeRibbon type={type} standalone={standalone}>
+      <Card
+        loading={isLoading}
+        size={standalone ? 'default' : 'small'}
+        hoverable={hoverable}
+        cover={cover}
+        preview={preview}
+      >
+        <Meta
+          title={(
+            <Title
+              type={type}
+              pokemonName={pokemonName}
+              shiny={shiny}
+              standalone={standalone}
+            />
+)}
+          description={content}
+        />
+      </Card>
+    </TypeRibbon>
   )
 }
 
