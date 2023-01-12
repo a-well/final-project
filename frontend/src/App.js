@@ -38,7 +38,12 @@ store.subscribe(() => {
 
 const theme = {
   token: {
-    fontSize: 16,
+    fontSize: 14,
+    fontSizeLG: 16,
+    fontSizeHeading1: 35,
+    fontSizeHeading2: 30,
+    fontSizeHeading3: 24,
+    lineHeight: 1.5,
   },
 }
 
