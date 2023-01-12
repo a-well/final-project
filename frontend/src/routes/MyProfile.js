@@ -4,6 +4,7 @@ import React from 'react'
 import Profile from 'components/Profile'
 import useApi from 'hooks/useApi'
 import { Row } from 'antd'
+import Spinner from 'components/Spinner'
 
 function MyProfile() {
   const { data, error, isLoading } = useApi('/api/users/me')
@@ -11,7 +12,7 @@ function MyProfile() {
   console.log({ data, error, isLoading })
 
   if (isLoading) {
-    return <div>Loading...</div>
+    return <Spinner />
   }
 
   return (

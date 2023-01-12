@@ -3,6 +3,7 @@ import { Row, Col } from 'antd'
 import { useParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
 import useApi from 'hooks/useApi'
+import Spinner from 'components/Spinner'
 
 function Listing() {
   const { id } = useParams()
@@ -10,11 +11,11 @@ function Listing() {
   const { data: listing, isLoading } = useApi(`/api/listings/${id}`)
 
   if (!id) {
-    return <div>No ID parameter given</div>
+    return <div>Error: No ID parameter given</div>
   }
 
   if (isLoading) {
-    return <div>Loading...</div>
+    return <Spinner />
   }
 
   return (

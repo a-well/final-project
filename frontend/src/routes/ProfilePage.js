@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Profile from 'components/Profile'
+import Spinner from 'components/Spinner'
 import useApi from 'hooks/useApi'
 import { useParams } from 'react-router-dom'
 
@@ -9,7 +10,7 @@ function ProfilePage() {
   const { data, error, isLoading } = useApi(`/api/users/${username}`)
 
   if (isLoading) {
-    return <div>Loading...</div>
+    return <Spinner />
   }
 
   return (
