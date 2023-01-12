@@ -10,3 +10,7 @@ html, body {
   max-width: 1080px;
   margin: 0 auto;
 }
+
+.ingress {
+  font-size: 22px;
+}

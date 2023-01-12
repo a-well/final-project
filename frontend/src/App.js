@@ -41,9 +41,9 @@ const theme = {
   token: {
     fontSize: 14,
     fontSizeLG: 16,
-    fontSizeHeading1: 35,
-    fontSizeHeading2: 30,
-    fontSizeHeading3: 24,
+    fontSizeHeading1: 40,
+    fontSizeHeading2: 26,
+    fontSizeHeading3: 20,
     lineHeight: 1.5,
   },
 }
