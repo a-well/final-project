@@ -1,19 +1,19 @@
 import React from 'react'
 import { ArrowLeftOutlined } from '@ant-design/icons'
 import {
-  Alert, Button, Row, Col,
+  Alert, Button, Row, Col, Typography,
 } from 'antd'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
 import useApi from 'hooks/useApi'
 
+const { Title } = Typography
+
 function Listing() {
   const { id } = useParams()
 
   const [searchParams] = useSearchParams()
-  const isNew = searchParams.get('new')
 
-  console.log(isNew)
   const { data: listing, isLoading } = useApi(`/api/listings/${id}`)
 
   if (!id) {
@@ -26,15 +26,14 @@ function Listing() {
 
   return (
     <Row justify="center">
-      <Col>
-        {isNew && (
-        <Alert message="Listing successfully posted!" type="success" showIcon />
-        )}
-        <h2>
-          {listing.type === 'wanted' ? 'Wanted' : 'Looking for a new home'}
+      <Col xs="24">
+        <Title>
+          {/* {listing.type === 'wanted' ? 'Wanted' : 'Looking for a new home'}
           {': '}
-          {listing.pokemonName}
-        </h2>
+          {listing.shiny && 'Shiny'}
+          {' '}
+          {listing.pokemonName} */}
+        </Title>
         <ListingItem listing={listing} hoverable={false} standalone />
       </Col>
     </Row>

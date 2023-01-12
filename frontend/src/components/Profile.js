@@ -4,6 +4,7 @@ import {
   Typography, Row, Col,
 } from 'antd'
 import UserDetails from './UserDetails'
+import RecentTwoColumns from './RecentTwoColumns';
 
 const { Title, Text } = Typography
 
@@ -19,14 +20,9 @@ const Profile = ({ user, signedInUser }) => {
         {' '}
         listings
       </Title>
-      <Row gutter={80}>
-        <Col xs={24} md={12}>
-          <RecentListings type="wanted" username={username} />
-        </Col>
-        <Col xs={24} md={12}>
-          <RecentListings type="looking-for-a-new-home" username={username} />
-        </Col>
-      </Row>
+
+      <RecentTwoColumns username={username} />
+
     </>
   )
 }

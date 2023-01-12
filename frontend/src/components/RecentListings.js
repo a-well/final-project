@@ -29,32 +29,54 @@ function RecentListings({ type, username }) {
   }
 
   return (
-    <div>
+    <>
       {type === 'wanted' ? (
         <Title level={3}>Wanted</Title>
       ) : (
         <Title level={3}>Looking for a new home</Title>
       )}
 
-      <Row gutter={[15, 15]}>
-        {(!data || data.length === 0) && (
-          <Col xs={24}>
-            <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description="No listings to show" />
-          </Col>
-        )}
+      <Row
+        justify="center"
+      // AVSTÅND MELLAN KORTEN I GRID
+        gutter={[{
+          xs: 10,
+          sm: 16,
+          md: 14,
+          lg: 16,
+        }, {
+          xs: 10,
+          sm: 16,
+          md: 14,
+          lg: 16,
+        }]}
+      >
         {data.map((listing) => (
-          <Col xs={12} sm={8} key={listing._id}>
+          <Col xs={12} sm={10} md={12} lg={8} key={listing._id}>
             <Link to={`/listing/${listing._id}`}>
               <ListingItem listing={listing} />
             </Link>
           </Col>
         ))}
+
+        {(!data || data.length === 0) && (
+        <Col xs={24} sm={24}>
+          <Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description="No listings to show" />
+        </Col>
+        )}
       </Row>
       {/* <Center>
         <Text>Load more...</Text>
       </Center> */}
-    </div>
+    </>
   )
 }
 
 export default RecentListings
+
+// xs = 0-576 px wide TELEFON
+// sm = 577-768 px wide TELEFON
+// md = 769-992 px wide TABLET
+// lg = 993-1199 px wide DATOR
+// xl = 1200-1600 px wide
+// xxl = 1601 px and larger
