@@ -74,19 +74,4 @@ router.post("/api/auth/login", async (req, res) => {
   }
 })
 
-// Handle forgotten password
-// @TODO add funcionality for forgotten password
-router.post("/api/auth/forgot-password", async (req, res) => {
-  const { email } = req.body
-  console.log('forgot password')
-  console.log({email})
-  // to do later:
-  // find user with that email
-  // generate a new password 
-  // set that password to the user
-  // send an email to the email address informing that the password been sent
-
-  res.send(`Your password has been sent to the email you entered.`)
-})
-
 module.exports = router
