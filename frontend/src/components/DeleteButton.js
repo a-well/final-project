@@ -1,27 +1,37 @@
-import { Button } from 'antd'
+import { Button, Popconfirm, message } from 'antd'
+import { QuestionCircleOutlined } from '@ant-design/icons'
 import deleteApi from 'hooks/deleteApi'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const DeleteButton = ({ id }) => {
   const { trigger } = deleteApi(`/api/listings/${id}`)
-  return (
+  const navigate = useNavigate()
 
-    <Button
-      style={{ width: '100%' }}
-      type="primary"
-      danger
-      onClick={async () => {
+  return (
+    <Popconfirm
+      title="Delete listing"
+      description="Are you sure? This cannot be undone."
+      okText="Yes, delete it"
+      cancelText="No"
+      icon={<QuestionCircleOutlined style={{ color: 'red' }} />}
+      onConfirm={async () => {
         await trigger()
-        console.log('this was deleted')
+        message.success('Listing was successfully deleted')
+        navigate('/home')
       }}
     >
-      Delete listing
-    </Button>
+
+      <Button
+        style={{ width: '100%' }}
+        type="primary"
+        danger
+      >
+        Delete listing
+      </Button>
+    </Popconfirm>
 
   )
 }
 
 export default DeleteButton
-
-// @TODO add popconfirm https://ant.design/components/popconfirm
-// @TODO go back to start page and add message that listing was deleted?
