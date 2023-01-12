@@ -15,7 +15,6 @@ import PostListing from 'routes/PostListing'
 import ProfilePage from 'routes/ProfilePage'
 import EditProfile from 'routes/EditProfile'
 
-import About from 'routes/About'
 import NotFound from 'routes/NotFound'
 
 import { Provider } from 'react-redux'
@@ -76,8 +75,6 @@ function App() {
 
                   <Route path="/me" element={<MyProfile />} />
                   <Route path="/edit-profile" element={<EditProfile />} />
-
-                  <Route path="/about" element={<About />} />
 
                   <Route path="*" element={<NotFound />} />
                 </Routes>

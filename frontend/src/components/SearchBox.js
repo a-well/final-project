@@ -39,8 +39,9 @@ function SearchBox({ initialValues = {} }) {
       </Form.Item>
 
       <Form.Item
-        label="Select Pokemon"
+        label="Select Pokemon:"
         name="pokemonId"
+        colon={false}
       >
         <PokemonSelect />
       </Form.Item>

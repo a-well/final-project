@@ -7,7 +7,8 @@ import { Link, useSearchParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
 import SearchBox from 'components/SearchBox'
 import Center from 'components/Center'
-import queryString from 'query-string';
+import queryString from 'query-string'
+import Spinner from 'components/Spinner'
 
 const { Title } = Typography
 
@@ -37,19 +38,17 @@ function Browse({ initialValues }) {
   console.log({ data, isLoading })
   if (isLoading || !data) {
     return (
-      <div>
-        Loading...
-      </div>
+      <Spinner />
     )
   }
 
   return (
     <>
-      <Center>
-        <SearchBox initialValues={initialValues} />
-      </Center>
-
       <Title>Browse listings</Title>
+
+      <SearchBox initialValues={initialValues} />
+
+      <Title level={2}>Results</Title>
 
       <Row
         justify="center"
