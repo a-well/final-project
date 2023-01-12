@@ -1,5 +1,7 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {
+  BrowserRouter, Routes, Route, ScrollRestoration,
+} from 'react-router-dom'
 
 import Layout from 'components/Layout'
 
@@ -21,6 +23,7 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import user from 'reducers/user'
 import ErrorBoundary from 'antd/es/alert/ErrorBoundary'
 import { ConfigProvider } from 'antd'
+import ScrollToTop from 'components/ScrollToTop'
 
 const reducer = combineReducers({
   user: user.reducer,
@@ -53,31 +56,34 @@ function App() {
     <ErrorBoundary>
       <Provider store={store}>
         <BrowserRouter>
-          <ConfigProvider theme={theme}>
+          <>
+            <ScrollToTop />
+            <ConfigProvider theme={theme}>
 
-            <Layout>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/home" element={<Home />} />
+              <Layout>
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/home" element={<Home />} />
 
-                <Route path="/login" element={<Login />} />
-                <Route path="/signup" element={<Signup />} />
+                  <Route path="/login" element={<Login />} />
+                  <Route path="/signup" element={<Signup />} />
 
-                <Route path="/listing/:id" element={<Listing />} />
-                <Route path="/post-listing" element={<PostListing />} />
-                <Route path="/browse" element={<BrowseListings />} />
+                  <Route path="/listing/:id" element={<Listing />} />
+                  <Route path="/post-listing" element={<PostListing />} />
+                  <Route path="/browse" element={<BrowseListings />} />
 
-                <Route path="/users/:username" element={<ProfilePage />} />
+                  <Route path="/users/:username" element={<ProfilePage />} />
 
-                <Route path="/me" element={<MyProfile />} />
-                <Route path="/edit-profile" element={<EditProfile />} />
+                  <Route path="/me" element={<MyProfile />} />
+                  <Route path="/edit-profile" element={<EditProfile />} />
 
-                <Route path="/about" element={<About />} />
+                  <Route path="/about" element={<About />} />
 
-                <Route path="*" element={<NotFound />} />
-              </Routes>
-            </Layout>
-          </ConfigProvider>
+                  <Route path="*" element={<NotFound />} />
+                </Routes>
+              </Layout>
+            </ConfigProvider>
+          </>
         </BrowserRouter>
       </Provider>
     </ErrorBoundary>
