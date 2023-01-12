@@ -69,10 +69,6 @@ function Login() {
         layout="vertical"
         onFinish={onFinish}
         requiredMark={false}
-        initialValues={{
-          username: 'testmanda',
-          password: 'testloesen',
-        }}
       >
         <Title>Log in</Title>
         <Form.Item

@@ -171,12 +171,6 @@ function Signup() {
           <TextArea showCount maxLength={350} rows={4} placeholder="A short introduction :)" />
         </Form.Item>
 
-        {/* <Form.Item name="gdpr-etc" valuePropName="checked">
-          <Checkbox>
-            <Link to="/gdpr-etc" target="_blank">GDPR and rules are fine by me</Link>
-          </Checkbox>
-        </Form.Item> */}
-
         <Form.Item>
           <Button type="primary" htmlType="submit" style={{ width: '100%' }}>
             Sign up

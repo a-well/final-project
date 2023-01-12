@@ -51,6 +51,7 @@ function RecentListings({ type, username }) {
             <Col xs={12} sm={10} md={12} lg={8}>
               <LoadingCard />
             </Col>
+
           </>
         )}
 

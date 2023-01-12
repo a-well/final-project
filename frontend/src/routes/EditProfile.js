@@ -2,9 +2,10 @@
 
 import React, { useState } from 'react'
 import {
-  Button, Form, Input, Select, Row, Col, message, Typography,
+  Button, Form, Input, Select, Row, Col, Space, message, Typography,
 } from 'antd'
 import { UserOutlined, MailOutlined } from '@ant-design/icons'
+import { Link } from 'react-router-dom'
 
 import patchApi from 'hooks/patchApi'
 import { useDispatch } from 'react-redux'
@@ -124,11 +125,17 @@ function EditProfile() {
           <TextArea showCount maxLength={350} placeholder="A short introduction :)" rows="4" />
         </Form.Item>
 
-        <Form.Item>
-          <Button type="primary" htmlType="submit" style={{ width: '100%' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Link to="/me">
+            <Button htmlType="button">
+              Cancel
+            </Button>
+          </Link>
+
+          <Button type="primary" htmlType="submit">
             Save changes
           </Button>
-        </Form.Item>
+        </div>
       </Form>
     </Center>
   )

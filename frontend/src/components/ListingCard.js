@@ -1,14 +1,12 @@
 import React from 'react'
 import {
-  Card, Space, Typography, Divider, Row, Badge,
+  Card, Typography, Divider, Badge,
 } from 'antd'
 import { PushpinOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 import nl2br from 'react-nl2br'
 import moment from 'moment'
-import useApi from 'hooks/useApi'
 import Center from './Center'
-import DeleteButton from './DeleteButton'
 
 const { Text } = Typography
 
@@ -89,15 +87,13 @@ function ListingCard({
   isLoading = false,
   showTypeBadge = false,
 }) {
-  const { data } = useApi('/api/users/me')
-
   const content = (
 
     <div>
       <ListingLocation location={location} />
 
       <div>
-        {moment(createdAt).format('YYYY-MM-DD ') || <span style={{ opacity: 0.6 }}>today </span>}
+        {moment(createdAt).format('D MMM YYYY') || <span style={{ opacity: 0.6 }}>today </span>}
         <br />
         {' by '}
         <Link to={`/users/${username}`}>{username}</Link>
@@ -137,12 +133,7 @@ function ListingCard({
         </Link>
         {' '}
         profile to find their details
-        {username === data?.username && !preview && (
-        <>
-          <Divider />
-          <DeleteButton id={id} />
-        </>
-        )}
+
       </>
       )}
     </div>
