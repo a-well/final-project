@@ -3,11 +3,10 @@ html, body {
 }
 
 .main-wrapper {
-  padding: 60px;
+  padding: calc(8px + 1.5625vw);
   background-color: white;
 }
-@media (max-width: 600px)  {
-  .main-wrapper {
-    padding: 20px;
-  }
+.main-wrapper__inner {
+  max-width: 1100px;
+  margin: 0 auto;
 }
