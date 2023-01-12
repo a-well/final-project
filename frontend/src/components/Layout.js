@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout } from 'antd'
+import { Layout, Divider } from 'antd'
 import { useNavigate, Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import Center from './Center'
@@ -29,7 +29,11 @@ function AppLayout({ children }) {
 
       <Footer>
         <Center>
-          <Link to="/about">PokeYAY 2023</Link>
+          PokeYAY 2023
+          <Divider type="vertical" />
+          <a href="https://github.com/a-well/final-project">About</a>
+          <Divider type="vertical" />
+          <a href="mailto:amanda@amandas.dev">Contact</a>
         </Center>
       </Footer>
     </Layout>
