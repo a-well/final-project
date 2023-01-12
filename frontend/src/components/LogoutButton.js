@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'antd';
+import { Button, message } from 'antd';
 import {
   LogoutOutlined,
 } from '@ant-design/icons'
@@ -14,6 +14,7 @@ const LogoutButton = () => {
       batch(() => {
         dispatch(user.actions.setUser(null))
         dispatch(user.actions.setAccessToken(null))
+        message.success('You have been logged out successfully')
       })
     }}
     >
