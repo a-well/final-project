@@ -9,6 +9,7 @@ const router = express.Router()
 router.get("/api/listings", async (req, res) => {
   const limit = req.query.limit || 20
   const listingType = req.query.type 
+  const pokemonId = req.query.pokemonId 
   const username = req.query.username 
 
   const searchQuery = {}
@@ -18,6 +19,10 @@ router.get("/api/listings", async (req, res) => {
 
   if (username) {
     searchQuery["username"] = username
+  }
+  
+  if (pokemonId) {
+    searchQuery["pokemonId"] = pokemonId
   }
 
   console.log(searchQuery)
