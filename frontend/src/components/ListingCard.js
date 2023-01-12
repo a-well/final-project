@@ -4,7 +4,6 @@ import {
 } from 'antd'
 import { FacebookOutlined, PushpinOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
-import Paragraph from 'antd/es/skeleton/Paragraph'
 import nl2br from 'react-nl2br'
 import moment from 'moment'
 import useApi from 'hooks/useApi'
@@ -15,21 +14,26 @@ const { Text } = Typography
 
 const { Meta } = Card
 
-const TypeRibbon = ({ standalone, children, type }) => {
-  if (!standalone) return children
+const TypeRibbon = ({
+  standalone, showTypeBadge, children, type,
+}) => {
+  if (standalone || showTypeBadge) {
+    return (
+      <Badge.Ribbon
+        type={type}
+        text={type === 'wanted' ? (
+          'Wanted'
+        ) : (
+          'Looking for a new home'
+        )}
+        color={type === 'wanted' ? 'blue' : 'blue'}
+      >
+        {children}
+      </Badge.Ribbon>
+    )
+  }
 
-  return (
-    <Badge.Ribbon
-      type={type}
-      text={type === 'wanted' ? (
-        'Wanted'
-      ) : (
-        'Looking for a new home'
-      )}
-    >
-      {children}
-    </Badge.Ribbon>
-  )
+  return children
 }
 
 const Title = ({
@@ -83,6 +87,7 @@ function ListingCard({
   id,
   hoverable = true,
   isLoading = false,
+  showTypeBadge = false,
 }) {
   const { data } = useApi('/api/users/me')
 
@@ -167,7 +172,7 @@ function ListingCard({
   )
 
   return (
-    <TypeRibbon type={type} standalone={standalone}>
+    <TypeRibbon type={type} standalone={standalone} showTypeBadge={showTypeBadge}>
       <Card
         loading={isLoading}
         size={standalone ? 'default' : 'small'}

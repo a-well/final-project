@@ -5,7 +5,6 @@ import {
 import { Link } from 'react-router-dom'
 import useApi from 'hooks/useApi'
 import ListingItem from './ListingItem'
-import Center from './Center'
 
 const { Title, Text } = Typography
 

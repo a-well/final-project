@@ -21,21 +21,8 @@ function Home() {
 
   return (
     <>
-      {/* {!accessToken && (
-      <Row gutter={10} justify="center">
-        <Col xs={24} sm={12}>
-          <Title>What is PokeYAY?</Title>
-          <Text>
-            PokeYAY is an app that helps Pokemon GO players trade Pokemons
-          </Text>
-        </Col>
-        <Col xs={24} sm={12}>
-          <HowDoesItWork />
-        </Col>
-      </Row>
-      )} */}
       <Center>
-        <Title level={2}>Search</Title>
+        <Title level={2}>Browse</Title>
         <SearchBox />
       </Center>
       <Title level={2}>Recent listings</Title>
