@@ -1,6 +1,12 @@
-# Final Project - Pokemon Trade Finder
+# Final Project - PokeYAY: Pokemon Trade Finder
 
 Amanda W. Final Project Technigo Bootcamp class of fall 2022
+
+## About
+
+PokeYay is a web app for people playing Pokemon Go. PokeYay lets the user search for other players that are willing to trade Pokémon with one another.
+
+The user can both search for what Pokémon other players are looking to trade, or are willing to part with. And can list their own Pokémon.
 
 ## Intro
 
@@ -8,19 +14,21 @@ This project uses a monorepo.
 Backend is located in `/backend`, deployed to Google Cloud Run
 Frntend is located in `/frontend`, deployed to Netlify
 
-This project is part of the Technigo Bootcamp 2022
-
 ## Try it out
 
 API: https://final-project-l47fprrrfa-lz.a.run.app/
 
 Frontend: https://aw-pokeyay.netlify.app/
 
-## API
+
+## APIs
+
+This project uses [PoGo API](https://pogoapi.net/) for Pokémon data and [PokeAPI](https://github.com/PokeAPI/pokeapi) for image content.
 
 ### Dependencies
 
-node, mongodb
+Main technologies used:
+React, React Router, Redux [Ant Design](https://ant.design/components/), [swr](https://swr.vercel.app/)
 
 ### Running locally
 
