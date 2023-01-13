@@ -101,7 +101,7 @@ function Signup() {
         <Form.Item
           label="E-mail address"
           name="emailAddress"
-          tooltip="This address will be used for logging in, and also for resetting your password."
+          tooltip="Please fill this is so that other users can contact you for trading"
           rules={[
             {
               required: true,

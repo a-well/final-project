@@ -57,7 +57,7 @@ function EditProfile() {
 
         {errors && (
         <div>
-          <h3>FEL!!</h3>
+          An error has occured
           <pre>
             {JSON.stringify(errors, null, 2)}
           </pre>

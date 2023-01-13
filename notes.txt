@@ -83,12 +83,28 @@ se listing card
 
 [x] laga line breaks https://www.npmjs.com/package/react-nl2br/v/1.0.4
 
-[/] lägg till success alt fail meddelenade innan redirect i postlisting: https://ant.design/components/result
-[ ] lägg till delete listing
-[ ] göra så man kan edita sin profil
-[ ] göra så ej ifyllda fält ej är med i profil
-[] söka??
+[x] lägg till success i postlisting
+[x] lägg till delete listing
+[x] göra så man kan edita sin profil
+[x] göra så ej ifyllda fält ej är med i profil
+
+
+
+[x] laga grid
+[x] söka??
+
+[ ] städa kod, bestäm vad som ska va kvar etc
+
+[] gör nya användare och listings
+
+[ ] visa error om email e upptagen
+
+[/] tema
+
+[ ] add today etc to card w moment js
+
+[ ] hur fixa för lång titel i prevew/mobile?
 
 [ ] readme, tech list, about
 
-[ ] 
+[ ] städa kod/ta bort  h3 som felmeddelande
