@@ -17,11 +17,11 @@ function Hero() {
             Sign up
           </Button>
         </Link>
-        <Link to="/about">
+        <a href to="https://github.com/a-well/final-project">
           <Button>
             About
           </Button>
-        </Link>
+        </a>
       </Space>
     </div>
 
