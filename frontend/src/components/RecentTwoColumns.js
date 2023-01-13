@@ -4,12 +4,10 @@ import { Col, Row } from 'antd'
 import RecentListings from 'components/RecentListings'
 
 const RecentTwoColumns = ({ username }) => (
-  // DETTA ÄR FÖR BÅDE WANTED OCH LOOKING
-
   <Row
     justify="center"
     gutter={{
-      // GUTTER MELLAN WANTED OCH LOOKING COLUMNERNA
+      // Space between the two columns
       xs: 8,
       sm: 16,
       md: 24,
@@ -26,10 +24,3 @@ const RecentTwoColumns = ({ username }) => (
 )
 
 export default RecentTwoColumns
-
-// xs = 0-576 px wide TELEFON
-// sm = 577-768 px wide TELEFON
-// md = 769-992 px wide TABLET
-// lg = 993-1199 px wide DATOR
-// xl = 1200-1600 px wide
-// xxl = 1601 px and larger

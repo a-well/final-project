@@ -29,7 +29,7 @@ function RecentListings({ type, username }) {
 
       <Row
         justify="center"
-      // AVSTÅND MELLAN KORTEN I GRID
+      // Space between cards in grid
         gutter={[{
           xs: 10,
           sm: 16,
@@ -69,18 +69,8 @@ function RecentListings({ type, username }) {
         </Col>
         )}
       </Row>
-      {/* <Center>
-        <Text>Load more...</Text>
-      </Center> */}
     </>
   )
 }
 
 export default RecentListings
-
-// xs = 0-576 px wide TELEFON
-// sm = 577-768 px wide TELEFON
-// md = 769-992 px wide TABLET
-// lg = 993-1199 px wide DATOR
-// xl = 1200-1600 px wide
-// xxl = 1601 px and larger

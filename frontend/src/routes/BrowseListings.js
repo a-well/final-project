@@ -1,7 +1,7 @@
 import React from 'react'
 import useApi from 'hooks/useApi'
 import {
-  Col, Empty, Row, Typography,
+  Col, Empty, Row, Typography, Space,
 } from 'antd'
 import { Link, useSearchParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
@@ -45,14 +45,12 @@ function Browse({ initialValues }) {
   return (
     <>
       <Title>Browse listings</Title>
-
       <SearchBox initialValues={initialValues} />
-
       <Title level={2}>Results</Title>
 
       <Row
         justify="center"
-      // AVSTÅND MELLAN KORTEN I GRID
+        // Space between cards in grid
         gutter={[{
           xs: 10,
           sm: 16,

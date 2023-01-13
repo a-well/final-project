@@ -1,12 +1,9 @@
-import React from 'react';
-import RecentListings from 'components/RecentListings'
-import {
-  Typography, Row, Col,
-} from 'antd'
+import React from 'react'
+import { Typography } from 'antd'
 import UserDetails from './UserDetails'
-import RecentTwoColumns from './RecentTwoColumns';
+import RecentTwoColumns from './RecentTwoColumns'
 
-const { Title, Text } = Typography
+const { Title } = Typography
 
 const Profile = ({ user, signedInUser }) => {
   const { username } = user

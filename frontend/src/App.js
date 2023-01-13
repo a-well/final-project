@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter, Routes, Route, ScrollRestoration,
+  BrowserRouter, Routes, Route,
 } from 'react-router-dom'
 
 import Layout from 'components/Layout'
@@ -48,8 +48,6 @@ const theme = {
   },
 }
 
-// @TODO create theme https://ant.design/theme-editor
-
 function App() {
   return (
     <ErrorBoundary>
@@ -58,7 +56,6 @@ function App() {
           <>
             <ScrollToTop />
             <ConfigProvider theme={theme}>
-
               <Layout>
                 <Routes>
                   <Route path="/" element={<Home />} />
@@ -71,9 +68,8 @@ function App() {
                   <Route path="/post-listing" element={<PostListing />} />
                   <Route path="/browse" element={<BrowseListings />} />
 
-                  <Route path="/users/:username" element={<ProfilePage />} />
-
                   <Route path="/me" element={<MyProfile />} />
+                  <Route path="/users/:username" element={<ProfilePage />} />
                   <Route path="/edit-profile" element={<EditProfile />} />
 
                   <Route path="*" element={<NotFound />} />

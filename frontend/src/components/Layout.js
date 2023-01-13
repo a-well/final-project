@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout, Divider } from 'antd'
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import Center from './Center'
 import Logotype from './Logotype'

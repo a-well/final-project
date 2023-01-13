@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react'
 
-import { Typography } from 'antd'
+import { Typography, Row, Col } from 'antd'
 
 import Center from 'components/Center'
 import SearchBox from 'components/SearchBox'

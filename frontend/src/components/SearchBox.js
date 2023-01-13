@@ -21,15 +21,6 @@ function SearchBox({ initialValues = {} }) {
         navigate(`/browse?${qs}`)
       }}
     >
-      {/* <Form.Item name="query">
-        <Search
-          prefix={<SearchOutlined />}
-          placeholder='Enter Pokemon name, or keywords eg. "event" or "shiny"'
-          allowClear
-          enterButton="Search"
-          size="medium"
-        />
-      </Form.Item> */}
 
       <Form.Item name="type" label="Listing type:" colon={false}>
         <Radio.Group>
