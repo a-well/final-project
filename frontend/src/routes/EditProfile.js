@@ -39,7 +39,7 @@ function EditProfile() {
       setErrors(res.errors)
     } else if (res.success) {
       dispatch(userReducer.actions.setUser(res.user))
-      message.success('Your info was saved in the database in the cloud in the internet of BYTESZ!')
+      message.success('Profile updated successfully!')
     } else {
       console.log('Something unexpected happened when updating your profile')
     }
