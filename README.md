@@ -20,15 +20,7 @@ API: https://final-project-l47fprrrfa-lz.a.run.app/
 
 Frontend: https://aw-pokeyay.netlify.app/
 
-
-## APIs
-
-This project uses [PoGo API](https://pogoapi.net/) for Pokémon data and [PokeAPI](https://github.com/PokeAPI/pokeapi) for image content.
-
-### Dependencies
-
-Main technologies used:
-React, React Router, Redux [Ant Design](https://ant.design/components/), [swr](https://swr.vercel.app/)
+## Backend
 
 ### Running locally
 
@@ -51,4 +43,23 @@ Project link: https://console.cloud.google.com/run/detail/europe-north1/final-pr
 
 ## Frontend
 
-Coming later
+### Running locally
+
+```sh
+cd frontend
+npm i
+npm start
+```
+### Dependencies
+
+Main technologies used:
+React, React Router, Redux [Ant Design](https://ant.design/components/), [swr](https://swr.vercel.app/)
+
+
+### Deploy
+
+Push to git, branch main. This will be automatically picked up and deployed by Netlify
+
+## APIs
+
+This project uses [PoGo API](https://pogoapi.net/) for Pokémon data and [PokeAPI](https://github.com/PokeAPI/pokeapi) for image content.
