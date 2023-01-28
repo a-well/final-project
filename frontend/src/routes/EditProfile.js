@@ -39,7 +39,7 @@ function EditProfile() {
       dispatch(userReducer.actions.setUser(res.user))
       message.success('Profile updated successfully!')
     } else {
-      console.log('Something unexpected happened when updating your profile')
+      message.error('Something unexpected happened when updating your profile')
     }
   }
 

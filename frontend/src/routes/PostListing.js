@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {
-  Button, Form, Input, Select, Radio, Col, Row, Switch, message, Typography,
+  Button, Form, Input, Radio, Col, Row, Switch, message, Typography,
 } from 'antd'
 import ListingCard from 'components/ListingCard'
 import postApi from 'hooks/postApi'
@@ -10,7 +10,6 @@ import PokemonSelect from 'components/PokemonSelect'
 import useApi from 'hooks/useApi'
 
 const { TextArea } = Input
-const { Option } = Select
 const { Title } = Typography
 
 function PostListing() {

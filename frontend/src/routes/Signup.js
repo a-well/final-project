@@ -49,7 +49,7 @@ function Signup() {
       window.scrollTo(0, 0);
       setErrors(res.response)
     } else {
-      console.log('Something unexpected happened in signup')
+      message.error('Something unexpected happened in signup')
     }
   }
 
