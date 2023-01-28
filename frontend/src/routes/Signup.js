@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect } from 'react'
 import {
-  Button, Checkbox, Form, Input, Select, Row, message, Typography, Alert,
+  Button, Form, Input, Select, message, Typography, Alert,
 } from 'antd'
 import { UserOutlined, LockOutlined, MailOutlined } from '@ant-design/icons'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import postApi from 'hooks/postApi'
-import { useDispatch, useSelector, batch } from 'react-redux'
+import { useDispatch, batch } from 'react-redux'
 import user from 'reducers/user'
 import Center from 'components/Center'
 
@@ -36,10 +36,8 @@ function Signup() {
   }, [redirectTo])
 
   const save = async (values) => {
-    console.log(values)
     const res = await trigger(values)
 
-    console.log(res)
     if (res.success) {
       batch(() => {
         dispatch(user.actions.setUser(res.user))

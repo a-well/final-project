@@ -1,11 +1,6 @@
-import Center from 'components/Center'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {
-  Typography, Space, Row, Col, Button, Result,
-} from 'antd'
-
-const { Title } = Typography
+import { Space, Button, Result } from 'antd'
 
 function NotFound() {
   return (

@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 const useUser = () => {
   const navigate = useNavigate()
   const user = useSelector((store) => store.user.user)
-  console.log({ user })
 
   useEffect(() => {
     if (!user) {

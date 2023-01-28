@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 import { Radio, Form, Button } from 'antd'
-import queryString from 'query-string';
-import { useNavigate, useSearchParams } from 'react-router-dom';
-import PokemonSelect from './PokemonSelect';
+import queryString from 'query-string'
+import { useNavigate } from 'react-router-dom'
+import PokemonSelect from './PokemonSelect'
 
 function SearchBox({ initialValues = {} }) {
   const navigate = useNavigate()
@@ -10,8 +10,6 @@ function SearchBox({ initialValues = {} }) {
     // eslint-disable-next-line no-param-reassign
     initialValues.type = 'wanted'
   }
-
-  console.log('SearchBox initialvalues', initialValues)
 
   return (
     <Form
@@ -39,7 +37,7 @@ function SearchBox({ initialValues = {} }) {
 
       <Button htmlType="submit" type="primary" block>Browse Pokémon</Button>
     </Form>
-  );
+  )
 }
 
 export default SearchBox

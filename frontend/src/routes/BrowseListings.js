@@ -1,12 +1,11 @@
 import React from 'react'
 import useApi from 'hooks/useApi'
 import {
-  Col, Empty, Row, Typography, Space,
+  Col, Empty, Row, Typography,
 } from 'antd'
 import { Link, useSearchParams } from 'react-router-dom'
 import ListingItem from 'components/ListingItem'
 import SearchBox from 'components/SearchBox'
-import Center from 'components/Center'
 import queryString from 'query-string'
 import Spinner from 'components/Spinner'
 
@@ -16,8 +15,6 @@ const BrowsePage = () => {
   const initialValues = queryString.parse(window.location.search);
 
   const search = useSearchParams() // hax to make component re-render when search params change
-
-  console.log(initialValues)
 
   return (
     // eslint-disable-next-line react/jsx-props-no-spreading
@@ -32,10 +29,9 @@ function Browse({ initialValues }) {
   })
 
   const url = `/api/listings?${qs}`
-  console.log(url)
+
   const { data, isLoading } = useApi(url)
 
-  console.log({ data, isLoading })
   if (isLoading || !data) {
     return (
       <Spinner />

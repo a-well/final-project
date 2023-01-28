@@ -45,7 +45,6 @@ function PostListing() {
       message.success('Listing was successfully posted')
       navigate(`/listing/${res._id}`)
     }
-    console.log(res)
   }
 
   return (

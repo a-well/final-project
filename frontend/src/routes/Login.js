@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {
   Alert,
-  Button, Checkbox, Form, Input, Typography,
+  Button, Form, Input, Typography,
 } from 'antd'
 import { UserOutlined, LockOutlined } from '@ant-design/icons'
 import Center from 'components/Center'
@@ -11,7 +11,7 @@ import { useNavigate, Link } from 'react-router-dom'
 import user from 'reducers/user'
 import { API_URL } from '../utils/utils'
 
-const { Title, Text } = Typography
+const { Title } = Typography
 
 function Login() {
   const dispatch = useDispatch()
@@ -19,7 +19,6 @@ function Login() {
 
   const [errors, setErrors] = useState(null)
   const accessToken = useSelector((store) => store.user.accessToken)
-  console.log(accessToken)
   useEffect(() => {
     if (accessToken) {
       navigate('/home')
@@ -27,7 +26,6 @@ function Login() {
   }, [accessToken])
 
   const onFinish = (values) => {
-    console.log('Success')
     const { username, password } = values
 
     const options = {
@@ -41,7 +39,6 @@ function Login() {
     fetch(`${API_URL}/api/auth/login`, options)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data)
         if (data.success) {
           setErrors(null)
           batch(() => {
@@ -52,12 +49,10 @@ function Login() {
           setErrors([data.response])
         }
       }).catch((e) => {
-        console.log(e)
         setErrors(['Could not connect to server'])
       })
-  };
+  }
 
-  console.log(errors)
   return (
 
     <Center>

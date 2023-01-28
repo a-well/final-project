@@ -14,7 +14,6 @@ import Listing from 'routes/Listing'
 import PostListing from 'routes/PostListing'
 import ProfilePage from 'routes/ProfilePage'
 import EditProfile from 'routes/EditProfile'
-
 import NotFound from 'routes/NotFound'
 
 import { Provider } from 'react-redux'

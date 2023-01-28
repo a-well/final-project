@@ -17,8 +17,6 @@ function RecentListings({ type, username }) {
 
   const { data, isLoading } = useApi(url)
 
-  console.log({ data, isLoading })
-
   return (
     <>
       {type === 'wanted' ? (

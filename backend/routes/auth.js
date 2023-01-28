@@ -11,7 +11,7 @@ router.post("/api/auth/register", async (req, res) => {
   const { username, emailAddress, password, about, location, whatsApp, facebook, poGoUsername, trainerCode, poGoLevel } = req.body
 
   try {
-    // Generate salt for password encryption (https://en.wikipedia.org/wiki/Salt_(cryptography))
+    // Generate salt for password encryption
     const salt = bcrypt.genSaltSync()
     if (password.length < 10) {
       res.status(400).json({

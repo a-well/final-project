@@ -31,10 +31,8 @@ function EditProfile() {
   const [errors, setErrors] = useState(null)
 
   const save = async (values) => {
-    console.log(values)
     const res = await trigger(values)
 
-    console.log(res)
     if (res.errors) {
       setErrors(res.errors)
     } else if (res.success) {
