@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom'
 
 const ProfilePage = () => {
   const { username } = useParams()
-  const { data, error, isLoading } = useApi(`/api/users/${username}`)
+  const { data, isLoading } = useApi(`/api/users/${username}`)
 
   if (isLoading) {
     return <Spinner />

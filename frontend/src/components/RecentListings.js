@@ -7,7 +7,7 @@ import useApi from 'hooks/useApi'
 import ListingItem from './ListingItem'
 import LoadingCard from './LoadingCard'
 
-const { Title, Text } = Typography
+const { Title } = Typography
 
 const RecentListings = ({ type, username }) => {
   let url = `/api/listings?limit=6&type=${type}`

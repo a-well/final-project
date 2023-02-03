@@ -14,7 +14,7 @@ const { Title } = Typography
 
 const PostListing = () => {
   const { trigger } = postApi('/api/listings')
-  const { isLoading, data: pokemons = [] } = useApi('/api/pokemons.json')
+  const { data: pokemons = [] } = useApi('/api/pokemons.json')
 
   const { user } = useUser()
   const navigate = useNavigate()
