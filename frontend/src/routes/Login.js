@@ -13,7 +13,7 @@ import { API_URL } from '../utils/utils'
 
 const { Title } = Typography
 
-function Login() {
+const Login = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
 

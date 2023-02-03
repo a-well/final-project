@@ -12,7 +12,7 @@ import useApi from 'hooks/useApi'
 const { TextArea } = Input
 const { Title } = Typography
 
-function PostListing() {
+const PostListing = () => {
   const { trigger } = postApi('/api/listings')
   const { isLoading, data: pokemons = [] } = useApi('/api/pokemons.json')
 

@@ -3,7 +3,7 @@ import useSWRMutation from 'swr/mutation'
 
 import { API_URL } from 'utils/utils'
 
-function postApi(path, data) {
+const postApi = (path, data) => {
   const accessToken = useSelector((store) => store.user.accessToken)
 
   const sendRequest = async (url, { arg }) => {

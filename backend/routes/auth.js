@@ -38,7 +38,7 @@ router.post("/api/auth/register", async (req, res) => {
       })
     }
   } catch(e) {
-    console.log(e)
+    console.error('Error while signing up', e)
     res.status(400).json({
       success: false,
       response: e

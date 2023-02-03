@@ -9,7 +9,7 @@ import LoadingCard from './LoadingCard'
 
 const { Title, Text } = Typography
 
-function RecentListings({ type, username }) {
+const RecentListings = ({ type, username }) => {
   let url = `/api/listings?limit=6&type=${type}`
   if (username) {
     url += `&username=${username}`

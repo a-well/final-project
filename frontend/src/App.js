@@ -47,39 +47,37 @@ const theme = {
   },
 }
 
-function App() {
-  return (
-    <ErrorBoundary>
-      <Provider store={store}>
-        <BrowserRouter>
-          <>
-            <ScrollToTop />
-            <ConfigProvider theme={theme}>
-              <Layout>
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/home" element={<Home />} />
+const App = () => (
+  <ErrorBoundary>
+    <Provider store={store}>
+      <BrowserRouter>
+        <>
+          <ScrollToTop />
+          <ConfigProvider theme={theme}>
+            <Layout>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
 
-                  <Route path="/login" element={<Login />} />
-                  <Route path="/signup" element={<Signup />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
 
-                  <Route path="/listing/:id" element={<Listing />} />
-                  <Route path="/post-listing" element={<PostListing />} />
-                  <Route path="/browse" element={<BrowseListings />} />
+                <Route path="/listing/:id" element={<Listing />} />
+                <Route path="/post-listing" element={<PostListing />} />
+                <Route path="/browse" element={<BrowseListings />} />
 
-                  <Route path="/me" element={<MyProfile />} />
-                  <Route path="/users/:username" element={<ProfilePage />} />
-                  <Route path="/edit-profile" element={<EditProfile />} />
+                <Route path="/me" element={<MyProfile />} />
+                <Route path="/users/:username" element={<ProfilePage />} />
+                <Route path="/edit-profile" element={<EditProfile />} />
 
-                  <Route path="*" element={<NotFound />} />
-                </Routes>
-              </Layout>
-            </ConfigProvider>
-          </>
-        </BrowserRouter>
-      </Provider>
-    </ErrorBoundary>
-  )
-}
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </Layout>
+          </ConfigProvider>
+        </>
+      </BrowserRouter>
+    </Provider>
+  </ErrorBoundary>
+)
 
 export default App

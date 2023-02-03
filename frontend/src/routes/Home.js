@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react'
 
-import { Typography, Row, Col } from 'antd'
+import { Typography } from 'antd'
 
 import Center from 'components/Center'
 import SearchBox from 'components/SearchBox'
@@ -11,7 +11,7 @@ import Hero from 'components/Hero'
 
 const { Title } = Typography
 
-function Home() {
+const Home = () => {
   const accessToken = useSelector((store) => store.user.accessToken)
 
   return (

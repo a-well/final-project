@@ -68,7 +68,7 @@ const ListingLocation = ({ location }) => (
 
 )
 
-function ListingCard({
+const ListingCard = ({
   preview,
   standalone,
   pokemonId,
@@ -86,7 +86,7 @@ function ListingCard({
   hoverable = true,
   isLoading = false,
   showTypeBadge = false,
-}) {
+}) => {
   const content = (
 
     <div>

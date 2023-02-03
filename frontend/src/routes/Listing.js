@@ -8,7 +8,7 @@ import useApi from 'hooks/useApi'
 import Spinner from 'components/Spinner'
 import DeleteButton from 'components/DeleteButton'
 
-function Listing() {
+const Listing = () => {
   const { id } = useParams()
 
   const { data: listing, isLoading } = useApi(`/api/listings/${id}`)

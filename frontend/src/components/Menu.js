@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import LogoutButton from './LogoutButton'
 
-function AppMenu() {
+const AppMenu = () => {
   const nav = useNavigate()
   const accessToken = useSelector((store) => store.user.accessToken)
 

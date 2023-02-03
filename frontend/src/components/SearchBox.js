@@ -4,7 +4,7 @@ import queryString from 'query-string'
 import { useNavigate } from 'react-router-dom'
 import PokemonSelect from './PokemonSelect'
 
-function SearchBox({ initialValues = {} }) {
+const SearchBox = ({ initialValues = {} }) => {
   const navigate = useNavigate()
   if (!initialValues.type) {
     // eslint-disable-next-line no-param-reassign

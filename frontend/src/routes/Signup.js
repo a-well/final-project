@@ -22,7 +22,7 @@ const pokemonGoMaxLevel = 50
 const minLevelToTrade = 10
 const pokemonLevels = [...Array((pokemonGoMaxLevel + 1) - minLevelToTrade)]
 
-function Signup() {
+const Signup = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const { trigger } = postApi('/api/auth/register')
@@ -49,7 +49,7 @@ function Signup() {
       window.scrollTo(0, 0);
       setErrors(res.response)
     } else {
-      message.error('Something unexpected happened in signup')
+      message.error('Something unexpected happened in sign up, please try again')
     }
   }
 
@@ -62,7 +62,7 @@ function Signup() {
         <Title>Sign up</Title>
 
         {errors && (
-          <Alert type="error" message={JSON.stringify(errors, null, 2)} style={{ marginBottom: 12 }} />
+          <Alert type="error" message="Username and/or email address already in use" style={{ marginBottom: 12 }} />
         )}
         <Form.Item
           label="Username"

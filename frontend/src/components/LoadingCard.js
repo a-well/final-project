@@ -5,18 +5,16 @@ import {
 
 const { Meta } = Card
 
-function LoadingCard() {
-  return (
-    <Card>
-      <Skeleton loading avatar active>
-        <Meta
-          title="loading"
-          description=""
-        />
-      </Skeleton>
-    </Card>
+const LoadingCard = () => (
+  <Card>
+    <Skeleton loading avatar active>
+      <Meta
+        title="loading"
+        description=""
+      />
+    </Skeleton>
+  </Card>
 
-  )
-}
+)
 
 export default LoadingCard

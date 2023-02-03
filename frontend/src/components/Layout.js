@@ -8,7 +8,7 @@ import AppMenu from './Menu'
 
 const { Header, Content, Footer } = Layout
 
-function AppLayout({ children }) {
+const AppLayout = ({ children }) => {
   const nav = useNavigate()
   const accessToken = useSelector((store) => store.user.accessToken)
 

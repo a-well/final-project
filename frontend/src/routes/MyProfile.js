@@ -3,7 +3,7 @@ import Profile from 'components/Profile'
 import useApi from 'hooks/useApi'
 import Spinner from 'components/Spinner'
 
-function MyProfile() {
+const MyProfile = () => {
   const { data, error, isLoading } = useApi('/api/users/me')
 
   if (isLoading) {

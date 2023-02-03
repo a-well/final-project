@@ -3,7 +3,7 @@ import useSWRMutation from 'swr/mutation'
 
 import { API_URL } from 'utils/utils'
 
-function deleteApi(path) {
+const deleteApi = (path) => {
   const accessToken = useSelector((store) => store.user.accessToken)
 
   const sendRequest = async (url) => {

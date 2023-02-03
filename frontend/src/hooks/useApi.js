@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 import { API_URL } from 'utils/utils'
 
-function useApi(path) {
+const useApi = (path) => {
   const accessToken = useSelector((store) => store.user.accessToken)
 
   const {

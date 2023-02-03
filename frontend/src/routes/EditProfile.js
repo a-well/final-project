@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import {
-  Button, Form, Input, Select, Row, Col, Space, message, Typography,
+  Button, Form, Input, Select, message, Typography,
 } from 'antd'
 import { UserOutlined, MailOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
@@ -23,7 +23,7 @@ const pokemonGoMaxLevel = 50
 const minLevelToTrade = 10
 const pokemonLevels = [...Array((pokemonGoMaxLevel + 1) - minLevelToTrade)]
 
-function EditProfile() {
+const EditProfile = () => {
   const { user } = useUser()
   const dispatch = useDispatch()
   const { trigger } = patchApi('/api/users/me')

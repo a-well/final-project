@@ -22,7 +22,7 @@ const BrowsePage = () => {
   )
 }
 
-function Browse({ initialValues }) {
+const Browse = ({ initialValues }) => {
   const qs = queryString.stringify({
     ...initialValues,
     limit: 500,
