@@ -64,7 +64,6 @@ const AppMenu = () => {
                   </>
                 ),
               },
-        // @TODO add MyListings
         !accessToken && {
           key: '/login',
           label: (

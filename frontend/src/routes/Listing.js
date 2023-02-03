@@ -53,5 +53,4 @@ const Listing = () => {
   )
 }
 
-// @TODO make back link work (or replace w breadcrumbs?)
 export default Listing

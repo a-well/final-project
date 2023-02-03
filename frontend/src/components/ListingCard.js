@@ -188,6 +188,3 @@ const ListingCard = ({
 }
 
 export default ListingCard
-
-// @TODO add loading skeleton https://codesandbox.io/s/bj5pc0?file=/demo.tsx:307-380
-// @TODO add username
