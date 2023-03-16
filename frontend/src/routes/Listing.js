@@ -42,7 +42,7 @@ const Listing = () => {
 
         </div>
 
-        {listing.username === currentUser.username && (
+        {listing && currentUser && listing.username === currentUser.username && (
           <div style={{ marginTop: 12 }}>
             <DeleteButton id={id} />
           </div>
